@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-PROOF-RECEIPT v1
+id=ecosystem_economics_bridge_proof
+scope=ecosystem_bridge
+frames=enterprise_adoption_non_capture_frame,public_review_stewardship_frame,offline_distribution_access_frame
+outputs=enterprise_non_capture_review_flow,public_interest_receipt_pack,phase_open_economics_review
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-ecosystem-check,lyra-p02-bootstrap-deployment-check
+forbids=ecosystem_drift_accepted,economics_drift_accepted,phase_closure
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

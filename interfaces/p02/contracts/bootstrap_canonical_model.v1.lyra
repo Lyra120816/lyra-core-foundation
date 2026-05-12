@@ -1,0 +1,5 @@
+LYRA-P02-CONTRACT bootstrap_canonical_model v1
+phase=P02
+task=P02-014
+encoding=canonical_lyra_kv
+status=contract_bound

@@ -1,0 +1,14 @@
+LYRA-P00-IDENTITY-LAW-CONTRACT v1
+phase=P00
+task=P00-003
+contract=P00_IDENTITY_LAW_CONTRACT
+surface_header=LYRA-P00-IDENTITY-LAW v1
+required_phase_identity=P00
+required_task_chain=P00-001,P00-002,P00-003
+phase_id_format=P00
+primary_task_id_format=P00-001
+work_package_id_format=P00-A
+closure_output_id_format=P00-X01
+supersession_scope=declared_identity_or_archive_reference_only
+owner_roots=k0,k1,lyralang,shells,interfaces,ops,slices,products,android,web
+rejected=duplicate_identity,phase_task_prefix_mismatch,unknown_supersession_target,placeholder_identity,invalid_owner_root

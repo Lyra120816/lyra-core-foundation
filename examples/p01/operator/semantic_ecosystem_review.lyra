@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-ECOSYSTEM-REVIEW v1
+phase=P01
+task=P01-021
+fixture=fixtures/p01/semantic_ecosystem_inputs/valid_semantic_ecosystem.lyra
+command=lyra-p01-semantic-ecosystem-check
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

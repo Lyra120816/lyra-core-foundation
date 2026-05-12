@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-DOC v1
+id=host_extinction_contributor_onboarding
+audience=contributor
+covers=host_extinction_framework,bootstrap_trust
+examples=host_extinction_review,enterprise_deployment_to_ecosystem_handoff
+receipts=receipts/p02/pass_0060_bootstrap_extinction_ledger.receipt,receipts/p02/pass_0070_foreign_surface_closure.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted
+law=offline_symbolic_docs_with_executable_examples
+forbid=unreceipted_docs,remote_service_dependency,phase_closure_claim

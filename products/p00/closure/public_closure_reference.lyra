@@ -1,0 +1,7 @@
+LYRA-P00-PUBLIC-CLOSURE-REFERENCE v1
+phase=P00
+task=P00-024
+public_statement=Primary determinism-constitution tasks can be bounded closed by receipts while wider phase closure remains challengeable and blocked on explicit closure outputs.
+operator_surface=examples/p00/closure/bounded_primary_closure_review.lyra
+challenge_surface=examples/p00/closure/global_closure_denial_review.lyra
+receipt=receipts/p00/pass_0024_closure_gate.receipt

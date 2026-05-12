@@ -1,0 +1,8 @@
+LYRA-P02-EXAMPLE bootstrap_benchmark_pack_operator_review.v1
+phase=P02
+task=P02-X03
+step=read products/p02/bootstrap_benchmark_pack_manifest.v1.lyra
+step=run lyra-p02-bootstrap-benchmark-pack-check fixtures/p02/bootstrap_benchmark_pack_inputs/valid_bootstrap_benchmark_pack.lyra
+step=compare receipt to goldens/p02/valid_bootstrap_benchmark_pack.receipt
+step=run invalid corpus under fixtures/p02/bootstrap_benchmark_pack_inputs/invalid_*.lyra and expect rejection
+status=artifact_emitted

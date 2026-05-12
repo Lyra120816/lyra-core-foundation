@@ -1,0 +1,12 @@
+LYRA-P01-REFERENCE-SEMANTICS-CONTRACT v1
+phase=P01
+task=P01-005
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples
+surface=LYRA-P01-REFERENCE-SEMANTICS v1
+required_literals=unit,bool_true,bool_false,integer_zero,integer_one,text_empty,symbol_core
+required_compositions=identity,pair,list,record,apply,bind,proof_step
+required_eval_seeds=literal_self,pair_structural,list_order,record_key_sort,apply_symbolic,bind_scope,proof_step
+required_trace_hash=fnv1a128
+command=lyra-p01-reference-semantics-check fixtures/p01/reference_semantics_inputs/valid_reference_semantics.lyra
+receipt=receipts/p01/pass_0034_reference_semantics.receipt
+next_frontier=P01-006

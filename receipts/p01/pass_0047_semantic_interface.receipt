@@ -1,0 +1,15 @@
+
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-018
+frontier=developer_operator_interfaces_for_canonical_symbols_semantic_atoms_and_core_ir
+status=artifact_emitted
+implementation=k0/determinism/src/semantic_interface.rs,lyralang/core/src/semantic_interface.rs,interfaces/p01/src/semantic_interface_model.rs,ops/p01/src/semantic_interface.rs,src/bin/lyra-p01-semantic-interface-check.rs
+tests=tests/p01_semantic_interface_tests.rs,tests/p01_semantic_interface_contract_tests.rs,tests/p01_contract_receipt_parity_tests.rs
+fixtures=fixtures/p01/semantic_interface_inputs
+golden=goldens/p01/valid_semantic_interface.receipt
+contract=interfaces/p01/contracts/semantic_interface.v1.lyra
+law=ops/p01/control/semantic_interface_law.v1.lyra
+result=working_slice_artifact_emitted
+blocked=local_cargo_validation_unavailable_in_chat_environment
+next=P01-019

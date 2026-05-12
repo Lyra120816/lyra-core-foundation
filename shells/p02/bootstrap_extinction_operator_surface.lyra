@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-EXTINCTION-OPERATOR-SURFACE v1
+phase=P02
+task=P02-002
+command=lyra-p02-bootstrap-extinction-check fixtures/p02/bootstrap_extinction_inputs/valid_bootstrap_extinction_ledger.lyra
+acceptance=receipt verdict must be ACCEPTED and must bind P02 inventory receipt
+rejection=any missing gate, missing entry, forbidden import, observer truth influence, unreceipted deletion, or global closure claim rejects
+status=artifact_emitted

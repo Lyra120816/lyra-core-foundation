@@ -1,0 +1,8 @@
+LYRA-P01-DOC v1
+id=public_semantic_review_reference
+title=public semantic review reference
+phase=P01
+task=P01-021
+text=Publishes a deterministic review path for semantic claims without adding network authority or hidden inference.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

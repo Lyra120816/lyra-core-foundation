@@ -1,0 +1,4 @@
+LYRA-P01-EVIDENCE-PAYLOAD v1
+id=evidence_capability_policy
+payload=capability_policy
+digest=fnv1a128:20a86b4ca912fc90a7e0df351b13af85

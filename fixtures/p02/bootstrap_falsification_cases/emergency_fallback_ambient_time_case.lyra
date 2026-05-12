@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-CASE v1
+case=emergency_fallback_ambient_time_case
+target=emergency_fallback
+validator=emergency_fallback_validator
+mutation=fallback_uses_ambient_time
+expected_error=ambient_time_allowed
+status=artifact_emitted
+acceptance=must_reject
+receipt_policy=rejected_receipt_required

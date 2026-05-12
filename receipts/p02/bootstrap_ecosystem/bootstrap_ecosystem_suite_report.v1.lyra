@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-SUITE-REPORT v1
+task=P02-021
+docs=7
+examples=7
+proofs=6
+negative_fixtures=15
+receipt=receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted

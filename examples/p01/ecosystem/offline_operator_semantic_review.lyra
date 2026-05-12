@@ -1,0 +1,8 @@
+LYRA-P01-ECOSYSTEM-EXAMPLE v1
+phase=P01
+task=P01-021
+id=offline_operator_semantic_review
+command=lyra-p01-semantic-ecosystem-check
+text=Runs the offline operator semantic review through interface and deployment gates.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

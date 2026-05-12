@@ -1,0 +1,8 @@
+LYRA-P01-ADVERSARIAL-CASE v1
+phase=P01
+task=P01-009
+case_id=ambiguity_record_key_order_shadow
+target_family=symbolic_equality
+expected_verdict=REJECTED
+expected_error=canonical_model_drift_accepted
+status=artifact_emitted

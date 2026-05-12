@@ -1,0 +1,8 @@
+LYRA-P00-CONTROL-PLANE-FRONTIER-ROLLBACK v1
+phase=P00
+task=P00-023
+status=artifact_emitted
+restores=frontier_lock,truth_snapshot,blocker_index,pass_template
+requires=receipt_bound_replay,challenge_review,phase_open_claim
+command=lyra-p00-control-check,lyra-p00-redteam-check
+receipt=receipts/p00/pass_0023_redteam.receipt

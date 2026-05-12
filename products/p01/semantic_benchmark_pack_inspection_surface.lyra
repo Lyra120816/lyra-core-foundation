@@ -1,0 +1,9 @@
+LYRA-P01-SEMANTIC-BENCHMARK-PACK-INSPECTION-SURFACE v1
+phase=P01
+task=P01-X03
+families=throughput,latency,correctness,stability
+surface=ops/p01/closure/semantic_benchmark_pack.lyra
+fixture=fixtures/p01/semantic_benchmark_pack_inputs/valid_semantic_benchmark_pack.lyra
+golden=goldens/p01/valid_semantic_benchmark_pack.receipt
+receipt=receipts/p01/pass_0056_semantic_benchmark_pack.receipt
+operator=src/bin/lyra-p01-semantic-benchmark-pack-check.rs

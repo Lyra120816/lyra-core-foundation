@@ -1,0 +1,10 @@
+LYRA-P02-CONTRACT bootstrap_benchmark_pack.v1
+phase=P02
+task=P02-X03
+surface=LYRA-P02-BOOTSTRAP-BENCHMARK-PACK v1
+requires=families:throughput,latency,correctness,stability,adversarial,rollback
+requires=targets:12
+requires=evidence:6
+forbids=network_required,remote_service_required,docs_only,unreceipted,global_phase_closed
+next_frontier=P02-X04
+status=artifact_emitted

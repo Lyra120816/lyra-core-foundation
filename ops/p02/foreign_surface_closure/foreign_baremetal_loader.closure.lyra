@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_baremetal_loader
+surface_class=bootloader
+owner_root=k0
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_closure_scope
+closure_law=law_baremetal_loader
+retirement_gate=gate_replace_with_native_loader
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

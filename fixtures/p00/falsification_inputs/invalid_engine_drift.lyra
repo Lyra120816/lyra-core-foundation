@@ -1,0 +1,7 @@
+LYRA-P00-NEGATIVE-FIXTURE v1
+case=engine_drift_case
+target_validator=deterministic_engine
+expected_code=engine_drift_accepted
+category=engine
+expected_verdict=rejected
+receipt_bound=receipts/p00/pass_0016_falsification_harness.receipt

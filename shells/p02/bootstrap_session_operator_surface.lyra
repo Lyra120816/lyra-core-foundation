@@ -1,0 +1,5 @@
+LYRA-P02-BOOTSTRAP-SESSION-OPERATOR-SURFACE v1
+phase=P02
+task=P02-004
+command=lyra-p02-bootstrap-session-check ops/p02/bootstrap_session/bootstrap_session_rituals.v1.lyra
+status=artifact_emitted

@@ -1,0 +1,15 @@
+LYRA-P01-SEMANTIC-REPLAY-CONTRACT v1
+phase=P01
+task=P01-017
+surface=LYRA-P01-SEMANTIC-REPLAY-WITNESS v1
+purpose=bind proof receipts and replay witnesses for canonical symbols semantic atoms and core IR
+model=interfaces/p01/src/semantic_replay_model.rs
+validator=ops/p01/src/semantic_replay.rs
+operator=src/bin/lyra-p01-semantic-replay-check.rs
+fixture=fixtures/p01/semantic_replay_inputs/valid_semantic_replay.lyra
+golden=goldens/p01/valid_semantic_replay.receipt
+receipt=receipts/p01/pass_0046_semantic_replay.receipt
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src
+requires=receipt_chain,witness_order,hash_parity,command_binding,no_orphan_receipts
+forbids=ambient_network,probabilistic_replay,hidden_randomness,mutable_replay,phase_closure_claim
+status=artifact_emitted

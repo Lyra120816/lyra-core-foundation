@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-CASE v1
+case=host_extinction_delete_gate_bypass_case
+target=host_extinction
+validator=bootstrap_extinction_validator
+mutation=retirement_without_receipt_gate
+expected_error=closure_before_receipt
+status=artifact_emitted
+acceptance=must_reject
+receipt_policy=rejected_receipt_required

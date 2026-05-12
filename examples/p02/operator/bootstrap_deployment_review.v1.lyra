@@ -1,0 +1,8 @@
+
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-OPERATOR-REVIEW v1
+task=P02-020
+review_step:001=run:lyra-p02-bootstrap-deployment-check|input:fixtures/p02/bootstrap_deployment_inputs/valid_bootstrap_deployment.lyra|expect:ACCEPTED
+review_step:002=run:lyra-p02-bootstrap-deployment-check|input:fixtures/p02/bootstrap_deployment_inputs/invalid_network_required.lyra|expect:REJECTED
+review_step:003=run:lyra-p02-bootstrap-deployment-check|input:fixtures/p02/bootstrap_deployment_inputs/invalid_phase_closure_claim.lyra|expect:REJECTED
+review_step:004=verify:products/p02/bootstrap_deployment_manifest.v1.lyra|receipt:receipts/p02/pass_0078_bootstrap_deployment.receipt|expect:artifact_emitted
+status=artifact_emitted

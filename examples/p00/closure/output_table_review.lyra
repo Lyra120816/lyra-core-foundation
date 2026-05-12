@@ -1,0 +1,9 @@
+LYRA-P00-OUTPUT-TABLE-REVIEW v1
+phase=P00
+task=P00-X04
+status=artifact_emitted
+operator_step=run lyra-p00-output-table-check fixtures/p00/output_table_inputs/valid_output_table.lyra
+review_audience=developer,operator,product,enterprise,public_interest
+expected_receipt=receipts/p00/pass_0028_output_table.receipt
+expected_gap=retirement_supersession_law
+phase_closure=false

@@ -1,0 +1,8 @@
+LYRA-P00-PROOF-FAMILY-PUBLIC-REFERENCE v1
+phase=P00
+frontier=P00-X02
+public_use=shows how Lyra distinguishes success receipts rejection receipts adversarial receipts and rollback receipts before any phase-exit claim
+operator_use=inspect the table then run lyra-p00-proof-family-check against the same artifact
+community_use=challenge a closure claim by identifying the missing family receipt or unbound path receipt
+receipt=receipts/p00/pass_0026_proof_family_table.receipt
+next_frontier=P00-X04

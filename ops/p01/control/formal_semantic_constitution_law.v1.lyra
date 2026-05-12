@@ -1,0 +1,7 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-LAW v1
+phase=P01
+task=P01-013
+law=canonical symbols semantic atoms core IR semantic objects equality and receipts must be interpreted by one deterministic semantic constitution
+requires=canonical_symbols_have_stable_identity,semantic_atoms_are_closed_and_enumerated,core_ir_is_the_single_cross_phase_semantic_carrier,receipts_require_contract_law_and_verdict_parity
+receipt=receipts/p01/pass_0042_formal_semantic_constitution.receipt
+status=artifact_emitted

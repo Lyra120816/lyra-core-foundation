@@ -1,0 +1,4 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-SHELL v1
+command:validate=lyra-p02-bootstrap-output-table-check fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra
+command:receipt=lyra-p02-bootstrap-output-table-check fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra > receipts/p02/pass_0086_bootstrap_output_table.receipt
+command:negative_corpus=for each fixtures/p02/bootstrap_output_table_inputs/invalid_*.lyra expect rejection

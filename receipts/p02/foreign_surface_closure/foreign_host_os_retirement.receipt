@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_host_os
+closure_law=law_host_os
+deletion_gate=gate_keep_bounded_interface
+scope=per_surface_only
+status=receipt_emitted

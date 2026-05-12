@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-CONTRACT v1
+phase=P02
+task=P02-013
+surface=bootstrap_formal_semantics
+header=LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS v1
+requires=domain,law,transition,invariant,proof,receipt
+forbids=network_required,probabilistic_truth,hidden_randomness,ambient_time,placeholder_semantics,global_closure
+status=contract_emitted

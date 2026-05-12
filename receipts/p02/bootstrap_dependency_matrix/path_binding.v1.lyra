@@ -1,0 +1,7 @@
+
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-PATH-BINDING v1
+contract=interfaces/p02/contracts/bootstrap_dependency_matrix.v1.lyra
+control=ops/p02/control/bootstrap_dependency_matrix_law.v1.lyra
+surface=ops/p02/closure/p02_x01_dependency_matrix_gate.v1.lyra
+manifest=products/p02/bootstrap_dependency_matrix_manifest.v1.lyra
+shell=shells/p02/bootstrap_dependency_matrix_shell.v1.lyra

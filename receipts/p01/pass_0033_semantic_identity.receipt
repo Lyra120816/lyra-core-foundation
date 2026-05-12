@@ -1,0 +1,12 @@
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-004
+frontier=canonical identity digest law
+status=artifact_emitted
+input=fixtures/p01/semantic_identity_inputs/valid_semantic_identity.lyra
+golden=goldens/p01/valid_semantic_identity.receipt
+contract=interfaces/p01/contracts/semantic_identity.v1.lyra
+operator=src/bin/lyra-p01-identity-check.rs
+implementation=ops/p01/src/semantic_identity.rs,k0/determinism/src/semantic_identity.rs,interfaces/p01/src/semantic_identity_model.rs,lyralang/core/src/semantic_identity.rs
+receipt_hash=fnv1a128:75983451d3f1623b9fa9bf81b40a9bf4
+next_frontier=P01-005

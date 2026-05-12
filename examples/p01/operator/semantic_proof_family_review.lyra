@@ -1,0 +1,6 @@
+LYRA-P01-SEMANTIC-PROOF-FAMILY-OPERATOR-REVIEW v1
+phase=P01
+task=P01-X02
+input=ops/p01/closure/semantic_proof_family_table.lyra
+command=lyra-p01-semantic-proof-family-check ops/p01/closure/semantic_proof_family_table.lyra
+expected=accepted_receipt_with_happy_negative_adversarial_rollback_counts

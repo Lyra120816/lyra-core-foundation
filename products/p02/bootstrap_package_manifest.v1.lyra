@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-PACKAGE-MANIFEST v1
+phase=P02
+task=P02-019
+package_surface=ops/p02/packaging/bootstrap_packaging.v1.lyra
+contract=interfaces/p02/contracts/bootstrap_packaging.v1.lyra
+binary=src/bin/lyra-p02-bootstrap-packaging-check.rs
+receipt=receipts/p02/pass_0077_bootstrap_packaging.receipt
+mode=offline_deterministic
+status=artifact_emitted

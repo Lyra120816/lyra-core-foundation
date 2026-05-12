@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-RECEIPT v1
+path=receipts/p02/bootstrap_packaging/p02_host_extinction_package_bundle.receipt
+phase=P02
+task=P02-019
+source=bootstrap_packaging
+status=artifact_emitted
+receipt_hash=fnv1a128:862909c3cfc88272cac294a2ff988065

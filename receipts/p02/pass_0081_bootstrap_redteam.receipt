@@ -1,0 +1,9 @@
+LYRA-P02-PASS-0081-BOOTSTRAP-REDTEAM-RECEIPT v1
+phase=P02
+task=P02-023
+frontier=bootstrap redteam rollback law
+surface=fixtures/p02/bootstrap_redteam_inputs/valid_bootstrap_redteam.lyra
+golden=goldens/p02/valid_bootstrap_redteam.receipt
+validator=src/bin/lyra-p02-bootstrap-redteam-check.rs
+result=artifact_emitted
+status=working_slice

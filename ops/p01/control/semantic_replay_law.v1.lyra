@@ -1,0 +1,22 @@
+LYRA-P01-SEMANTIC-REPLAY-LAW v1
+phase=P01
+task=P01-017
+surface=LYRA-P01-SEMANTIC-REPLAY-WITNESS v1
+contract=interfaces/p01/contracts/semantic_replay.v1.lyra
+validator=ops/p01/src/semantic_replay.rs
+operator=src/bin/lyra-p01-semantic-replay-check.rs
+receipt=receipts/p01/pass_0046_semantic_replay.receipt
+rule:semantic_receipt_chain_required=required
+rule:semantic_replay_witness_required=required
+rule:canonical_symbol_receipt_required=required
+rule:semantic_atom_receipt_required=required
+rule:core_ir_receipt_required=required
+rule:deterministic_replay_hash_required=required
+rule:receipt_hash_parity_required=required
+rule:command_binding_required=required
+rule:no_orphan_semantic_receipts=forbidden
+rule:no_mutable_semantic_replay=forbidden
+rule:no_network_replay=forbidden
+rule:no_probabilistic_replay=forbidden
+rule:no_phase_closure_claim=forbidden
+status=artifact_emitted

@@ -1,0 +1,15 @@
+LYRA-P00-DOC v1
+id=dependency_blocker_parallelization_map
+phase=P00
+frontier=P00-X01
+purpose=operator-readable map of P00 task dependencies closure blockers and safe parallel lanes
+matrix=ops/p00/closure/dependency_matrix.lyra
+validator=lyra-p00-dependency-matrix-check
+receipt=receipts/p00/pass_0025_dependency_matrix.receipt
+rule:primary_dependency_coverage=all P00-001 through P00-024 tasks have explicit prerequisite and unlock rows
+rule:closure_output_coverage=P00-X01 through P00-X05 have explicit output rows
+rule:blocker_coverage=P00-X02 through P00-X05 and P00-GLOBAL keep phase closure blocked until emitted
+rule:parallel_lane_coverage=lanes identify safe overlap without overriding dependency order
+operator_step:validate=run lyra-p00-dependency-matrix-check ops/p00/closure/dependency_matrix.lyra
+operator_step:inspect_blockers=read blocker P00-GLOBAL before claiming phase closure
+status=artifact_emitted

@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-PROOF-RECEIPT v1
+id=non_extractive_access_proof
+scope=access
+frames=seed_runtime_sovereignty_value_frame,offline_distribution_access_frame
+outputs=non_extractive_bootstrap_access_model,operator_cost_benefit_sheet
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-packaging-check,lyra-p02-bootstrap-deployment-check
+forbids=extractive_default,remote_fetch,phase_closure
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

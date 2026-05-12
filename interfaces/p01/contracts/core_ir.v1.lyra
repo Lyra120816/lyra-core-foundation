@@ -1,0 +1,18 @@
+LYRA-P01-CORE-IR-CONTRACT v1
+phase=P01
+task=P01-002
+status=artifact_emitted
+contract:surface=LYRA-P01-CORE-IR v1
+contract:forms=text_ir,binary_ir
+contract:versions=ir_v1
+contract:upgrades=v1_identity,v1_forward_reserved,v1_backward_reject_unknown_required
+contract:parity=text_minimal_symbol,binary_minimal_symbol,roundtrip_symbol_value
+contract:receipt=receipt_core_ir
+form:text_ir=medium:text|header:LYRA_CORE_IR_TEXT_V1|extension:lyrair|encoding:utf8_canonical_lines
+form:binary_ir=medium:binary|header:LYRAIR01|extension:lyrairb|encoding:length_prefixed_big_endian
+compatibility:forward=reserved_fields_rejected_until_declared
+compatibility:backward=unknown_required_field_rejected
+operator=src/bin/lyra-p01-ir-check.rs
+fixture=fixtures/p01/core_ir_inputs/valid_core_ir_forms.lyra
+golden=goldens/p01/valid_core_ir_forms.receipt
+receipt=receipts/p01/pass_0031_core_ir.receipt

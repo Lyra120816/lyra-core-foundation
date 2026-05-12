@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-EXTINCTION-GUIDE v1
+phase=P02
+task=P02-002
+surface=bootstrap_extinction_ledger
+input=fixtures/p02/bootstrap_extinction_inputs/valid_bootstrap_extinction_ledger.lyra
+checker=lyra-p02-bootstrap-extinction-check
+contract=interfaces/p02/contracts/bootstrap_extinction_ledger.v1.lyra
+operator_law=every P02-001 foreign surface must carry one deletion entry, one retirement gate, and receipt-bound no-import or successor law
+status=artifact_emitted

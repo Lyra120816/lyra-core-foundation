@@ -1,0 +1,11 @@
+LYRA-P02-HOST-BOUNDARY-CHALLENGE-INSPECTION-SURFACE v1
+phase=P02
+task=P02-005
+suite_count=7
+probe_count=17
+covered_surface_count=17
+receipt=receipts/p02/pass_0063_host_boundary_challenge_suites.receipt
+inspection_claim=every_foreign_bootstrap_surface_has_a_named_rejection_probe
+inspection_claim=host_surfaces_remain_visible_bounded_and_challengeable
+public_value=prevents_silent_host_capture_of_sovereign_bootstrap_truth
+status=artifact_emitted

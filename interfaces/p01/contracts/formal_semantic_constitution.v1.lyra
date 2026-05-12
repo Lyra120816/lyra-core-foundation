@@ -1,0 +1,10 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-CONTRACT v1
+phase=P01
+task=P01-013
+surface=LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION v1
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples,products
+fixture=fixtures/p01/formal_semantic_constitution_inputs/valid_formal_semantic_constitution.lyra
+golden=goldens/p01/valid_formal_semantic_constitution.receipt
+receipt=receipts/p01/pass_0042_formal_semantic_constitution.receipt
+operator=src/bin/lyra-p01-formal-semantic-constitution-check.rs
+status=artifact_emitted

@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-RECEIPT v1
+path=receipts/p02/bootstrap_packaging/p02_local_bootstrap_package_bundle.receipt
+phase=P02
+task=P02-019
+source=bootstrap_packaging
+status=artifact_emitted
+receipt_hash=fnv1a128:fa1ed747b540d0a75fc331d6601147eb

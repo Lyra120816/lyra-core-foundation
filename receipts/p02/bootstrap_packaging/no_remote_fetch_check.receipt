@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-RECEIPT v1
+path=receipts/p02/bootstrap_packaging/no_remote_fetch_check.receipt
+phase=P02
+task=P02-019
+source=bootstrap_packaging
+status=artifact_emitted
+receipt_hash=fnv1a128:e14c17f53cf814e1b347c44f892e7ce4

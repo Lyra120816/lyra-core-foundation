@@ -1,0 +1,9 @@
+LYRA-P00-PUBLIC-INTEREST-REFERENCE v1
+phase=P00
+task=P00-022
+status=working_slice
+reference=determinism constitution, people-first law, and rebuild governance must be useful outside architecture prose
+public_output=public_interest_casebook,non_extractive_access_model,stewardship_review_flow
+operator_output=operator_cost_sheet
+negative_output=negative_capture_rejection
+receipt=receipts/p00/pass_0022_economics.receipt

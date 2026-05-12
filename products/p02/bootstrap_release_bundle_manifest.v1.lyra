@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-RELEASE-BUNDLE-MANIFEST v1
+phase=P02
+task=P02-019
+bundle=p02_offline_distribution_bundle
+requires=bootstrap_trust_binaries,bootstrap_contract_model_set,bootstrap_control_law_set,bootstrap_receipt_chain,bootstrap_product_surfaces,bootstrap_shell_surfaces
+forbids=remote_fetch,unreceipted_package,package_drift,phase_closure_claim
+receipt=receipts/p02/bootstrap_packaging/p02_offline_distribution_bundle.receipt
+status=artifact_emitted

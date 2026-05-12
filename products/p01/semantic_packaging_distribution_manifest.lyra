@@ -1,0 +1,13 @@
+LYRA-P01-SEMANTIC-PACKAGING-DISTRIBUTION-MANIFEST v1
+phase=P01
+task=P01-019
+status=artifact_emitted
+bundle=p01_local_semantic_package_bundle
+bundle=p01_red_team_semantic_package_bundle
+bundle=p01_operator_product_bundle
+bundle=p01_offline_distribution_bundle
+offline_required=true
+network_dependency=false
+operator_binary=src/bin/lyra-p01-semantic-packaging-check.rs
+fixture=fixtures/p01/semantic_packaging_inputs/valid_semantic_packaging.lyra
+receipt=receipts/p01/pass_0048_semantic_packaging.receipt

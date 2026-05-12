@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-ECONOMICS-CONTRACT v1
+phase=P01
+task=P01-022
+surface=LYRA-P01-SEMANTIC-ECONOMICS-PUBLIC-INTEREST v1
+model=interfaces/p01/src/semantic_economics_model.rs
+validator=ops/p01/src/semantic_economics.rs
+operator=src/bin/lyra-p01-semantic-economics-check.rs
+fixture=fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+golden=goldens/p01/valid_semantic_economics.receipt
+receipt=receipts/p01/pass_0051_semantic_economics.receipt
+law=ops/p01/control/semantic_economics_law.v1.lyra
+status=artifact_emitted

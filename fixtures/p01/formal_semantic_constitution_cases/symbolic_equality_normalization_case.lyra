@@ -1,0 +1,5 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-CASE v1
+case=symbolic_equality_normalization
+binds=symbolic_equality_normalization_law
+expected=equality_requires_canonical_normal_form
+status=artifact_emitted

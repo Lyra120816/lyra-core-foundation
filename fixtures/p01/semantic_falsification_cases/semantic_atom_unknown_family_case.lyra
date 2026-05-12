@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=semantic_atom_unknown_family_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=semantic_atoms
+mutation=unknown_atom_family
+atom_family=foreign_neural_atom
+expected_error=invalid_semantic_domain

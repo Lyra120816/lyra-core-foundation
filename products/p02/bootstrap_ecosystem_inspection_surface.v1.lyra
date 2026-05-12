@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-INSPECTION-SURFACE v1
+task=P02-021
+registry=lyra.p02.bootstrap_ecosystem.carrier.v1
+required_coverage=bootstrap_trust,seed_runtime_law,host_extinction_framework
+bridge=P02-020 bootstrap deployment
+receipt=receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted

@@ -1,0 +1,6 @@
+LYRA-P01-SEMANTIC-BEDROCK-CASE v1
+case=positive_negative_parity_fixture_case
+positive_fixtures=11
+negative_fixtures=11
+goldens=11
+status=artifact_emitted

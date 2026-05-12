@@ -1,0 +1,11 @@
+LYRA-P00-CONTRACT v1
+contract=constitution_surface
+header=LYRA-P00-CONSTITUTION v1
+field:phase=required_exact:P00
+field:task=required_exact:P00-001
+namespace:principle=determinism sovereignty proof_gate zero_unsafe people_first
+namespace:duty=public_benefit anti_extractive transparent_challenge
+namespace:ban=ambient_network probabilistic_truth hidden_randomness fake_closure placeholder
+namespace:evidence=p00-execution-receipts p00-negative-corpus p00-truth-gate
+namespace:owner_root=ops interfaces k0
+closure:claim=working_slice_only_for_p00_001

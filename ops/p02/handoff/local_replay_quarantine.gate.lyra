@@ -1,0 +1,7 @@
+LYRA-P02-OPERATOR-HANDOFF-GATE v1
+gate=gate_local_replay_quarantine
+gate_class=import
+required_before=workflow_local_replay_quarantine
+rejects=truth_promotion_before_replay
+truth_effect=none_without_local_replay
+status=gate_requirement_emitted

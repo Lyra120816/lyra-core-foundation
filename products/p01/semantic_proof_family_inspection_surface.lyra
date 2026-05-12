@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-PROOF-FAMILY-INSPECTION-SURFACE v1
+phase=P01
+task=P01-X02
+families=happy_path,negative_path,adversarial_path,rollback_path
+surface=ops/p01/closure/semantic_proof_family_table.lyra
+receipt=receipts/p01/pass_0055_semantic_proof_family.receipt
+operator=src/bin/lyra-p01-semantic-proof-family-check.rs

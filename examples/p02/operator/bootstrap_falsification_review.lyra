@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-REVIEW v1
+operator_step=load_valid_negative_corpus_surface
+operator_step=run_bootstrap_falsification_checker
+operator_step=verify_each_invalid_fixture_rejects
+operator_step=compare_golden_receipt
+operator_step=do_not_claim_phase_closed

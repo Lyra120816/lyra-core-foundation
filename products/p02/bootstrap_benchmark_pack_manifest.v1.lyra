@@ -1,0 +1,10 @@
+LYRA-P02-PRODUCT bootstrap_benchmark_pack_manifest.v1
+phase=P02
+task=P02-X03
+artifact=ops/p02/benchmarks/p02_x03_bootstrap_benchmark_pack.v1.lyra
+artifact=fixtures/p02/bootstrap_benchmark_pack_inputs/valid_bootstrap_benchmark_pack.lyra
+artifact=goldens/p02/valid_bootstrap_benchmark_pack.receipt
+artifact=receipts/p02/pass_0085_bootstrap_benchmark_pack.receipt
+operator_result=benchmark_pack_artifact_emitted
+next_frontier=P02-X04
+status=artifact_emitted

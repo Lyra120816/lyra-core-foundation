@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-EXAMPLE v1
+name=host_extinction_package_example
+package=p02_host_extinction_package_bundle
+command=lyra-p02-bootstrap-packaging-check ops/p02/packaging/bootstrap_packaging.v1.lyra
+expect=host_extinction_receipted_bundle
+status=artifact_emitted

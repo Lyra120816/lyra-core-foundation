@@ -1,0 +1,18 @@
+LYRA-P01-SEMANTIC-OUTPUT-TABLE-CONTRACT v1
+phase=P01
+task=P01-X04
+surface=LYRA-P01-SEMANTIC-OUTPUT-TABLE v1
+receipt=receipts/p01/pass_0057_semantic_output_table.receipt
+operator=src/bin/lyra-p01-semantic-output-table-check.rs
+model=interfaces/p01/src/semantic_output_table_model.rs
+validator=ops/p01/src/semantic_output_table.rs
+k0_report=k0/determinism/src/semantic_output_table.rs
+closure_surface=ops/p01/closure/semantic_output_table.lyra
+required_audiences=developer,operator,product,enterprise,public_interest
+audience:developer=semantic_contract_index,semantic_cli_surface,semantic_fixture_corpus,semantic_golden_index
+audience:operator=semantic_control_plane,semantic_receipt_index,semantic_blocker_index,semantic_closure_gate
+audience:product=semantic_reference_slice,semantic_examples,semantic_packaging_surface
+audience:enterprise=semantic_offline_deployment,semantic_release_bundle,semantic_compliance_hooks
+audience:public_interest=semantic_access_model,semantic_stewardship_frame,semantic_people_first_review
+next_frontier=P01-X05
+phase_closure=false

@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-BEDROCK-CASE v1
+case=orphan_receipt_rejection_case
+input=fixtures/p01/semantic_bedrock_receipts_inputs/invalid_orphan_anchor.lyra
+expected=orphan_receipt_binding
+status=artifact_emitted

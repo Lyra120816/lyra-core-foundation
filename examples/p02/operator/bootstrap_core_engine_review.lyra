@@ -1,0 +1,5 @@
+LYRA-P02-BOOTSTRAP-CORE-ENGINE-REVIEW v1
+operator_step=load_valid_fixture
+operator_step=run_checker
+operator_step=compare_golden_receipt
+operator_step=do_not_claim_phase_closed

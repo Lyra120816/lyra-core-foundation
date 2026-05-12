@@ -1,0 +1,2 @@
+LYRA-P02-MODEL host_extinction_model v1
+fields=host_surface_id,host_extinction_gate

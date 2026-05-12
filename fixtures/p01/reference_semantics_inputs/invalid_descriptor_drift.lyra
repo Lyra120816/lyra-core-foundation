@@ -1,0 +1,41 @@
+LYRA-P01-REFERENCE-SEMANTICS v1
+phase=P01
+task=P01-005
+status=artifact_emitted
+rule:literal_forms_are_self_evaluating=literal forms reduce to their own normal forms without lookup
+rule:literal_normal_forms_are_canonical=literal normal forms are byte stable symbolic values
+rule:composition_forms_reduce_structurally=composition forms reduce by explicit structural law only
+rule:pair_evaluates_left_then_right=pair evaluation order is left then right
+rule:list_evaluates_index_order=list evaluation order is ascending index
+rule:record_keys_sort_ascii=record evaluation sorts keys by ascii before emission
+rule:application_is_symbolic_seed_only=application produces symbolic application form until later evaluator phases bind executable functions
+rule:binding_scope_is_explicit=binding form names symbol value and body with no ambient scope inference
+rule:proof_step_preserves_receipt_seed=proof step evaluation preserves claim and witness as receipt seed material
+rule:evaluation_trace_is_hash_bound=each admitted evaluation seed carries a deterministic trace hash
+rule:receipts_bind_reference_semantics_suite=reference semantics suite is receipt bound for replay
+rule:no_network_dependency=reference semantics validation runs offline
+rule:no_probabilistic_reference_semantics=reference semantics truth is symbolic deterministic and byte stable
+rule:no_placeholder_semantics=every reference semantics row is concrete and executable
+rule:no_global_closure_claim=P01 remains open after this bounded executable semantics slice
+literal:unit=atom:value|canonical:literal.unit|normal:unit|evaluator:literal_self|proof:literal_identity|status:artifact_emitted
+literal:bool_true=atom:value|canonical:literal.bool.true|normal:bool.true|evaluator:literal_self|proof:literal_identity|status:artifact_emitted
+literal:bool_false=atom:value|canonical:literal.bool.false|normal:bool.false|evaluator:literal_self|proof:literal_identity|status:artifact_emitted
+literal:integer_zero=atom:value|canonical:literal.integer.0|normal:integer.0|evaluator:literal_self|proof:literal_identity|status:artifact_emitted
+literal:integer_one=atom:value|canonical:literal.integer.1|normal:integer.one|evaluator:literal_self|proof:literal_identity|status:artifact_emitted
+literal:text_empty=atom:value|canonical:literal.text.empty|normal:text.empty|evaluator:literal_self|proof:literal_identity|status:artifact_emitted
+literal:symbol_core=atom:symbol|canonical:literal.symbol.core|normal:symbol.lyra.core|evaluator:literal_self|proof:symbol_identity|status:artifact_emitted
+composition:identity=operator:compose.identity|arity:one|input_order:single|output:same_normal_form|law:identity_preserves_normal_form|status:artifact_emitted
+composition:pair=operator:compose.pair|arity:two|input_order:left_then_right|output:pair_normal_form|law:pair_structural_evaluation|status:artifact_emitted
+composition:list=operator:compose.list|arity:many|input_order:index_ascending|output:list_normal_form|law:list_order_preserved|status:artifact_emitted
+composition:record=operator:compose.record|arity:many_named|input_order:key_sorted_ascii|output:record_normal_form|law:record_key_order_canonical|status:artifact_emitted
+composition:apply=operator:compose.apply|arity:two|input_order:function_then_argument|output:application_normal_form|law:symbolic_application_seed|status:artifact_emitted
+composition:bind=operator:compose.bind|arity:three|input_order:symbol_value_body|output:bound_scope_normal_form|law:binding_scope_seed|status:artifact_emitted
+composition:proof_step=operator:compose.proof_step|arity:two|input_order:claim_then_witness|output:proof_step_normal_form|law:proof_step_receipt_seed|status:artifact_emitted
+eval_seed:literal_self=input:literal.integer.1|reduction:literal_self|expected:integer.1|law:literal_identity|trace:fnv1a128:cfae871fefb456faa832eea209843e87|status:artifact_emitted
+eval_seed:pair_structural=input:pair(literal.integer.0,literal.integer.1)|reduction:left_then_right|expected:pair(integer.0,integer.1)|law:pair_structural_evaluation|trace:fnv1a128:06127850fb08e84bc618b906ce86e5af|status:artifact_emitted
+eval_seed:list_order=input:list(literal.bool.false,literal.bool.true)|reduction:index_ascending|expected:list(bool.false,bool.true)|law:list_order_preserved|trace:fnv1a128:8e1e2f80afe5c0b846b23f67e2da1fdc|status:artifact_emitted
+eval_seed:record_key_sort=input:record(b:literal.integer.1,a:literal.integer.0)|reduction:key_sorted_ascii|expected:record(a=integer.0,b=integer.1)|law:record_key_order_canonical|trace:fnv1a128:aced03274ae90b12eca7b2b3953ffbd2|status:artifact_emitted
+eval_seed:apply_symbolic=input:apply(literal.symbol.core,literal.unit)|reduction:function_then_argument|expected:apply(symbol.lyra.core,unit)|law:symbolic_application_seed|trace:fnv1a128:1eb5bf9c74563b8603296941eb4932f2|status:artifact_emitted
+eval_seed:bind_scope=input:bind(x,literal.integer.1,literal.symbol.core)|reduction:symbol_value_body|expected:bind(x=integer.1;symbol.lyra.core)|law:binding_scope_seed|trace:fnv1a128:d252208aa124db46764e46dd709206c5|status:artifact_emitted
+eval_seed:proof_step=input:proof_step(claim.core,literal.unit)|reduction:claim_then_witness|expected:proof_step(claim.core;unit)|law:proof_step_receipt_seed|trace:fnv1a128:d60b904859846e18fb6c5ba84719f679|status:artifact_emitted
+receipt:receipt_reference_semantics=path:receipts/p01/pass_0034_reference_semantics.receipt|target:reference_semantics|status:artifact_emitted

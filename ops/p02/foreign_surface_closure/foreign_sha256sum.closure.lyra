@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_sha256sum
+surface_class=digest_tool
+owner_root=k0
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_deletion_gate
+closure_law=law_sha256sum
+retirement_gate=gate_replace_with_lyra_digest_emitter
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

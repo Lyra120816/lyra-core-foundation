@@ -1,0 +1,11 @@
+LYRA-P02-OPERATOR-HANDOFF-AUTOMATION-GUIDE v1
+phase=P02
+task=P02-011
+status=artifact_emitted
+purpose=operator controlled external proof capture without truth drift
+surface=ops/p02/handoff/operator_handoff_automation.v1.lyra
+validator=src/bin/lyra-p02-operator-handoff-automation-check.rs
+workflow_order=preflight_capture_manifest,digest_pairing,operator_ack_seal,challenge_binding,local_replay_quarantine,truth_snapshot_closeout
+operator_law=captured_external_proofs_are_evidence_only_until_local_replay_and_receipt_validation
+truth_law=no_target_or_phase_truth_state_advances_from external proof capture alone
+next_frontier=P02-012

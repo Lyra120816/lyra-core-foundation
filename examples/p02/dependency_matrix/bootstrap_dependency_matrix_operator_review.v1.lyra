@@ -1,0 +1,6 @@
+
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-OPERATOR-REVIEW v1
+step:1=run lyra-p02-bootstrap-dependency-matrix-check against the valid matrix fixture.
+step:2=verify P02-X01 is artifact_emitted and P02-X02 is the next frontier.
+step:3=verify P02-X03/P02-X04/P02-X05 remain blocked behind named blockers.
+step:4=reject any matrix claiming global closure, cloud dependency, or receiptless parallelization.

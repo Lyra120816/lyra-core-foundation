@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-EVIDENCE-EMISSION-GUIDE v1
+phase=P02
+task=P02-010
+status=artifact_emitted
+purpose=operator-readable guide for extinction-ledger fixtures target-matrix reports and bootstrap challenge receipts
+primary_surface=ops/p02/evidence/bootstrap_evidence_emission.v1.lyra
+positive_fixture=fixtures/p02/bootstrap_evidence_emission_inputs/valid_bootstrap_evidence_emission.lyra
+negative_fixture_root=fixtures/p02/bootstrap_evidence_emission_inputs
+command=lyra-p02-bootstrap-evidence-emission-check fixtures/p02/bootstrap_evidence_emission_inputs/valid_bootstrap_evidence_emission.lyra
+truth_rule=challenge_receipts_cannot_promote_truth_without_local_replay
+closure_claim=phase_open

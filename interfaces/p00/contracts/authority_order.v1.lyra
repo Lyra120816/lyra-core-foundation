@@ -1,0 +1,23 @@
+LYRA-P00-CONTRACT v1
+contract=authority_order
+header=LYRA-P00-AUTHORITY-ORDER v1
+field:phase=required_exact:P00
+field:task=required_exact:P00-002
+field:status=required_exact:working_slice
+rank:000=single_file_master highest_live_execution_authority explicit_load
+rank:010=roadmap_phase_task canonical_work_inventory master_consistency
+rank:020=frontier_lock active_bounded_frontier truth_snapshot_binding
+rank:030=truth_snapshot evidence_status_record receipt_binding
+rank:040=blocker_index next_frontier_constraints explicit_blockers
+rank:050=implementation_receipts proof_evidence stable_hash
+rank:060=operator_request bounded_user_direction no_conflict_with_constitution
+rank:070=archive_context historical_reference_only explicit_historical_need
+rank:080=agent_memory personal_workflow_preference no_conflict_with_master
+rule:strict_total_order=required
+rule:lower_must_not_supersede_higher=required
+rule:missing_master_reject=required
+rule:archive_is_subordinate=required
+rule:frontier_lock_binds_pass=required
+rule:truth_snapshot_binds_status=required
+rule:operator_request_cannot_override_constitution=required
+rule:no_ambient_authority=required

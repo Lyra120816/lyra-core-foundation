@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-SCENARIO v1
+phase=P02
+task=P02-023
+id=seed_runtime_drift_attack
+kind=seed_runtime_drift
+targets=seed_runtime_law,bootstrap_trust,rollback
+rollback_paths=seed_runtime_last_good_restore,phase_open_reassertion_rollback
+commands=lyra-p02-seed-runtime-replacement-check,lyra-p02-bootstrap-core-engine-check,lyra-p02-bootstrap-redteam-check
+receipts=receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt,receipts/p02/pass_0073_bootstrap_core_engine.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+rejects=seed_runtime_drift,unreceipted_runtime_promotion
+status=artifact_emitted

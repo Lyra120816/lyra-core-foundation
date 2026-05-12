@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-BENCHMARK-PACK-LAW v1
+phase=P01
+task=P01-X03
+surface=LYRA-P01-SEMANTIC-BENCHMARK-PACK v1
+law=phase-specific benchmark pack must bind semantic throughput latency correctness and stability targets before output table and retirement evidence may claim target coverage
+required_families=throughput,latency,correctness,stability
+required_targets=throughput_semantic_surface_validation,throughput_semantic_receipt_generation,latency_semantic_canonicalization_budget,latency_semantic_validation_budget,correctness_semantic_valid_surface_acceptance,correctness_semantic_negative_corpus_rejection,stability_semantic_replay_equivalence,stability_semantic_hash_ordering
+forbidden=network_required,docs_only,unreceipted,global_closure,phase_closure,benchmark_drift,placeholder
+receipt=receipts/p01/pass_0056_semantic_benchmark_pack.receipt
+next_frontier=P01-X04

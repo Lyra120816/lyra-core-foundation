@@ -1,0 +1,6 @@
+LYRA-P00-CLOSURE-BLOCKER-GUIDE v1
+phase=P00
+task=P00-024
+blocker=P00-X01,P00-X02,P00-X03,P00-X04,P00-X05
+law=bounded closure can pass only for admitted primary tasks; phase-global closure remains blocked until closure outputs are emitted and receipted
+receipt=receipts/p00/pass_0024_closure_gate.receipt

@@ -1,0 +1,24 @@
+LYRA-P00-BENCHMARK-EVIDENCE-LAW v1
+phase=P00
+task=P00-009
+status=working_slice
+rule:benchmark_pack_required=required:every frontier binds benchmark targets
+rule:evidence_family_required=required:all evidence families present
+rule:local_definition_of_done_required=required:done formula present
+rule:global_definition_of_done_forbidden_until_all_blockers_closed=forbidden:global complete remains blocked
+rule:receipt_binding_required=required:receipt binding present
+rule:command_record_required=required:command record present
+rule:deterministic_stability_required=required:stable target present
+rule:negative_path_required=required:negative evidence present
+rule:rollback_path_required=required:rollback evidence present
+rule:closure_formula_required=required:closure formula present
+evidence:happy_path=family:happy_path|artifacts:ops/p00/src/benchmark_evidence.rs|receipts:receipts/p00/pass_0009_benchmark_evidence_law.receipt|commands:static_scan|status:working_slice
+evidence:negative_path=family:negative_path|artifacts:tests/p00_benchmark_evidence_law_tests.rs|receipts:receipts/p00/pass_0009_benchmark_evidence_law.receipt|commands:negative_scan|status:working_slice
+evidence:adversarial_path=family:adversarial_path|artifacts:fixtures/p00/benchmark_evidence_law_inputs/invalid_missing_benchmark.lyra|receipts:receipts/p00/pass_0009_benchmark_evidence_law.receipt|commands:adversarial_scan|status:working_slice
+evidence:rollback_path=family:rollback_path|artifacts:ops/p00/control/blocker_index.v1.lyra|receipts:receipts/p00/pass_0009_benchmark_evidence_law.receipt|commands:rollback_scan|status:working_slice
+evidence:replay_path=family:replay_path|artifacts:goldens/p00/valid_benchmark_evidence_law.receipt|receipts:receipts/p00/pass_0009_benchmark_evidence_law.receipt|commands:replay_scan|status:working_slice
+definition:local_working_slice=scope:task|requires:implementation,tests,fixtures,receipts,commands|allows:working_slice|forbids:closed,global_complete|evidence:happy_path
+definition:local_execution_proven=scope:task|requires:implementation,tests,fixtures,receipts,commands|allows:execution_proven|forbids:closed,global_complete|evidence:happy_path
+definition:phase_closure_blocked=scope:phase|requires:all_p00_primary_tasks|allows:blocked|forbids:phase_closed_until_all_p00_blockers_closed|evidence:rollback_path
+definition:global_closure_blocked=scope:global|requires:all_phases_closed|allows:blocked|forbids:global_complete_until_all_phases_closed|evidence:rollback_path
+closure:p00_009_local=scope:task|status:working_slice|benchmarks:canonicalization_stability|evidence:happy_path|definitions:local_working_slice|receipts:receipts/p00/pass_0009_benchmark_evidence_law.receipt|commands:static_scan

@@ -1,0 +1,12 @@
+LYRA-P00-OUTPUT-TABLE-GUIDE v1
+phase=P00
+task=P00-X04
+status=artifact_emitted
+purpose=bind phase outputs for developer operator product enterprise and public_interest review without claiming global closure
+developer=contracts commands fixtures and goldens must have concrete artifact rows
+operator=control files receipts blocker index and closure surfaces must have concrete artifact rows
+product=examples package references and public reference surfaces must have concrete artifact rows
+enterprise=offline deployment release bundle and compliance evidence must have concrete artifact rows
+public_interest=non_extractiveness stewardship and people_first review surfaces must have concrete artifact rows
+receipt=receipts/p00/pass_0028_output_table.receipt
+next_frontier=P00-X05

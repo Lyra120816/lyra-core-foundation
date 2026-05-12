@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-DEPLOYMENT-GUIDE v1
+phase=P01
+task=P01-020
+purpose=bind semantic core deployment surfaces to offline workstation archive sovereign site and enterprise operator review targets
+operator_binary=src/bin/lyra-p01-semantic-deployment-check.rs
+fixture=fixtures/p01/semantic_deployment_inputs/valid_semantic_deployment.lyra
+contract=interfaces/p01/contracts/semantic_deployment.v1.lyra
+receipt=receipts/p01/pass_0049_semantic_deployment.receipt
+negative_corpus=fixtures/p01/semantic_deployment_inputs
+closure=forbidden
+status=artifact_emitted

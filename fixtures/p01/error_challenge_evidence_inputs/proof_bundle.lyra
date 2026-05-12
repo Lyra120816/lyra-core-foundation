@@ -1,0 +1,4 @@
+LYRA-P01-EVIDENCE-PAYLOAD v1
+id=evidence_proof_bundle
+payload=proof_bundle
+digest=fnv1a128:8a46544b8a7b8cdb70cf34d85a05cdfb

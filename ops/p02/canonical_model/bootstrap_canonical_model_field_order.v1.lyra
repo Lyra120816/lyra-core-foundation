@@ -1,0 +1,5 @@
+LYRA-P02-BOOTSTRAP-CANONICAL-FIELD-ORDER v1
+phase=P02
+task=P02-014
+order=trust_receipt_hash,trust_authority_floor,seed_runtime_owner,seed_runtime_replacement_state,host_surface_id,host_extinction_gate,foreign_surface_id,foreign_challenge_suite,handoff_capture_channel,handoff_truth_gate,fallback_freeze_gate,fallback_recovery_state
+status=artifact_emitted

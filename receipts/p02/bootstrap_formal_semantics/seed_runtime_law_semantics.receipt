@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-SUBRECEIPT v1
+phase=P02
+task=P02-013
+name=seed_runtime_law_semantics
+parent=receipts/p02/pass_0071_bootstrap_formal_semantics.receipt
+status=artifact_emitted
+receipt_hash=fnv1a128:b7c29a87d362282bb8894f195d2a34c2

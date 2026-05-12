@@ -1,0 +1,6 @@
+
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-SHELL v1
+command=lyra-p02-bootstrap-dependency-matrix-check
+input=fixtures/p02/bootstrap_dependency_matrix_inputs/valid_bootstrap_dependency_matrix.lyra
+prints=LYRA-P02-RECEIPT v1
+rejects=missing_node,missing_blocker,unbound_dependency,global_closure_true,network_required,docs_only,descriptor_drift

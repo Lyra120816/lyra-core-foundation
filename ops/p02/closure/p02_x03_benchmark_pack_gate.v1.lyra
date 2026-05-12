@@ -1,0 +1,9 @@
+LYRA-P02-X03-BENCHMARK-PACK-GATE v1
+phase=P02
+task=P02-X03
+status=artifact_emitted
+primary_closure=P02-001..P02-024 bounded_closed_by_prior_gate
+extended_closure=denied
+next_frontier=P02-X04
+benchmark_pack_surface=ops/p02/benchmarks/p02_x03_bootstrap_benchmark_pack.v1.lyra
+benchmark_pack_receipt=receipts/p02/pass_0085_bootstrap_benchmark_pack.receipt

@@ -1,0 +1,6 @@
+LYRA-P01-CANONICAL-DATA-MODEL-CASE v1
+case=canonical_symbol_model
+model=canonical_symbol_model
+schema=canonical_symbol_schema
+fields=symbol_id,symbol_namespace,symbol_kind
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt

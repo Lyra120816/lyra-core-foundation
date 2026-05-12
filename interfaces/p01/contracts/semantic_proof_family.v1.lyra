@@ -1,0 +1,16 @@
+LYRA-P01-SEMANTIC-PROOF-FAMILY-CONTRACT v1
+phase=P01
+task=P01-X02
+surface=LYRA-P01-SEMANTIC-PROOF-FAMILY-TABLE v1
+receipt=receipts/p01/pass_0055_semantic_proof_family.receipt
+operator=src/bin/lyra-p01-semantic-proof-family-check.rs
+model=interfaces/p01/src/semantic_proof_family_model.rs
+validator=ops/p01/src/semantic_proof_family.rs
+k0_report=k0/determinism/src/semantic_proof_family.rs
+closure_surface=ops/p01/closure/semantic_proof_family_table.lyra
+rule:happy_path=receipt_semantic_atoms,receipt_core_ir,receipt_semantic_dependency_matrix
+rule:negative_path=receipt_semantic_adversarial_corpus,receipt_semantic_falsification,receipt_semantic_closure
+rule:adversarial_path=receipt_error_challenge_evidence,receipt_semantic_redteam,receipt_semantic_dependency_matrix
+rule:rollback_path=receipt_semantic_replay,receipt_semantic_redteam,receipt_semantic_closure
+next_frontier=P01-X03
+phase_closure=false

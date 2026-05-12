@@ -1,0 +1,8 @@
+
+guide=bootstrap_closure_gate
+phase=P02
+task=P02-024
+purpose=gate bounded primary task closure while keeping phase output gates open
+checker=lyra-p02-bootstrap-closure-check
+evidence=fixtures/p02/bootstrap_closure_inputs,tests/p02_bootstrap_closure_tests.rs,tests/p02_bootstrap_closure_contract_tests.rs,goldens/p02/valid_bootstrap_closure.receipt
+next_frontier=P02-X01

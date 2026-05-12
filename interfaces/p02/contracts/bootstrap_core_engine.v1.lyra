@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-CORE-ENGINE-CONTRACT v1
+phase=P02
+task=P02-015
+owner_root=interfaces
+encoding=canonical_lyra_kv
+requires=ordered_engine_units,total_transitions,local_artifact_bindings,fixture_golden_receipt_proofs
+forbids=network_required,probabilistic_engine,hidden_randomness,ambient_time,placeholder_engine,phase_complete
+status=artifact_emitted

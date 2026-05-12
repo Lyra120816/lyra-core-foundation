@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-ATOM-GUIDE v1
+phase=P01
+task=P01-001
+audience=developer_operator
+surface=canonical semantic atom review
+command=lyra-p01-atom-check fixtures/p01/semantic_atom_inputs/valid_semantic_atoms.lyra
+proof=receipts/p01/pass_0030_semantic_atoms.receipt
+status=artifact_emitted

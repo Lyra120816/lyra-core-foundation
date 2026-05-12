@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-PACKAGING-INSPECTION-SURFACE v1
+phase=P01
+task=P01-019
+status=artifact_emitted
+inspect=semantic_package_manifest_required
+inspect=semantic_release_bundle_required
+inspect=offline_distribution_required
+inspect=product_surface_required
+inspect=artifact_bound_packaging_required
+inspect=receipt_bound_packaging_required
+golden=goldens/p01/valid_semantic_packaging.receipt
+receipt=receipts/p01/pass_0048_semantic_packaging.receipt

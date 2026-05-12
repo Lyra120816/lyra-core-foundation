@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-OUTPUT v1
+id=operator_cost_benefit_sheet
+kind=cost_sheet
+constituencies=operator,developer,enterprise
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-seed-runtime-replacement-check,lyra-p02-bootstrap-deployment-check
+proofs=public_benefit_binding_proof,non_extractive_access_proof
+receipts=receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt,receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt
+rejects=unbounded_host_cost,extractive_default
+status=artifact_emitted

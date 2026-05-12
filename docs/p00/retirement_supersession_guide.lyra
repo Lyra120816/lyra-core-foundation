@@ -1,0 +1,9 @@
+LYRA-P00-RETIREMENT-SUPERSESSION-GUIDE v1
+phase=P00
+frontier=P00-X05
+status=artifact_emitted
+purpose=bind transitional bootstrap surfaces to explicit owner-root retirement gates and supersession lanes
+operator_rule=do_not_delete_or_reclassify_a_surface_without_a_matching_gate_supersession_and_receipt
+operator_rule=keep_rust_bootstrap_bounded_until_lyralang_native_equivalence_is_proven
+operator_rule=archive_historical_p00_artifacts_as_superseded_only_after_receipt_bound_successor_evidence
+truth_bound=receipts/p00/pass_0029_retirement_supersession.receipt

@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-LAW v1
+phase=P01
+task=P01-016
+status=artifact_emitted
+law:negative_corpus_scope=canonical_symbols,semantic_atoms,core_ir
+law:case_admission=every case must bind target domain, validator, mutation, expected error, fixture, and status
+law:harness_admission=every harness must bind known cases and exact assertion mode
+law:assertion_admission=every assertion must bind one case and the exact expected error
+law:receipt_admission=every proof must bind receipt path and artifact evidence
+law:descriptor_parity=runtime surface must match lyralang semantic_falsification registry
+law:forbidden_outcome=negative inputs must never be accepted as valid semantic core evidence
+law:closure_bound=phase remains open after P01-016 because P01-017 through P01-X05 remain unclosed

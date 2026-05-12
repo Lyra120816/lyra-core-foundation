@@ -1,0 +1,20 @@
+LYRA-P00-ENFORCEMENT-LAW v1
+phase=P00
+task=P00-004
+status=working_slice
+rule:anti_underbuild=required
+rule:anti_placeholder=required
+rule:anti_fake_closure=required
+rule:behavior_before_declaration=required
+rule:test_fixture_receipt_required=required
+rule:owner_root_path_binding=required
+rule:truthful_partiality_only=required
+rule:thin_patch_rejected=required
+rule:docs_only_rejected=required
+rule:empty_shell_rejected=required
+unit_schema=unit:<symbolic_id>=owner_root:<root>|path:<owner_root_path>|responsibility:<symbolic_behavior>|behavior:<executable_behavior>|tests:<test_path>|fixtures:<fixture_path>|receipts:<receipt_path>|status:<truthful_status>
+claim_schema=claim:<phase_or_task>=scope:<task_or_frontier_or_phase>|status:<truthful_partial_status>|evidence:<comma_separated_artifacts>
+required_unit:p00_constitution_validator=ops/p00/src/validator.rs
+required_unit:p00_authority_order_validator=ops/p00/src/authority.rs
+required_unit:p00_identity_law_validator=ops/p00/src/identity.rs
+required_unit:p00_enforcement_law_validator=ops/p00/src/enforcement.rs

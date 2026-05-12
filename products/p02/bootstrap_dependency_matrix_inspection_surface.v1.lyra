@@ -1,0 +1,10 @@
+
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-INSPECTION-SURFACE v1
+phase=P02
+task=P02-X01
+review_command=lyra-p02-bootstrap-dependency-matrix-check fixtures/p02/bootstrap_dependency_matrix_inputs/valid_bootstrap_dependency_matrix.lyra
+node_count=29
+blocker_count=8
+lane_count=6
+proof_count=6
+serial_extension_chain=P02-X01>P02-X02>P02-X03>P02-X04>P02-X05

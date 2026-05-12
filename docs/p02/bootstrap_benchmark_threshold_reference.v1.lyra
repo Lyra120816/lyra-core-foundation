@@ -1,0 +1,10 @@
+LYRA-P02-DOC bootstrap_benchmark_threshold_reference.v1
+phase=P02
+task=P02-X03
+threshold=min_29 means every P02 primary and extended evidence surface through P02-X03 remains in the local validation pack.
+threshold=max_8192 is a static bounded-symbolic step budget, not wall-clock time.
+threshold=deterministic_accept_reject requires exact valid acceptance and invalid rejection classification.
+threshold=exact_sorted_hash_preimage requires canonical sorted hash preimages with no ambient ordering.
+threshold=rejects_hostile_inputs requires hostile fixtures to reject without remote policy lookup.
+threshold=receipted_reversible_path requires rollback proof rows to bind receipts.
+status=artifact_emitted

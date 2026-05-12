@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-PROOF-RECEIPT v1
+phase=P02
+task=P02-023
+proof=p02_phase_open
+scope=phase
+scenarios=closure_premature_claim_attack
+rollbacks=phase_open_reassertion_rollback
+receipts=receipts/p02/pass_0080_bootstrap_economics.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-bootstrap-redteam-check
+forbids=phase_closure,global_complete,remote_truth_rewrite
+status=blocked

@@ -1,0 +1,12 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-CONTRACT v1
+task=P02-019
+surface=LYRA-P02-BOOTSTRAP-PACKAGING v1
+model=interfaces/p02/src/bootstrap_packaging_model.rs
+law=ops/p02/src/bootstrap_packaging.rs
+k0=k0/determinism/src/bootstrap_packaging.rs
+lyralang=lyralang/core/src/bootstrap_packaging.rs
+operator=src/bin/lyra-p02-bootstrap-packaging-check.rs
+fixture=fixtures/p02/bootstrap_packaging_inputs/valid_bootstrap_packaging.lyra
+golden=goldens/p02/valid_bootstrap_packaging.receipt
+receipt=receipts/p02/pass_0077_bootstrap_packaging.receipt
+status=artifact_emitted

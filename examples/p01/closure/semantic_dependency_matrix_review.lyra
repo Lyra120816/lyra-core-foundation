@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-DEPENDENCY-MATRIX-CLOSURE-REVIEW v1
+phase=P01
+closure_output=P01-X01
+covered_primary_tasks=P01-001..P01-024
+covered_closure_outputs=P01-X01..P01-X05
+open_blockers=local_validation_evidence,P01-X02,P01-X03,P01-X04,P01-X05,P01-GLOBAL
+next_frontier=P01-X02
+receipt=receipts/p01/pass_0054_semantic_dependency_matrix.receipt

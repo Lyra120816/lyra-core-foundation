@@ -1,0 +1,17 @@
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-SUITE-REPORT v1
+phase=P02
+task=P02-X02
+valid_fixture=fixtures/p02/bootstrap_proof_family_inputs/valid_bootstrap_proof_family.lyra
+valid_receipt=goldens/p02/valid_bootstrap_proof_family.receipt
+invalid_fixture_count=24
+family_count=5
+receipt_count=48
+path_count=5
+happy_path_receipt_count=25
+negative_path_receipt_count=5
+adversarial_path_receipt_count=5
+rollback_path_receipt_count=7
+dependency_path_receipt_count=6
+table_hash=fnv1a128:34803a94e15581306a2f1658bb76e4a9
+receipt_hash=fnv1a128:2cbded330a64fdf7c7d89e3606ee0871
+next_frontier=P02-X03

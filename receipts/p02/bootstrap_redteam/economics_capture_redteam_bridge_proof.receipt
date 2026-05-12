@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-PROOF-RECEIPT v1
+phase=P02
+task=P02-023
+proof=economics_capture_redteam_bridge_proof
+scope=economics_bridge
+scenarios=economics_capture_attack,closure_premature_claim_attack
+rollbacks=economics_capture_reversal,phase_open_reassertion_rollback
+receipts=receipts/p02/pass_0079_bootstrap_ecosystem.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-bootstrap-ecosystem-check,lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-redteam-check
+forbids=capture,extractive_default,phase_closure
+status=artifact_emitted

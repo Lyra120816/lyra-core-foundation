@@ -1,0 +1,23 @@
+LYRA-P00-DELIVERY-PROTOCOL v1
+phase=P00
+task=P00-005
+status=working_slice
+rule:artifact_only_pass=required
+rule:proof_first_status=required
+rule:receipt_before_closure=required
+rule:truthful_status_only=required
+rule:minimal_reflection_after_artifacts=required
+rule:artifact_inventory_required=required
+rule:negative_corpus_required=required
+rule:golden_required=required
+rule:command_record_required=required
+rule:closure_claim_restricted=required
+proof_family:p00_execution_receipts=p00-execution-receipts
+proof_family:p00_negative_corpus=p00-negative-corpus
+proof_family:p00_truth_gate=p00-truth-gate
+required_artifact:p00_delivery_runtime=ops/p00/src/delivery.rs
+required_artifact:p00_delivery_contract=interfaces/p00/contracts/delivery_protocol.v1.lyra
+required_artifact:p00_delivery_model=interfaces/p00/src/delivery_model.rs
+required_artifact:p00_delivery_tests=tests/p00_delivery_protocol_tests.rs
+required_artifact:p00_delivery_fixture=fixtures/p00/delivery_protocol_inputs/valid_delivery_protocol.lyra
+required_artifact:p00_delivery_receipt=receipts/p00/pass_0005_delivery_protocol.receipt

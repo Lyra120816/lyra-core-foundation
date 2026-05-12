@@ -1,0 +1,8 @@
+LYRA-P01-DOC v1
+id=canonical_semantics_contributor_onboarding
+title=canonical semantics contributor onboarding
+phase=P01
+task=P01-021
+text=Maps contributor changes to canonical symbols, semantic atoms, core IR examples, negative cases, and receipts.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

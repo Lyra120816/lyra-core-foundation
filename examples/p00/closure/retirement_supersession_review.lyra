@@ -1,0 +1,9 @@
+LYRA-P00-RETIREMENT-SUPERSESSION-REVIEW v1
+phase=P00
+frontier=P00-X05
+status=artifact_emitted
+review:surface_count=expected:12|source:fixtures/p00/retirement_inputs/valid_retirement_supersession.lyra
+review:gate_count=expected:12|source:fixtures/p00/retirement_inputs/valid_retirement_supersession.lyra
+review:supersession_count=expected:12|source:fixtures/p00/retirement_inputs/valid_retirement_supersession.lyra
+review:receipt_count=expected:4|source:fixtures/p00/retirement_inputs/valid_retirement_supersession.lyra
+review:global_closure=claim:false|reason:local_validation_evidence_not_present_in_chat_environment

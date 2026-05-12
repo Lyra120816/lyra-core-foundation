@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-SCENARIO v1
+phase=P02
+task=P02-023
+id=economics_capture_attack
+kind=economics_capture
+targets=economics_capture,public_interest,challenge_right
+rollback_paths=economics_capture_reversal,phase_open_reassertion_rollback
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-ecosystem-check,lyra-p02-bootstrap-redteam-check
+receipts=receipts/p02/pass_0079_bootstrap_ecosystem.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+rejects=capture,extractive_default
+status=artifact_emitted

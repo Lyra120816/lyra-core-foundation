@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-GUIDE v1
+phase=P02
+task=P02-X04
+summary=P02-X04 emits a deterministic output table for developer, operator, product, enterprise, and public-interest consumers.
+truth=This guide is subordinate to the parser, valid fixture, golden, and receipt.
+closure=P02-X04 does not close P02-X05; it exposes P02-X05 as the remaining extended blocker.

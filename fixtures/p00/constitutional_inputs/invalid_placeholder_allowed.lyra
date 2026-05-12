@@ -1,0 +1,25 @@
+LYRA-P00-CONSTITUTION v1
+phase=P00
+task=P00-001
+status=working_slice
+principle:determinism=all Lyra-owned truth path outputs are reproducible from explicit inputs
+principle:sovereignty=core execution remains offline and locally owned
+principle:proof_gate=claims require bound evidence before acceptance
+principle:zero_unsafe=unsafe rejected unless an explicit proof boundary admits it
+principle:people_first=public benefit is superior to extraction or capture
+duty:public_benefit=human operators retain inspection challenge and exit rights
+duty:anti_extractive=no capture by hidden rent remote dependency or coercive lock-in
+duty:transparent_challenge=any affected operator may challenge closure authority or drift
+ban:ambient_network=forbidden in Lyra-owned truth paths
+ban:probabilistic_truth=forbidden in canonical truth decisions
+ban:hidden_randomness=forbidden without explicit injected seed and receipt
+ban:fake_closure=forbidden when evidence is missing
+ban:placeholder=placeholder allowed in admitted production surfaces
+evidence:p00-execution-receipts=required for every pass claim
+evidence:p00-negative-corpus=required for falsification and rejection proof
+evidence:p00-truth-gate=required before closure can advance
+owner_root:ops=governance execution and truth-plane controls
+owner_root:interfaces=contract surfaces and versioned schemas
+owner_root:k0=determinism substrate canonicalization hashing and receipts
+closure:claim=working_slice
+closure:truth=bounded_by_p00_001_evidence

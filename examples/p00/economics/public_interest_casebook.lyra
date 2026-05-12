@@ -1,0 +1,9 @@
+LYRA-P00-ECONOMICS-CASEBOOK-EXAMPLE v1
+phase=P00
+task=P00-022
+surface=public_interest_casebook
+constituencies=public,community,steward
+input=fixtures/p00/economics_inputs/valid_economics_public_interest.lyra
+command=lyra-p00-economics-check fixtures/p00/economics_inputs/valid_economics_public_interest.lyra
+expected=ACCEPTED
+receipt=receipts/p00/pass_0022_economics.receipt

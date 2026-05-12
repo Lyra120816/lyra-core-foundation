@@ -1,0 +1,9 @@
+
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-GUIDE v1
+phase=P02
+task=P02-X01
+status=artifact_emitted
+purpose=bind every P02 primary task and every P02-X output into a deterministic dependency, blocker, and parallelization matrix.
+operator_rule=P02-X01 may emit dependency evidence and name P02-X02, but must not claim global P02 closure.
+serial_rule=P02-X01>P02-X02>P02-X03>P02-X04>P02-X05 remains strict until later X outputs prove otherwise.
+proof_rule=parallel lanes are advisory only unless their receipt prerequisites are present.

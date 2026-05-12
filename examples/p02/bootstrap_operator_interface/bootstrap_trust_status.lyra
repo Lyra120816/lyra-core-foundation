@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-OPERATOR-EXAMPLE v1
+phase=P02
+task=P02-018
+command=bootstrap_trust_status
+input=ops/p02/control/truth_snapshot.v1.lyra
+expected_receipt=receipts/p02/bootstrap_interface/bootstrap_trust_status.receipt
+status=artifact_emitted

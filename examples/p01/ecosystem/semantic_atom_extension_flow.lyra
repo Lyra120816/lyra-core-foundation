@@ -1,0 +1,8 @@
+LYRA-P01-ECOSYSTEM-EXAMPLE v1
+phase=P01
+task=P01-021
+id=semantic_atom_extension_flow
+command=lyra-p01-semantic-ecosystem-check
+text=Shows a bounded developer flow for adding semantic atom references while preserving registry identity.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

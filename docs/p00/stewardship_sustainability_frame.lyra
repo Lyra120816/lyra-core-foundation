@@ -1,0 +1,9 @@
+LYRA-P00-STEWARDSHIP-SUSTAINABILITY-FRAME v1
+phase=P00
+task=P00-022
+status=working_slice
+stewardship:community_voice=community and labor review are explicit constituencies
+stewardship:anti_capture=governance refuses platform capture through proof-bound review
+stewardship:sustainability=cost, distribution, and maintenance claims require receipts
+bound_output=stewardship_review_flow
+receipt=receipts/p00/pass_0022_economics.receipt

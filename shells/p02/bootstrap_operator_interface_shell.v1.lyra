@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-OPERATOR-SHELL v1
+phase=P02
+task=P02-018
+entry=lyra-p02-bootstrap-interface-check fixtures/p02/bootstrap_operator_interface_inputs/valid_bootstrap_operator_interface.lyra
+command_sequence=bootstrap_trust_status,seed_runtime_law_verify,host_extinction_audit,bootstrap_falsification_run,bootstrap_replay_witness_run,bootstrap_operator_acceptance
+receipt=receipts/p02/pass_0076_bootstrap_operator_interface.receipt
+closure_claim=phase_open_not_closed
+status=artifact_emitted

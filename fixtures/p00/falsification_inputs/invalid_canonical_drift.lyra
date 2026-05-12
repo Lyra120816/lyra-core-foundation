@@ -1,0 +1,7 @@
+LYRA-P00-NEGATIVE-FIXTURE v1
+case=canonical_drift_case
+target_validator=canonical_model
+expected_code=canonical_model_drift_accepted
+category=canonicalization
+expected_verdict=rejected
+receipt_bound=receipts/p00/pass_0016_falsification_harness.receipt

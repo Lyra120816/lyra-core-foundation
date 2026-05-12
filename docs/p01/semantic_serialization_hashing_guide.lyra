@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-SERIALIZATION-HASHING-GUIDE v1
+phase=P01
+task=P01-008
+purpose=binds every admitted semantic core object family to deterministic canonical serialization, labeled payload hashing, labeled record hashing, and explicit round-trip identity evidence.
+owner_roots=k0,lyralang,interfaces,ops
+operator_command=lyra-p01-semantic-serialization-hashing-check fixtures/p01/semantic_serialization_hashing_inputs/valid_semantic_serialization_hashing.lyra
+receipt=receipts/p01/pass_0037_semantic_serialization_hashing.receipt

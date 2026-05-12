@@ -1,0 +1,11 @@
+LYRA-P00-ECOSYSTEM-DOC v1
+id=rebuild_governance_guide
+phase=P00
+task=P00-021
+audience=steward
+coverage=rebuild_governance,rollback,truth_snapshot
+example=examples/p00/ecosystem/rebuild_from_receipts_flow.lyra
+example=fixtures/p00/ecosystem_inputs/invalid_ecosystem_drift.lyra
+receipt=receipts/p00/pass_0021_ecosystem.receipt
+claim=rebuild governance is bound to replay, blocker index, truth snapshot, and rollback-readable receipts
+status=working_slice

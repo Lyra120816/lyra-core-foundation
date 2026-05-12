@@ -1,0 +1,7 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-REVIEW v1
+phase=P02
+task=P02-012
+step=validate_valid_surface
+input=fixtures/p02/foreign_surface_closure_inputs/valid_foreign_surface_closure.lyra
+expected=accepted_receipt_with_no_phase_closure
+status=example_emitted

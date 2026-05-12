@@ -1,0 +1,6 @@
+LYRA-P02-DOC v1
+phase=P02
+task=P02-023
+guide=remote_truth_cannot_silently_rewrite_local_truth
+operator_action=require_receipted_import_and_rollback_path
+status=artifact_emitted

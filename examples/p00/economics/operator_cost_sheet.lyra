@@ -1,0 +1,10 @@
+LYRA-P00-OPERATOR-COST-SHEET-EXAMPLE v1
+phase=P00
+task=P00-022
+surface=operator_cost_sheet
+constituencies=operator,developer,contributor
+cost_unit=local_review_pass
+cost_basis=command_count,fixture_count,receipt_count
+command=lyra-p00-economics-check fixtures/p00/economics_inputs/valid_economics_public_interest.lyra
+expected=ACCEPTED
+receipt=receipts/p00/pass_0022_economics.receipt

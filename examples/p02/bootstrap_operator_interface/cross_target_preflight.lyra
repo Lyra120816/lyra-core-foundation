@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-OPERATOR-EXAMPLE v1
+phase=P02
+task=P02-018
+command=bootstrap_target_preflight,bootstrap_replay_witness_run
+input=ops/p02/target_matrix/bootstrap_target_matrix.v1.lyra
+expected_receipt=receipts/p02/bootstrap_interface/bootstrap_target_preflight.receipt
+status=artifact_emitted

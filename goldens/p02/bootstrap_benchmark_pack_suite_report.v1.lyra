@@ -1,0 +1,11 @@
+LYRA-P02-BENCHMARK-SUITE-REPORT v1
+phase=P02
+task=P02-X03
+families=6
+targets=12
+evidence=6
+invalid_fixtures=26
+valid_receipt=goldens/p02/valid_bootstrap_benchmark_pack.receipt
+pass_receipt=receipts/p02/pass_0085_bootstrap_benchmark_pack.receipt
+next_frontier=P02-X04
+status=artifact_emitted

@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_rust_stdlib
+closure_law=law_rust_stdlib
+deletion_gate=gate_delete_when_native_runtime_exists
+scope=per_surface_only
+status=receipt_emitted

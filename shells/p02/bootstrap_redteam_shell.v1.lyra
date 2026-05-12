@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-SHELL v1
+phase=P02
+task=P02-023
+command=lyra-p02-bootstrap-redteam-check fixtures/p02/bootstrap_redteam_inputs/valid_bootstrap_redteam.lyra
+command=lyra-p02-bootstrap-redteam-check fixtures/p02/bootstrap_redteam_inputs/invalid_remote_truth_rewrite_allowed.lyra
+command=lyra-p02-bootstrap-redteam-check fixtures/p02/bootstrap_redteam_inputs/invalid_rollback_unreceipted.lyra
+status=artifact_emitted

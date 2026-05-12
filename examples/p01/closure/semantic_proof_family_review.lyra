@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-PROOF-FAMILY-CLOSURE-REVIEW v1
+phase=P01
+task=P01-X02
+review=Verify P01-X01 dependency receipt is included while P01-X03 through P01-X05 remain future closure outputs.
+forbidden=phase_closure:true,global_closure:true

@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-IDENTITY-REVIEW v1
+phase=P01
+task=P01-004
+command=lyra-p01-identity-check fixtures/p01/semantic_identity_inputs/valid_semantic_identity.lyra
+expected=accepted receipt-bound semantic identity and digest suite
+inspect=goldens/p01/valid_semantic_identity.receipt
+reject_examples=fixtures/p01/semantic_identity_inputs/invalid_digest_mismatch.lyra fixtures/p01/semantic_identity_inputs/invalid_collision_alias.lyra

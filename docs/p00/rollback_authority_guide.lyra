@@ -1,0 +1,11 @@
+LYRA-P00-ROLLBACK-AUTHORITY-GUIDE v1
+phase=P00
+task=P00-023
+status=artifact_emitted
+authority:constitution_master=may restore deterministic constitution surfaces from receipt-bound replay
+authority:people_first_law=may restore public-interest and anti-capture constraints when operator surfaces drift
+authority:rebuild_governance=may restore rebuild and replay governance from canonical receipt chains
+authority:control_plane=may restore frontier lock, truth snapshot, blocker index, and pass template surfaces
+authority:challenge_right=may force review when rollback would silence contestation or participation
+command=lyra-p00-redteam-check
+receipt=receipts/p00/pass_0023_redteam.receipt

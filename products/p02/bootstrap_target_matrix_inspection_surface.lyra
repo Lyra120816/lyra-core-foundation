@@ -1,0 +1,11 @@
+
+LYRA-P02-BOOTSTRAP-TARGET-MATRIX-INSPECTION-SURFACE v1
+phase=P02
+task=P02-006
+status=artifact_emitted
+target_count=12
+proof_count=60
+target_classes=linux,windows,mobile,wasm,baremetal,other
+proof_families=canonical_io,deterministic_replay,host_boundary,receipt_chain,rollback_lane
+local_execution_status=pending_local_validation
+receipt=receipts/p02/pass_0064_bootstrap_target_matrix.receipt

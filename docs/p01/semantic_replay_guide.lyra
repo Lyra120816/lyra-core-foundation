@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-REPLAY-GUIDE v1
+phase=P01
+task=P01-017
+scope=proof receipts and replay witnesses for canonical symbols semantic atoms and core IR
+operator=src/bin/lyra-p01-semantic-replay-check.rs
+valid_fixture=fixtures/p01/semantic_replay_inputs/valid_semantic_replay.lyra
+receipt=receipts/p01/pass_0046_semantic_replay.receipt
+golden=goldens/p01/valid_semantic_replay.receipt
+meaning=the surface admits P01 receipts only when each receipt is bound to ordered replay witnesses chain links and proof commands
+determinism_rule=all replay identities orders hashes links and proof references are explicitly serialized before receipt emission
+phase_status=working_slice_artifact_emitted

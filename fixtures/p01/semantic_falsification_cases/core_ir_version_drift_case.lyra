@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=core_ir_version_drift_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=core_ir
+mutation=unregistered_ir_version
+ir_version=core_ir_v999_unregistered
+expected_error=invalid_model_binding

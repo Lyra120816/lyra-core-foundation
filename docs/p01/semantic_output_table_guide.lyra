@@ -1,0 +1,18 @@
+LYRA-P01-SEMANTIC-OUTPUT-TABLE-GUIDE v1
+phase=P01
+task=P01-X04
+purpose=bind semantic-core work to developer operator product enterprise and public-interest outputs
+contract=interfaces/p01/contracts/semantic_output_table.v1.lyra
+surface=ops/p01/closure/semantic_output_table.lyra
+validator=ops/p01/src/semantic_output_table.rs
+golden=goldens/p01/valid_semantic_output_table.receipt
+receipt=receipts/p01/pass_0057_semantic_output_table.receipt
+operator_command=lyra-p01-semantic-output-table-check fixtures/p01/semantic_output_table_inputs/valid_semantic_output_table.lyra
+audience:developer=contract cli fixture golden
+audience:operator=control receipt blocker closure
+audience:product=reference_slice examples packaging
+audience:enterprise=deployment release compliance
+audience:public_interest=access stewardship people_review
+invariant:offline=true
+invariant:deterministic_ordering=true
+invariant:phase_closure=false

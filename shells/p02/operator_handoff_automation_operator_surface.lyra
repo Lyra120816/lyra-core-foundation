@@ -1,0 +1,9 @@
+LYRA-P02-OPERATOR-HANDOFF-SHELL-SURFACE v1
+phase=P02
+task=P02-011
+status=artifact_emitted
+command=lyra-p02-operator-handoff-automation-check
+input=ops/p02/handoff/operator_handoff_automation.v1.lyra
+operator_steps=collect_external_bundle,record_capture_manifest,verify_digest_pair,acknowledge_handoff,bind_challenge_suite,quarantine_local_replay,emit_truth_snapshot_candidate
+network_allowed=false
+truth_effect=none_without_local_replay

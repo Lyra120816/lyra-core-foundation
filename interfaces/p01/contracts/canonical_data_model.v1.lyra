@@ -1,0 +1,11 @@
+LYRA-P01-CANONICAL-DATA-MODEL-CONTRACT v1
+phase=P01
+task=P01-014
+surface=LYRA-P01-CANONICAL-DATA-MODEL v1
+fixture=fixtures/p01/canonical_data_model_inputs/valid_canonical_data_model.lyra
+golden=goldens/p01/valid_canonical_data_model.receipt
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt
+operator=src/bin/lyra-p01-canonical-data-model-check.rs
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples,products
+requires=canonical_symbol_model_stable,semantic_atom_model_closed,core_ir_model_single_carrier,model_fields_explicitly_ordered
+rejects=network_required,probabilistic_field,hidden_randomness,placeholder_model,phase_closed

@@ -1,0 +1,8 @@
+LYRA-P01-ADVERSARIAL-CASE v1
+phase=P01
+task=P01-009
+case_id=collision_object_hash_payload_swap
+target_family=semantic_serialization_hashing
+expected_verdict=REJECTED
+expected_error=receipt_hash_mismatch
+status=artifact_emitted

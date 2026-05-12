@@ -1,0 +1,9 @@
+LYRA-P01-SEMANTIC-DEPENDENCY-MATRIX-INSPECTION-SURFACE v1
+phase=P01
+task=P01-X01
+audience=developer,operator,public_interest_reviewer
+artifact=ops/p01/closure/semantic_dependency_matrix.lyra
+artifact=interfaces/p01/contracts/semantic_dependency_matrix.v1.lyra
+artifact=fixtures/p01/semantic_dependency_matrix_inputs/valid_semantic_dependency_matrix.lyra
+artifact=receipts/p01/pass_0054_semantic_dependency_matrix.receipt
+status=artifact_emitted

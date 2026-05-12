@@ -1,0 +1,7 @@
+LYRA-P00-NEGATIVE-FIXTURE v1
+case=underbuild_case
+target_validator=enforcement
+expected_code=underbuild_violation
+category=delivery
+expected_verdict=rejected
+receipt_bound=receipts/p00/pass_0016_falsification_harness.receipt

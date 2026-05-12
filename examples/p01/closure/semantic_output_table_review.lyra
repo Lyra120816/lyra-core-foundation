@@ -1,0 +1,13 @@
+LYRA-P01-SEMANTIC-OUTPUT-TABLE-REVIEW v1
+phase=P01
+frontier=P01-X04
+input=fixtures/p01/semantic_output_table_inputs/valid_semantic_output_table.lyra
+command=lyra-p01-semantic-output-table-check fixtures/p01/semantic_output_table_inputs/valid_semantic_output_table.lyra
+expected_verdict=ACCEPTED
+expected_receipt=receipts/p01/pass_0057_semantic_output_table.receipt
+expected_next_frontier=P01-X05
+review:developer=confirm semantic contract cli fixture and golden rows bind to emitted artifacts
+review:operator=confirm frontier lock truth snapshot blocker index and closure surface bind to receipt evidence
+review:product=confirm semantic reference slice examples and packaging surface are exposed
+review:enterprise=confirm offline deployment release and compliance rows bind to prior P01 receipts
+review:public_interest=confirm semantic access stewardship and people-first review rows bind to public-use evidence

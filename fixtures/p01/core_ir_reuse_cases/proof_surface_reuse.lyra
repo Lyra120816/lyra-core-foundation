@@ -1,0 +1,9 @@
+LYRA-P01-CORE-IR-REUSE-CASE v1
+case=proof_surface
+surface=proof
+phase=P22
+owner=k0
+core_ir_ref=core_ir:text_ir
+adapter=proof_object_core_ir_witness
+status=artifact_emitted
+assertion=consumer_surface_reuses_p01_core_ir_without_private_fork

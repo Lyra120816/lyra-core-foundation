@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-INVENTORY-OPERATOR-SURFACE v1
+phase=P02
+task=P02-001
+status=artifact_emitted
+command=lyra-p02-bootstrap-inventory-check fixtures/p02/bootstrap_inventory_inputs/valid_bootstrap_surface_inventory.lyra
+rejects=missing_rule,missing_surface,duplicate_surface,bad_classification,invalid_owner_root,unreceipted_surface,network_required,probabilistic_truth,hidden_randomness,placeholder,global_closure
+output=phase_receipt_and_verdict
+truth_bound=receipts/p02/pass_0059_bootstrap_surface_inventory.receipt

@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-CLOSURE-LAW v1
+phase=P01
+task=P01-024
+surface=LYRA-P01-SEMANTIC-CLOSURE-GATE v1
+operator=src/bin/lyra-p01-semantic-closure-check.rs
+fixture=fixtures/p01/semantic_closure_inputs/valid_semantic_closure.lyra
+receipt=receipts/p01/pass_0053_semantic_closure.receipt
+rule:bounded_primary_closure=permitted_for_P01_primary_tasks
+rule:global_closure=blocked_until_P01_X_outputs
+rule:receipts=required_for_all_admitted_tasks
+rule:control_plane=advance_to_P01_X01
+rule:local_validation=blocked_until_external_cargo_receipt

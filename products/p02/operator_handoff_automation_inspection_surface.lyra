@@ -1,0 +1,9 @@
+LYRA-P02-OPERATOR-HANDOFF-PRODUCT-SURFACE v1
+phase=P02
+task=P02-011
+status=artifact_emitted
+inspection_surface=operator_handoff_automation
+public_value=airgapped proof import governance for sovereign deterministic systems
+user_visible_result=external proof evidence can be captured without silently changing Lyra truth state
+bounded_claim=operator_handoff_automation_artifact_emitted
+closure_claim=phase_open

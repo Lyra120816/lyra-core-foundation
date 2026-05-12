@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-OPERATOR-EXAMPLE v1
+phase=P02
+task=P02-018
+command=seed_runtime_law_verify
+input=interfaces/p02/contracts/seed_runtime_contracts.v1.lyra
+expected_receipt=receipts/p02/bootstrap_interface/seed_runtime_law_verify.receipt
+status=artifact_emitted

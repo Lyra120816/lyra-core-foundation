@@ -1,0 +1,9 @@
+LYRA-P02-SEED-RUNTIME-REPLACEMENT-REVIEW-EXAMPLE v1
+phase=P02
+task=P02-009
+status=artifact_emitted
+review_step:load_surface=ops/p02/seed_runtime/seed_runtime_replacement_milestones.v1.lyra
+review_step:validate=lyra-p02-seed-runtime-replacement-check ops/p02/seed_runtime/seed_runtime_replacement_milestones.v1.lyra
+review_step:confirm_targets=12 declared milestones and 12 non-authoritative handoffs
+review_step:confirm_truth=phase remains open and external proof capture has no truth effect without local replay
+receipt=receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt

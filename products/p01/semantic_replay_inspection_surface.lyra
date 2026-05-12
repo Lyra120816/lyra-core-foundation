@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-REPLAY-INSPECTION-SURFACE v1
+phase=P01
+task=P01-017
+surface=LYRA-P01-SEMANTIC-REPLAY-WITNESS v1
+contract=interfaces/p01/contracts/semantic_replay.v1.lyra
+fixture=fixtures/p01/semantic_replay_inputs/valid_semantic_replay.lyra
+golden=goldens/p01/valid_semantic_replay.receipt
+operator=src/bin/lyra-p01-semantic-replay-check.rs
+public_use=deterministic semantic replay receipt audit for canonical symbols semantic atoms and core IR
+status=artifact_emitted

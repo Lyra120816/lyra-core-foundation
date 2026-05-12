@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-INVENTORY-REVIEW v1
+phase=P02
+task=P02-001
+status=artifact_emitted
+step:001=open_contract=interfaces/p02/contracts/bootstrap_surface_inventory.v1.lyra
+step:002=run_operator_check=lyra-p02-bootstrap-inventory-check fixtures/p02/bootstrap_inventory_inputs/valid_bootstrap_surface_inventory.lyra
+step:003=compare_receipt=goldens/p02/valid_bootstrap_surface_inventory.receipt
+step:004=reject_unlisted_surface=any bootstrap runtime or tooling surface absent from inventory
+next=P02-002

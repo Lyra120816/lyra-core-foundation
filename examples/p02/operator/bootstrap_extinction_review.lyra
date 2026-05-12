@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-EXTINCTION-REVIEW-EXAMPLE v1
+phase=P02
+task=P02-002
+review_step:inventory_receipt=confirm receipts/p02/pass_0059_bootstrap_surface_inventory.receipt is bound
+review_step:entry_coverage=confirm every P02-001 surface appears as entry:<surface>
+review_step:gate_coverage=confirm every entry has gate:<deletion_gate>
+review_step:forbidden_no_import=confirm forbidden surfaces bind deny_import_and_delete_reference
+review_step:phase_status=confirm no phase closure is claimed
+status=artifact_emitted

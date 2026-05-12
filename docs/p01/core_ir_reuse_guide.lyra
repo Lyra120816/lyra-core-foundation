@@ -1,0 +1,10 @@
+LYRA-P01-CORE-IR-REUSE-GUIDE v1
+phase=P01
+task=P01-010
+purpose=prove_parser_checker_evaluator_vm_proof_product_reuse_one_core_ir
+contract=interfaces/p01/contracts/core_ir_reuse.v1.lyra
+validator=src/bin/lyra-p01-core-ir-reuse-check.rs
+valid_fixture=fixtures/p01/core_ir_reuse_inputs/valid_core_ir_reuse.lyra
+negative_fixture_family=fixtures/p01/core_ir_reuse_inputs
+receipt=receipts/p01/pass_0039_core_ir_reuse.receipt
+operator_instruction=run_validator_against_valid_and_negative_fixtures_before_claiming_reuse_artifact_emitted

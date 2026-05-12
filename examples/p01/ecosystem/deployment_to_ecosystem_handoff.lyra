@@ -1,0 +1,8 @@
+LYRA-P01-ECOSYSTEM-EXAMPLE v1
+phase=P01
+task=P01-021
+id=deployment_to_ecosystem_handoff
+command=lyra-p01-semantic-ecosystem-check
+text=Links packaging and deployment outputs into the ecosystem documentation surface.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

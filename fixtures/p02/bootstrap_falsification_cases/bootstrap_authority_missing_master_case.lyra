@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-CASE v1
+case=bootstrap_authority_missing_master_case
+target=bootstrap_trust
+validator=bootstrap_authority_ingest
+mutation=missing_master_authority_layer
+expected_error=missing_master_authority
+status=artifact_emitted
+acceptance=must_reject
+receipt_policy=rejected_receipt_required

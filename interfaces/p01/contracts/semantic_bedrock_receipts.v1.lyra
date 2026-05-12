@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-BEDROCK-RECEIPTS-CONTRACT v1
+phase=P01
+task=P01-012
+surface=LYRA-P01-SEMANTIC-BEDROCK-RECEIPTS v1
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples,products
+fixture=fixtures/p01/semantic_bedrock_receipts_inputs/valid_semantic_bedrock_receipts.lyra
+golden=goldens/p01/valid_semantic_bedrock_receipts.receipt
+receipt=receipts/p01/pass_0041_semantic_bedrock_receipts.receipt
+operator=src/bin/lyra-p01-semantic-bedrock-receipts-check.rs
+status=artifact_emitted

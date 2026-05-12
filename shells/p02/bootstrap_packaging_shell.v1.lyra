@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-SHELL v1
+phase=P02
+task=P02-019
+command:validate=lyra-p02-bootstrap-packaging-check fixtures/p02/bootstrap_packaging_inputs/valid_bootstrap_packaging.lyra
+command:package=lyra-p02-bootstrap-packaging-check ops/p02/packaging/bootstrap_packaging.v1.lyra
+command:replay=lyra-p02-bootstrap-replay-check ops/p02/replay/bootstrap_replay_witnesses.v1.lyra
+receipt=receipts/p02/pass_0077_bootstrap_packaging.receipt
+status=artifact_emitted

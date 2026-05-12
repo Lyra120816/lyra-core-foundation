@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=canonical_symbol_uppercase_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=canonical_symbols
+mutation=uppercase_symbol_identity
+mutated_symbol=Lyra.Symbol.BadUppercase
+expected_error=invalid_negative_case

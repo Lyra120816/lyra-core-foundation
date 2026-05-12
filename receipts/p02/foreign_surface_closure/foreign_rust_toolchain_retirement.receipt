@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_rust_toolchain
+closure_law=law_rust_toolchain
+deletion_gate=gate_delete_when_lyralang_selfhosted
+scope=per_surface_only
+status=receipt_emitted

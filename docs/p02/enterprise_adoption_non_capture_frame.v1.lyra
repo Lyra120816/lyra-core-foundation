@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-FRAME v1
+id=enterprise_adoption_non_capture_frame
+kind=enterprise_non_capture
+covers=enterprise_adoption,anti_capture,host_extinction_framework
+outputs=enterprise_non_capture_review_flow,negative_capture_rejection
+receipts=receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt
+rule=Claims must remain offline, non-extractive, anti-capture, and receipt-bound.
+status=artifact_emitted

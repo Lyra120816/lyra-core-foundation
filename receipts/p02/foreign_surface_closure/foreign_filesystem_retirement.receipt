@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_filesystem
+closure_law=law_filesystem
+deletion_gate=gate_keep_canonical_io_interface
+scope=per_surface_only
+status=receipt_emitted

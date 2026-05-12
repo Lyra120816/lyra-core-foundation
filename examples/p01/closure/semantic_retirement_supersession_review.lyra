@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-RETIREMENT-REVIEW v1
+frontier=P01-X05
+review_focus=confirm every P01 transitional surface has owner root, gate, supersession, receipt, and archive lane
+evidence=receipts/p01/pass_0058_semantic_retirement_supersession.receipt
+next_frontier=P02 after local validation evidence is attached

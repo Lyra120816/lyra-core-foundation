@@ -1,0 +1,7 @@
+
+LYRA-P02-BOOTSTRAP-PARALLELIZATION-REFERENCE v1
+phase=P02
+task=P02-X01
+safe_lanes=bootstrap_trust_core,evidence_and_replay,packaging_public_surface
+serialized_lanes=seed_runtime_replacement,host_extinction,extension_outputs
+forbidden=network_required,unreceipted_parallelization,dependency_skip,global_closure

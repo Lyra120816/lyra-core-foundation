@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-DOC v1
+id=offline_bootstrap_distribution_reference
+audience=steward
+covers=bootstrap_trust,seed_runtime_law,host_extinction_framework
+examples=offline_airgap_bootstrap_review,bootstrap_trust_walkthrough
+receipts=receipts/p02/pass_0077_bootstrap_packaging.receipt,receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted
+law=offline_symbolic_docs_with_executable_examples
+forbid=unreceipted_docs,remote_service_dependency,phase_closure_claim

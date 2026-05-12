@@ -1,0 +1,8 @@
+
+shell=bootstrap_closure
+phase=P02
+command=lyra-p02-bootstrap-closure-check
+input=fixtures/p02/bootstrap_closure_inputs/valid_bootstrap_closure.lyra
+prints=LYRA-P02-RECEIPT v1
+exit_zero=accepted
+exit_one=rejected

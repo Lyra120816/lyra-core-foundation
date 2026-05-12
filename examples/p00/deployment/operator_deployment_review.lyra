@@ -1,0 +1,9 @@
+LYRA-P00-OPERATOR-DEPLOYMENT-REVIEW v1
+phase=P00
+task=P00-020
+status=working_slice
+step:001=run lyra-p00-packaging-check against fixtures/p00/packaging_inputs/valid_packaging_surface.lyra
+step:002=run lyra-p00-deployment-check against fixtures/p00/deployment_inputs/valid_deployment_hooks.lyra
+step:003=compare emitted receipt with goldens/p00/valid_deployment_hooks.receipt
+step:004=confirm truth snapshot remains phase_closure=false and global_closure=false
+forbids=remote_service,network_required,global_complete

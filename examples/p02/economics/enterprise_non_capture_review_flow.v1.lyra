@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-OUTPUT v1
+id=enterprise_non_capture_review_flow
+kind=review_flow
+constituencies=enterprise,operator,steward
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-deployment-check,lyra-p02-operator-handoff-automation-check
+proofs=anti_capture_receipt_proof,ecosystem_economics_bridge_proof
+receipts=receipts/p02/pass_0069_operator_handoff_automation.receipt,receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt
+rejects=capture,compliance_bypass
+status=artifact_emitted

@@ -1,0 +1,6 @@
+LYRA-P02-SHELL bootstrap_benchmark_pack_shell.v1
+command=lyra-p02-bootstrap-benchmark-pack-check
+input=fixtures/p02/bootstrap_benchmark_pack_inputs/valid_bootstrap_benchmark_pack.lyra
+output=receipts/p02/bootstrap_benchmark_pack/valid_bootstrap_benchmark_pack.receipt
+operator_note=Run offline only; compare output to goldens/p02/valid_bootstrap_benchmark_pack.receipt.
+status=artifact_emitted

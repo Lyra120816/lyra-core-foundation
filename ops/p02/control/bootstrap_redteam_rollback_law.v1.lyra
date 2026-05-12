@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-ROLLBACK-CONTROL v1
+phase=P02
+task=P02-023
+law=redteam_scenarios_require_receipted_rollback_paths
+law=challenge_rights_are_operator_invocable
+law=remote_truth_rewrite_is_rejected_without_local_receipted_import
+law=phase_remains_open_until_p02_024_closure_gate
+validator=src/bin/lyra-p02-bootstrap-redteam-check.rs
+status=artifact_emitted

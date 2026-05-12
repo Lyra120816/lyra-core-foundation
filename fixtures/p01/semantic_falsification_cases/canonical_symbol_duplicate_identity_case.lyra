@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=canonical_symbol_duplicate_identity_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=canonical_symbols
+mutation=duplicate_symbol_identity
+symbol_a=lyra.symbol.duplicate
+symbol_b=lyra.symbol.duplicate
+expected_error=duplicate_identity

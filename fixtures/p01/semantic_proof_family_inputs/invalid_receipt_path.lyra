@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-PROOF-FAMILY-TABLE v1
+phase=P01
+task=P01-X02
+status=artifact_emitted
+receipt:receipt_semantic_atoms=family:happy_path|path:docs/p01/semantic_atoms_guide.lyra|covers:P01-001|verdict:accepted|status:execution_proven

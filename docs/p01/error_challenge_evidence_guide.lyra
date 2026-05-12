@@ -1,0 +1,10 @@
+LYRA-P01-ERROR-CHALLENGE-EVIDENCE-GUIDE v1
+phase=P01
+task=P01-007
+status=artifact_emitted
+purpose=error challenge and evidence objects are symbolic data not prose side channels
+operator_surface=src/bin/lyra-p01-error-challenge-evidence-check.rs
+valid_fixture=fixtures/p01/error_challenge_evidence_inputs/valid_error_challenge_evidence.lyra
+golden=goldens/p01/valid_error_challenge_evidence.receipt
+rule=diagnostic truth remains deterministic digest bound and locally challengeable
+next_frontier=P01-008

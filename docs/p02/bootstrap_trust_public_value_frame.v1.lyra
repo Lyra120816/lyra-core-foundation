@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-FRAME v1
+id=bootstrap_trust_public_value_frame
+kind=platform_value
+covers=bootstrap_trust,public_interest,non_extractive_access
+outputs=bootstrap_public_casebook,public_interest_receipt_pack
+receipts=receipts/p02/pass_0059_bootstrap_surface_inventory.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt
+rule=Claims must remain offline, non-extractive, anti-capture, and receipt-bound.
+status=artifact_emitted

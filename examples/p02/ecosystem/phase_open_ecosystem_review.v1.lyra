@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-EXAMPLE v1
+id=phase_open_ecosystem_review
+kind=review
+commands=lyra-p02-bootstrap-ecosystem-check,lyra-p02-bootstrap-deployment-check
+proofs=p02_phase_open,deployment_ecosystem_bridge_proof
+receipts=receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+rejects=phase_closure,global_complete
+status=blocked
+execution=checked_by_bootstrap_ecosystem_validator

@@ -1,0 +1,8 @@
+LYRA-SEMANTIC-ATOM-REFERENCE-LIBRARY v1
+phase=P01
+task=P01-011
+source=lyralang/core/src/semantic_atoms.rs
+atom_order=symbol,value,type,effect,capability,proof,receipt,resource,law
+export_contract=all_core_atoms_exported_without_semantic_rewrite
+inspection_mode=read_only
+status=artifact_emitted

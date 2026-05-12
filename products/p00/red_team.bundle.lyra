@@ -1,0 +1,7 @@
+LYRA-P00-RED-TEAM-BUNDLE v1
+phase=P00
+source_task=P00-019
+packages=p00_negative_corpus,p00_validator_suite,p00_receipt_chain
+entry_command=lyra-p00-falsification-check
+receipt=receipts/p00/pass_0019_packaging.receipt
+status=artifact_emitted

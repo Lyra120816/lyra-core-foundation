@@ -1,0 +1,11 @@
+LYRA-P00-ECOSYSTEM-EXAMPLE v1
+id=constitution_surface_walkthrough
+phase=P00
+task=P00-021
+kind=walkthrough
+surface=fixtures/p00/constitutional_inputs/valid_people_first.lyra
+command=lyra-p00-validate fixtures/p00/constitutional_inputs/valid_people_first.lyra
+command=lyra-p00-ecosystem-check fixtures/p00/ecosystem_inputs/valid_ecosystem_docs_examples.lyra
+rejects=ambient_network_allowed,probabilistic_truth_allowed
+receipt=receipts/p00/pass_0021_ecosystem.receipt
+status=execution_proven

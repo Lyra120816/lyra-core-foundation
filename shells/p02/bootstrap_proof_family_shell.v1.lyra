@@ -1,0 +1,7 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-SHELL v1
+command=lyra-p02-bootstrap-proof-family-check
+input=ops/p02/closure/p02_x02_proof_family_gate.v1.lyra
+output=receipts/p02/pass_0084_bootstrap_proof_family.receipt
+operator_sequence=read contract,run validator,compare golden,keep P02-X03 as next frontier
+network=forbidden

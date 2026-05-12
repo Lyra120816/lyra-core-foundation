@@ -1,0 +1,6 @@
+LYRA-P00-EXAMPLE v1
+example=receipt_replay_audit
+command=lyra-p00-replay-check fixtures/p00/replay_witness_inputs/valid_replay_witness.lyra
+then=lyra-p00-interface-check fixtures/p00/developer_operator_interface_inputs/valid_developer_operator_interface.lyra
+expected=receipt_chain_remains_open_until_p00_024
+status=artifact_emitted

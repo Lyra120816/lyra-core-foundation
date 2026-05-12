@@ -1,0 +1,6 @@
+LYRA-P01-CANONICAL-DATA-MODEL-CASE v1
+case=core_ir_model
+models=core_ir_term_model,core_ir_form_model
+schemas=core_ir_term_schema,core_ir_form_schema
+carrier=lyra_p01_semantic_core
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt

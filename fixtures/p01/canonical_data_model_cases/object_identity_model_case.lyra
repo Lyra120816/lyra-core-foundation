@@ -1,0 +1,5 @@
+LYRA-P01-CANONICAL-DATA-MODEL-CASE v1
+case=object_identity_model
+models=semantic_object_model,semantic_identity_model
+bridge=objects_to_identity
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt

@@ -1,0 +1,19 @@
+LYRA-P00-ENFORCEMENT-LAW v1
+phase=P00
+task=P00-004
+status=working_slice
+rule:anti_underbuild=required
+rule:anti_placeholder=required
+rule:anti_fake_closure=required
+rule:behavior_before_declaration=required
+rule:test_fixture_receipt_required=required
+rule:owner_root_path_binding=required
+rule:truthful_partiality_only=required
+rule:thin_patch_rejected=required
+rule:docs_only_rejected=required
+rule:empty_shell_rejected=required
+unit:p00_constitution_validator=owner_root:ops|path:ops/p00/src/validator.rs|responsibility:constitutional_surface_validation|behavior:validates_rejects_and_receipts_constitution_surfaces|tests:tests/p00_constitution_tests.rs|fixtures:fixtures/p00/constitutional_inputs|receipts:receipts/p00/pass_0001_constitution.receipt|status:working_slice
+unit:p00_authority_order_validator=owner_root:ops|path:ops/p00/src/authority.rs|responsibility:authority_order_validation|behavior:parses_validates_rejects_and_receipts_authority_order_surfaces|tests:tests/p00_authority_order_tests.rs|fixtures:fixtures/p00/authority_order_inputs|receipts:receipts/p00/pass_0002_authority_order.receipt|status:working_slice
+unit:p00_identity_law_validator=owner_root:ops|path:ops/p00/src/identity.rs|responsibility:phase_task_identity_validation|behavior:parses_validates_rejects_and_receipts_identity_law_surfaces|tests:tests/p00_identity_law_tests.rs|fixtures:fixtures/p00/identity_law_inputs|receipts:receipts/p00/pass_0003_identity_law.receipt|status:working_slice
+unit:p00_enforcement_law_validator=owner_root:ops|path:ops/p00/src/enforcement.rs|responsibility:placeholder_scaffold|behavior:parses_validates_rejects_and_receipts_enforcement_surfaces|tests:tests/p00_enforcement_law_tests.rs|fixtures:fixtures/p00/enforcement_law_inputs|receipts:receipts/p00/pass_0004_enforcement_law.receipt|status:working_slice
+claim:P00-004=scope:frontier|status:working_slice|evidence:tests/p00_enforcement_law_tests.rs

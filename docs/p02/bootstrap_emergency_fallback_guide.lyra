@@ -1,0 +1,10 @@
+LYRA-P02-BOOTSTRAP-EMERGENCY-FALLBACK-GUIDE v1
+phase=P02
+task=P02-008
+purpose=define deterministic emergency fallback law for incomplete bootstrap target lanes
+operator_rule=incomplete lanes enter bounded failure quarantine and may not promote truth
+rollback_rule=rollback must bind the last good P02 truth-cleanup receipt and require post-rollback replay
+closure_rule=P02 remains open until target lanes are proven or retired and local cargo validation evidence is imported
+network_required=false
+ambient_time=false
+randomness=false

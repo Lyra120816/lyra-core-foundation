@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-RECEIPT v1
+path=receipts/p02/bootstrap_packaging/command_set_complete.receipt
+phase=P02
+task=P02-019
+source=bootstrap_packaging
+status=artifact_emitted
+receipt_hash=fnv1a128:4821accd4054e1457c41e00a85793b7e

@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_android_bridge
+closure_law=law_android_bridge
+deletion_gate=gate_bound_platform_surface
+scope=per_surface_only
+status=receipt_emitted

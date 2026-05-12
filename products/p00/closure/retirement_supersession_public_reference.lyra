@@ -1,0 +1,7 @@
+LYRA-P00-RETIREMENT-SUPERSESSION-PUBLIC-REFERENCE v1
+phase=P00
+frontier=P00-X05
+status=artifact_emitted
+public_claim=P00_transitional_surfaces_are_named_owner_root_bound_and_receipted_before_future_replacement
+public_limit=global_phase_closure_is_not_claimed_without_local_validation_evidence
+receipt=receipts/p00/pass_0029_retirement_supersession.receipt

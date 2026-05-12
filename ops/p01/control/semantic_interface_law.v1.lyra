@@ -1,0 +1,16 @@
+
+LYRA-P01-SEMANTIC-INTERFACE-LAW v1
+phase=P01
+task=P01-018
+status=artifact_emitted
+law:developer_surface=required
+law:operator_surface=required
+law:command_manifest=required
+law:deterministic_receipt_emission=required
+law:negative_corpus_command=required
+law:replay_witness_command=required
+law:proof_bound_examples=required
+law:manual_only_semantic_interface=forbidden
+law:network_required_semantic_interface=forbidden
+receipt=receipts/p01/pass_0047_semantic_interface.receipt
+contract=interfaces/p01/contracts/semantic_interface.v1.lyra

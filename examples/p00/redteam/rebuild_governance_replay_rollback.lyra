@@ -1,0 +1,7 @@
+LYRA-P00-REDTEAM-EXAMPLE v1
+id=rebuild_governance_replay_rollback
+phase=P00
+task=P00-023
+status=working_slice
+command=lyra-p00-redteam-check
+receipt=receipts/p00/pass_0023_redteam.receipt

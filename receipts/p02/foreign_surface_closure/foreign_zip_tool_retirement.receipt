@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_zip_tool
+closure_law=law_zip_tool
+deletion_gate=gate_replace_with_lyra_archive_writer
+scope=per_surface_only
+status=receipt_emitted

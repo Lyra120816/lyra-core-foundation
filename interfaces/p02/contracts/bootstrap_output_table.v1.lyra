@@ -1,0 +1,19 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-CONTRACT v1
+phase=P02
+task=P02-X04
+surface=bootstrap_output_table
+required_header=LYRA-P02-BOOTSTRAP-OUTPUT-TABLE v1
+required_scalars=phase,task,status,closure_scope,global_closure,next_frontier
+required_row_families=rule,audience,artifact,receipt,contract,gap
+required_audiences=developer,operator,product,enterprise,public_interest
+required_gap=p02_x05_retirement_supersession_law
+closure_scope=extended_open
+global_closure=denied
+next_frontier=P02-X05
+parser=ops/p02/src/bootstrap_output_table.rs
+model=interfaces/p02/src/bootstrap_output_table_model.rs
+report=k0/determinism/src/bootstrap_output_table.rs
+cli=src/bin/lyra-p02-bootstrap-output-table-check.rs
+valid_fixture=fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra
+golden=goldens/p02/valid_bootstrap_output_table.receipt
+receipt=receipts/p02/pass_0086_bootstrap_output_table.receipt

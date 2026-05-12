@@ -1,0 +1,12 @@
+LYRA-P01-SYMBOLIC-EQUALITY-GUIDE v1
+phase=P01
+task=P01-006
+status=artifact_emitted
+purpose=operator inspectable reference for symbolic equality normalization equivalence classes and substitution law
+command=lyra-p01-symbolic-equality-check fixtures/p01/symbolic_equality_inputs/valid_symbolic_equality.lyra
+valid_input=fixtures/p01/symbolic_equality_inputs/valid_symbolic_equality.lyra
+golden=goldens/p01/valid_symbolic_equality.receipt
+receipt=receipts/p01/pass_0035_symbolic_equality.receipt
+what_it_proves=record key sorting alpha-equivalence normalization capture-avoiding substitution and digest-bound equality evidence are enforced before later parser/type/evaluator/proof phases consume equality
+negative_corpus=fixtures/p01/symbolic_equality_inputs/invalid_*.lyra
+next_frontier=P01-007 error challenge and evidence objects

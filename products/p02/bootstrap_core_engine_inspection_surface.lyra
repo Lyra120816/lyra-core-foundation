@@ -1,0 +1,5 @@
+LYRA-P02-BOOTSTRAP-CORE-ENGINE-INSPECTION-SURFACE v1
+phase=P02
+task=P02-015
+shows=unit_order,transition_totality,artifact_binding,proof_binding,receipt_commit
+status=artifact_emitted

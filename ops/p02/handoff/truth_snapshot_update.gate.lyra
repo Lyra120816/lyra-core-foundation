@@ -1,0 +1,7 @@
+LYRA-P02-OPERATOR-HANDOFF-GATE v1
+gate=gate_truth_snapshot_update
+gate_class=post_import
+required_before=workflow_truth_snapshot_closeout
+rejects=truth_snapshot_drift
+truth_effect=none_without_local_replay
+status=gate_requirement_emitted

@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-PACKAGING-GUIDE v1
+phase=P01
+task=P01-019
+status=artifact_emitted
+purpose=bind canonical symbols semantic atoms and core ir into an offline product package surface with deterministic artifacts receipts commands and product surfaces
+operator_command=lyra-p01-semantic-packaging-check fixtures/p01/semantic_packaging_inputs/valid_semantic_packaging.lyra
+package_manifest=fixtures/p01/semantic_packaging_inputs/valid_semantic_packaging.lyra
+golden=goldens/p01/valid_semantic_packaging.receipt
+receipt=receipts/p01/pass_0048_semantic_packaging.receipt
+distribution_manifest=products/p01/semantic_packaging_distribution_manifest.lyra

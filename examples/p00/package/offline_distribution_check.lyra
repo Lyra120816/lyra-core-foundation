@@ -1,0 +1,7 @@
+LYRA-P00-OFFLINE-DISTRIBUTION-EXAMPLE v1
+phase=P00
+source_task=P00-019
+check=no_remote_fetch
+required_artifacts=products/p00/local_truth_gate.bundle.lyra,products/p00/operator_review.bundle.lyra
+expected_receipt=receipts/p00/pass_0019_packaging.receipt
+local_only=true

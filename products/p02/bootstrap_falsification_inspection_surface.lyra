@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-INSPECTION-SURFACE v1
+phase=P02
+task=P02-016
+audience=operator,developer
+displays=case_count,harness_count,assertion_count,proof_count,receipt_binding
+purpose=show every bootstrap negative path before any foreign surface is normalized
+status=working_slice

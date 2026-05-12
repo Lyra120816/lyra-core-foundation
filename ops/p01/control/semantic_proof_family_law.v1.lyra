@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-PROOF-FAMILY-LAW v1
+phase=P01
+task=P01-X02
+surface=LYRA-P01-SEMANTIC-PROOF-FAMILY-TABLE v1
+law=phase-specific proof family table must bind happy negative adversarial and rollback receipt families before downstream closure outputs may claim evidence coverage
+required_families=happy_path,negative_path,adversarial_path,rollback_path
+required_paths=semantic_happy_primary_chain,semantic_negative_rejection_chain,semantic_adversarial_challenge_chain,semantic_rollback_replay_chain
+forbidden=network_required,docs_only,unreceipted,global_closure,phase_closure,proof_family_drift
+receipt=receipts/p01/pass_0055_semantic_proof_family.receipt
+next_frontier=P01-X03

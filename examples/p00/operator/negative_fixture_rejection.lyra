@@ -1,0 +1,5 @@
+LYRA-P00-EXAMPLE v1
+example=negative_fixture_rejection
+command=lyra-p00-falsification-check fixtures/p00/falsification_inputs/valid_falsification_corpus.lyra
+expected=negative_cases_reject_with_expected_codes
+status=artifact_emitted

@@ -1,0 +1,9 @@
+LYRA-P01-SEMANTIC-REDTEAM-PRODUCT v1
+phase=P01
+task=P01-023
+surface=LYRA-P01-SEMANTIC-REDTEAM-ROLLBACK v1
+scenario_count=6
+rollback_count=6
+proof_count=6
+receipt=receipts/p01/pass_0052_semantic_redteam.receipt
+status=artifact_emitted

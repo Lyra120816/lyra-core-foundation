@@ -1,0 +1,11 @@
+LYRA-P00-FRONTIER-LOCK v1
+phase=P00
+current_task=P00-X05
+current_work_package=P00-closure-outputs
+previous_frontier=P00-X04
+selected_frontier=phase retirement supersession law
+allowed_claim=retirement_supersession_artifact_emitted
+rejected_claim=global_complete
+owner_roots=ops,interfaces,k0,fixtures,goldens,receipts,tests,src,examples,products,docs
+truth_bound=receipts/p00/pass_0029_retirement_supersession.receipt
+next_frontier=P01

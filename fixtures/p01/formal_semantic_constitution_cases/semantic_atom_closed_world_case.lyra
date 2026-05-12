@@ -1,0 +1,5 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-CASE v1
+case=semantic_atom_closed_world
+binds=semantic_atom_closed_world_law
+expected=all_admitted_atoms_exported
+status=artifact_emitted

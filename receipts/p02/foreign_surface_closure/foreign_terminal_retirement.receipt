@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_terminal
+closure_law=law_terminal
+deletion_gate=gate_keep_operator_shell_boundary
+scope=per_surface_only
+status=receipt_emitted

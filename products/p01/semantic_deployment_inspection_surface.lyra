@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-DEPLOYMENT-INSPECTION-SURFACE v1
+phase=P01
+task=P01-020
+validator=ops/p01/src/semantic_deployment.rs
+model=interfaces/p01/src/semantic_deployment_model.rs
+kernel_report=k0/determinism/src/semantic_deployment.rs
+lyralang_registry=lyralang/core/src/semantic_deployment.rs
+operator=src/bin/lyra-p01-semantic-deployment-check.rs
+positive_fixture=fixtures/p01/semantic_deployment_inputs/valid_semantic_deployment.lyra
+golden=goldens/p01/valid_semantic_deployment.receipt
+receipt=receipts/p01/pass_0049_semantic_deployment.receipt
+status=artifact_emitted

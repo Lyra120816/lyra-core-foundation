@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-CASE v1
+case=artifact_binding
+artifacts=engine_contract,engine_law,engine_operator,valid_engine_fixture,golden_engine_receipt,execution_engine_receipt,inspection_surface,deterministic_suite_report
+owner_roots=interfaces,ops,src,fixtures,goldens,receipts,products,k0
+receipt=receipts/p01/pass_0044_semantic_core_engine.receipt

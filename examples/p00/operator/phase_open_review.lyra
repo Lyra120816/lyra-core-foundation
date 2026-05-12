@@ -1,0 +1,6 @@
+LYRA-P00-EXAMPLE v1
+example=operator_phase_open_review
+command=lyra-p00-control-check fixtures/p00/control_surface_inputs/valid_control_surfaces.lyra
+then=lyra-p00-public-interest-check fixtures/p00/public_interest_law_inputs/valid_public_interest_law.lyra
+expected=phase_open_and_global_closure_blocked
+status=artifact_emitted

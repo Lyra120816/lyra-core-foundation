@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-GUIDE v1
+phase=P02
+task=P02-013
+purpose=define executable bootstrap trust seed runtime and host extinction semantics
+operator_rule=do_not_claim_phase_closure_from_this_surface
+fixture=fixtures/p02/bootstrap_formal_semantics_inputs/valid_bootstrap_formal_semantics.lyra
+checker=lyra-p02-bootstrap-formal-semantics-check
+status=artifact_emitted

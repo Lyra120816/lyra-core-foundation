@@ -1,0 +1,8 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-GUIDE v1
+phase=P02
+task=P02-012
+purpose=prove_every_foreign_bootstrap_surface_visible_bounded_challengeable_closure_paired
+operator_rule=do_not_promote_foreign_surface_truth_without_local_challenge_receipt
+implementation_surface=ops/p02/foreign_surface_closure/foreign_surface_closure_law.v1.lyra
+validator=src/bin/lyra-p02-foreign-surface-closure-check.rs
+status=guide_emitted

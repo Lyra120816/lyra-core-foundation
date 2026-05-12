@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-FRAME v1
+id=operator_cost_rebuild_frame
+kind=operator_cost
+covers=operator_cost,seed_runtime_law,offline_access
+outputs=operator_cost_benefit_sheet,bootstrap_public_casebook
+receipts=receipts/p02/pass_0068_bootstrap_evidence_emission.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt
+rule=Claims must remain offline, non-extractive, anti-capture, and receipt-bound.
+status=artifact_emitted

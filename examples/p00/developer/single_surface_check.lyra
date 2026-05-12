@@ -1,0 +1,6 @@
+LYRA-P00-EXAMPLE v1
+example=developer_single_surface_check
+command=lyra-p00-validate fixtures/p00/constitutional_inputs/valid_people_first.lyra
+then=lyra-p00-interface-check fixtures/p00/developer_operator_interface_inputs/valid_developer_operator_interface.lyra
+expected=accepted_receipts_under_receipts_p00
+status=artifact_emitted

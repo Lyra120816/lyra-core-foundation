@@ -1,0 +1,7 @@
+LYRA-P01-BLOCKER-INDEX v1
+phase=P01
+current_frontier=P01-X05
+blocked_phase_closure=true
+blocker:local_validation_evidence=local cargo validation receipt not present in chat environment
+next_immediate_frontier=P02
+receipt=receipts/p01/pass_0058_semantic_retirement_supersession.receipt

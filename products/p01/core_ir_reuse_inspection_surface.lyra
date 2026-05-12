@@ -1,0 +1,10 @@
+LYRA-P01-CORE-IR-REUSE-PRODUCT-SURFACE v1
+phase=P01
+task=P01-010
+surface=product_surface
+owner=products
+core_ir_ref=core_ir:text_ir
+source_contract=interfaces/p01/contracts/core_ir_reuse.v1.lyra
+receipt=receipts/p01/pass_0039_core_ir_reuse.receipt
+user_visible_claim=product_inspection_reuses_p01_core_ir_without_semantic_rewrite
+status=artifact_emitted

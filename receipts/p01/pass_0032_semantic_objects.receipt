@@ -1,0 +1,12 @@
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-003
+frontier=universal semantic object model
+status=artifact_emitted
+input=fixtures/p01/semantic_object_inputs/valid_semantic_objects.lyra
+golden=goldens/p01/valid_semantic_objects.receipt
+contract=interfaces/p01/contracts/semantic_objects.v1.lyra
+operator=src/bin/lyra-p01-object-check.rs
+implementation=ops/p01/src/semantic_objects.rs,k0/determinism/src/semantic_object.rs,interfaces/p01/src/semantic_object_model.rs,lyralang/core/src/semantic_objects.rs
+receipt_hash=fnv1a128:f0d89246f6df05f29d8f4b07a0e69bf9
+next_frontier=P01-004

@@ -1,0 +1,7 @@
+LYRA-P02-OPERATOR-HANDOFF-GATE v1
+gate=gate_digest_pairing
+gate_class=pre_import
+required_before=workflow_digest_pairing
+rejects=digest_mismatch
+truth_effect=none_without_local_replay
+status=gate_requirement_emitted

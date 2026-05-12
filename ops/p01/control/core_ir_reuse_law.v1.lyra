@@ -1,0 +1,14 @@
+LYRA-P01-CORE-IR-REUSE-LAW v1
+phase=P01
+task=P01-010
+status=artifact_emitted
+surface=LYRA-P01-CORE-IR-REUSE v1
+contract=interfaces/p01/contracts/core_ir_reuse.v1.lyra
+validator=ops/p01/src/core_ir_reuse.rs
+operator=src/bin/lyra-p01-core-ir-reuse-check.rs
+receipt=receipts/p01/pass_0039_core_ir_reuse.receipt
+law:single_ir_contract=parser_checker_evaluator_vm_proof_product_must_consume_p01_core_ir
+law:no_private_ir_forks=downstream_surfaces_must_reject_private_ir_schemas
+law:identity_digest=all_reuse_edges_must_preserve_core_ir_identity_digest
+law:product_truth=product_surface_must_not_rewrite_core_ir_semantics_for_presentation
+law:offline=core_ir_reuse_proof_must_not_depend_on_network

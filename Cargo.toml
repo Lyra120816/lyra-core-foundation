@@ -1,0 +1,363 @@
+[package]
+name = "lyra_phase0"
+version = "0.0.0-p02.x05"
+edition = "2021"
+license = "Apache-2.0"
+publish = false
+
+[lib]
+name = "lyra_phase0"
+path = "src/lib.rs"
+
+[[bin]]
+name = "lyra-p00-validate"
+path = "src/bin/lyra-p00-validate.rs"
+
+[[bin]]
+name = "lyra-p00-authority-check"
+path = "src/bin/lyra-p00-authority-check.rs"
+
+[[bin]]
+name = "lyra-p00-identity-check"
+path = "src/bin/lyra-p00-identity-check.rs"
+
+[[bin]]
+name = "lyra-p00-enforcement-check"
+path = "src/bin/lyra-p00-enforcement-check.rs"
+
+[dependencies]
+
+[[bin]]
+name = "lyra-p00-delivery-check"
+path = "src/bin/lyra-p00-delivery-check.rs"
+
+[[bin]]
+name = "lyra-p00-challenge-check"
+path = "src/bin/lyra-p00-challenge-check.rs"
+
+[[bin]]
+name = "lyra-p00-control-check"
+path = "src/bin/lyra-p00-control-check.rs"
+
+[[bin]]
+name = "lyra-p00-owner-root-check"
+path = "src/bin/lyra-p00-owner-root-check.rs"
+
+[[bin]]
+name = "lyra-p00-benchmark-evidence-check"
+path = "src/bin/lyra-p00-benchmark-evidence-check.rs"
+
+[[bin]]
+name = "lyra-p00-public-interest-check"
+path = "src/bin/lyra-p00-public-interest-check.rs"
+
+[[bin]]
+name = "lyra-p00-canon-compliance-check"
+path = "src/bin/lyra-p00-canon-compliance-check.rs"
+
+[[bin]]
+name = "lyra-p00-acceptance-check"
+path = "src/bin/lyra-p00-acceptance-check.rs"
+
+[[bin]]
+name = "lyra-p00-formal-semantics-check"
+path = "src/bin/lyra-p00-formal-semantics-check.rs"
+
+[[bin]]
+name = "lyra-p00-canonical-model-check"
+path = "src/bin/lyra-p00-canonical-model-check.rs"
+
+[[bin]]
+name = "lyra-p00-engine-check"
+path = "src/bin/lyra-p00-engine-check.rs"
+
+[[bin]]
+name = "lyra-p00-falsification-check"
+path = "src/bin/lyra-p00-falsification-check.rs"
+
+[[bin]]
+name = "lyra-p00-replay-check"
+path = "src/bin/lyra-p00-replay-check.rs"
+
+[[bin]]
+name = "lyra-p00-interface-check"
+path = "src/bin/lyra-p00-interface-check.rs"
+
+[[bin]]
+name = "lyra-p00-packaging-check"
+path = "src/bin/lyra-p00-packaging-check.rs"
+
+[[bin]]
+name = "lyra-p00-deployment-check"
+path = "src/bin/lyra-p00-deployment-check.rs"
+
+[[bin]]
+name = "lyra-p00-ecosystem-check"
+path = "src/bin/lyra-p00-ecosystem-check.rs"
+
+[[bin]]
+name = "lyra-p00-economics-check"
+path = "src/bin/lyra-p00-economics-check.rs"
+
+[[bin]]
+name = "lyra-p00-redteam-check"
+path = "src/bin/lyra-p00-redteam-check.rs"
+
+[[bin]]
+name = "lyra-p00-closure-check"
+path = "src/bin/lyra-p00-closure-check.rs"
+
+[[bin]]
+name = "lyra-p00-dependency-matrix-check"
+path = "src/bin/lyra-p00-dependency-matrix-check.rs"
+
+[[bin]]
+name = "lyra-p00-proof-family-check"
+path = "src/bin/lyra-p00-proof-family-check.rs"
+
+[[bin]]
+name = "lyra-p00-benchmark-pack-check"
+path = "src/bin/lyra-p00-benchmark-pack-check.rs"
+
+[[bin]]
+name = "lyra-p00-output-table-check"
+path = "src/bin/lyra-p00-output-table-check.rs"
+
+[[bin]]
+name = "lyra-p00-retirement-check"
+path = "src/bin/lyra-p00-retirement-check.rs"
+
+[[bin]]
+name = "lyra-p01-atom-check"
+path = "src/bin/lyra-p01-atom-check.rs"
+
+[[bin]]
+name = "lyra-p01-ir-check"
+path = "src/bin/lyra-p01-ir-check.rs"
+
+[[bin]]
+name = "lyra-p01-object-check"
+path = "src/bin/lyra-p01-object-check.rs"
+
+[[bin]]
+name = "lyra-p01-identity-check"
+path = "src/bin/lyra-p01-identity-check.rs"
+
+[[bin]]
+name = "lyra-p01-reference-semantics-check"
+path = "src/bin/lyra-p01-reference-semantics-check.rs"
+
+[[bin]]
+name = "lyra-p01-symbolic-equality-check"
+path = "src/bin/lyra-p01-symbolic-equality-check.rs"
+
+[[bin]]
+name = "lyra-p01-error-challenge-evidence-check"
+path = "src/bin/lyra-p01-error-challenge-evidence-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-serialization-hashing-check"
+path = "src/bin/lyra-p01-semantic-serialization-hashing-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-adversarial-corpus-check"
+path = "src/bin/lyra-p01-semantic-adversarial-corpus-check.rs"
+
+[[bin]]
+name = "lyra-p01-core-ir-reuse-check"
+path = "src/bin/lyra-p01-core-ir-reuse-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-atom-reference-check"
+path = "src/bin/lyra-p01-semantic-atom-reference-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-bedrock-receipts-check"
+path = "src/bin/lyra-p01-semantic-bedrock-receipts-check.rs"
+
+[[bin]]
+name = "lyra-p01-formal-semantic-constitution-check"
+path = "src/bin/lyra-p01-formal-semantic-constitution-check.rs"
+
+
+[[bin]]
+name = "lyra-p01-canonical-data-model-check"
+path = "src/bin/lyra-p01-canonical-data-model-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-core-engine-check"
+path = "src/bin/lyra-p01-semantic-core-engine-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-falsification-check"
+path = "src/bin/lyra-p01-semantic-falsification-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-replay-check"
+path = "src/bin/lyra-p01-semantic-replay-check.rs"
+
+
+[[bin]]
+name = "lyra-p01-semantic-interface-check"
+path = "src/bin/lyra-p01-semantic-interface-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-packaging-check"
+path = "src/bin/lyra-p01-semantic-packaging-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-deployment-check"
+path = "src/bin/lyra-p01-semantic-deployment-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-ecosystem-check"
+path = "src/bin/lyra-p01-semantic-ecosystem-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-economics-check"
+path = "src/bin/lyra-p01-semantic-economics-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-redteam-check"
+path = "src/bin/lyra-p01-semantic-redteam-check.rs"
+
+
+[[bin]]
+name = "lyra-p01-semantic-closure-check"
+path = "src/bin/lyra-p01-semantic-closure-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-dependency-matrix-check"
+path = "src/bin/lyra-p01-semantic-dependency-matrix-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-proof-family-check"
+path = "src/bin/lyra-p01-semantic-proof-family-check.rs"
+
+
+[[bin]]
+name = "lyra-p01-semantic-benchmark-pack-check"
+path = "src/bin/lyra-p01-semantic-benchmark-pack-check.rs"
+
+[[bin]]
+name = "lyra-p01-semantic-output-table-check"
+path = "src/bin/lyra-p01-semantic-output-table-check.rs"
+[[bin]]
+name = "lyra-p01-semantic-retirement-check"
+path = "src/bin/lyra-p01-semantic-retirement-check.rs"
+
+
+[[bin]]
+name = "lyra-p02-bootstrap-inventory-check"
+path = "src/bin/lyra-p02-bootstrap-inventory-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-extinction-check"
+path = "src/bin/lyra-p02-bootstrap-extinction-check.rs"
+
+[[bin]]
+name = "lyra-p02-host-boundary-check"
+path = "src/bin/lyra-p02-host-boundary-check.rs"
+
+[[bin]]
+name = "lyra-p02-target-matrix-check"
+path = "src/bin/lyra-p02-target-matrix-check.rs"
+
+[[bin]]
+name = "lyra-p02-truth-cleanup-check"
+path = "src/bin/lyra-p02-truth-cleanup-check.rs"
+
+[[bin]]
+name = "lyra-p02-emergency-fallback-check"
+path = "src/bin/lyra-p02-emergency-fallback-check.rs"
+
+[[bin]]
+name = "lyra-p02-seed-runtime-replacement-check"
+path = "src/bin/lyra-p02-seed-runtime-replacement-check.rs"
+
+
+[[bin]]
+name = "lyra-p02-bootstrap-evidence-emission-check"
+path = "src/bin/lyra-p02-bootstrap-evidence-emission-check.rs"
+
+[[bin]]
+name = "lyra-p02-operator-handoff-automation-check"
+path = "src/bin/lyra-p02-operator-handoff-automation-check.rs"
+
+[[bin]]
+name = "lyra-p02-foreign-surface-closure-check"
+path = "src/bin/lyra-p02-foreign-surface-closure-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-formal-semantics-check"
+path = "src/bin/lyra-p02-bootstrap-formal-semantics-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-canonical-model-check"
+path = "src/bin/lyra-p02-bootstrap-canonical-model-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-core-engine-check"
+path = "src/bin/lyra-p02-bootstrap-core-engine-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-falsification-check"
+path = "src/bin/lyra-p02-bootstrap-falsification-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-replay-check"
+path = "src/bin/lyra-p02-bootstrap-replay-check.rs"
+[[bin]]
+name = "lyra-p02-bootstrap-interface-check"
+path = "src/bin/lyra-p02-bootstrap-interface-check.rs"
+
+
+[[bin]]
+name = "lyra-p02-bootstrap-packaging-check"
+path = "src/bin/lyra-p02-bootstrap-packaging-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-deployment-check"
+path = "src/bin/lyra-p02-bootstrap-deployment-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-ecosystem-check"
+path = "src/bin/lyra-p02-bootstrap-ecosystem-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-economics-check"
+path = "src/bin/lyra-p02-bootstrap-economics-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-redteam-check"
+path = "src/bin/lyra-p02-bootstrap-redteam-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-closure-check"
+path = "src/bin/lyra-p02-bootstrap-closure-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-dependency-matrix-check"
+path = "src/bin/lyra-p02-bootstrap-dependency-matrix-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-proof-family-check"
+path = "src/bin/lyra-p02-bootstrap-proof-family-check.rs"
+
+[[bin]]
+name = "lyra-p02-bootstrap-benchmark-pack-check"
+path = "src/bin/lyra-p02-bootstrap-benchmark-pack-check.rs"
+
+
+[[bin]]
+name = "lyra-p02-bootstrap-output-table-check"
+path = "src/bin/lyra-p02-bootstrap-output-table-check.rs"
+
+# Bootstrap / law surfaces deliberately use explicit tuple soups for deterministic tables;
+# clippy's type_complexity is noise here without structural refactors.
+[lints.clippy]
+type_complexity = "allow"
+
+[[bin]]
+name = "lyra-p02-bootstrap-retirement-check"
+path = "src/bin/lyra-p02-bootstrap-retirement-check.rs"

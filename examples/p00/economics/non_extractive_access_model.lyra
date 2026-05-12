@@ -1,0 +1,9 @@
+LYRA-P00-NON-EXTRACTIVE-ACCESS-EXAMPLE v1
+phase=P00
+task=P00-022
+surface=non_extractive_access_model
+constituencies=public,operator,community
+access_property=offline_first,receipt_bound,rebuildable
+negative_fixture=fixtures/p00/economics_inputs/invalid_extractive_default.lyra
+command=lyra-p00-economics-check fixtures/p00/economics_inputs/valid_economics_public_interest.lyra
+receipt=receipts/p00/pass_0022_economics.receipt

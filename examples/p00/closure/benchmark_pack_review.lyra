@@ -1,0 +1,12 @@
+
+LYRA-P00-EXAMPLE v1
+id=benchmark_pack_review
+phase=P00
+task=P00-X03
+status=artifact_emitted
+input=fixtures/p00/benchmark_pack_inputs/valid_benchmark_pack.lyra
+command=lyra-p00-benchmark-pack-check
+expected_verdict=ACCEPTED
+required_families=throughput,latency,correctness,stability
+required_receipt=receipts/p00/pass_0027_benchmark_pack.receipt
+next_frontier=P00-X04

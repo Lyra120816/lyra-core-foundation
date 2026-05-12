@@ -1,0 +1,6 @@
+LYRA-P02-DOC v1
+phase=P02
+task=P02-023
+guide=challenge_rights_are_explicit_operator_invocable
+operator_action=reject_any_surface_missing_rights
+status=artifact_emitted

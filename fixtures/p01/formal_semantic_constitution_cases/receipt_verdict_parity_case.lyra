@@ -1,0 +1,5 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-CASE v1
+case=receipt_verdict_parity
+binds=receipt_verdict_parity_law
+expected=receipt_contract_law_fixture_golden_parity
+status=artifact_emitted

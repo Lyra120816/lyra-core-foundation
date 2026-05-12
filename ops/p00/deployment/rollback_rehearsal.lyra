@@ -1,0 +1,8 @@
+LYRA-P00-ROLLBACK-REHEARSAL v1
+phase=P00
+task=P00-020
+status=working_slice
+rehearsal=rollback_readiness_gate
+requires=rollback_receipt,blocker_index,truth_snapshot,replay_witness
+truth_bound=receipts/p00/pass_0020_deployment.receipt
+forbids=phase_closure,global_complete

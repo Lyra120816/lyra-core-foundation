@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-CASE v1
+case=receipt_commit_hash_mismatch_case
+target=receipt_commit
+validator=bootstrap_receipt_validator
+mutation=receipt_hash_mismatch_in_commit_chain
+expected_error=receipt_hash_mismatch
+status=artifact_emitted
+acceptance=must_reject
+receipt_policy=rejected_receipt_required

@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-EXAMPLE v1
+id=host_extinction_review
+kind=review
+commands=lyra-p02-bootstrap-ecosystem-check,lyra-p02-bootstrap-extinction-check,lyra-p02-foreign-surface-closure-check
+proofs=bootstrap_docs_coverage_proof,deployment_ecosystem_bridge_proof
+receipts=receipts/p02/pass_0060_bootstrap_extinction_ledger.receipt,receipts/p02/pass_0070_foreign_surface_closure.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+rejects=foreign_surface_untracked,silent_host_dependency
+status=artifact_emitted
+execution=checked_by_bootstrap_ecosystem_validator

@@ -1,0 +1,9 @@
+
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-GUIDE v1
+task=P02-020
+purpose=deployment_and_enterprise_hooks_for_bootstrap_trust_seed_runtime_host_extinction
+operator_entry=src/bin/lyra-p02-bootstrap-deployment-check.rs
+primary_surface=ops/p02/deployment/bootstrap_deployment.v1.lyra
+required_result=artifact_emitted_not_phase_closed
+truth_gate=offline_receipted_replayable_target_enterprise_and_rollback_binding
+status=artifact_emitted

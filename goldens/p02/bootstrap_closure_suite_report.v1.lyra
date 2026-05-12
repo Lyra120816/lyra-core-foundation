@@ -1,0 +1,9 @@
+report=bootstrap_closure_suite
+phase=P02
+task=P02-024
+task_count=24
+output_gate_count=5
+proof_count=6
+bounded_task_count=24
+open_output_count=5
+gate_hash=fnv1a128:4d7603e9eb384c7ce34c01c063027911

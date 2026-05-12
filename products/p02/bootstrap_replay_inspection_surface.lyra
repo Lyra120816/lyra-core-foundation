@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-REPLAY-INSPECTION-SURFACE v1
+phase=P02
+task=P02-017
+shows=receipt_count,witness_count,link_count,proof_count,artifact_count,suite_hash
+source=receipts/p02/bootstrap_replay/bootstrap_replay_suite.report
+status=artifact_emitted

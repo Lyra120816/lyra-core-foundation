@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-CASE v1
+case=receipt_commit
+golden=goldens/p01/valid_semantic_core_engine.receipt
+receipt=receipts/p01/pass_0044_semantic_core_engine.receipt
+verdict=ACCEPTED

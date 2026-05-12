@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=core_ir_encoding_drift_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=core_ir
+mutation=text_binary_parity_break
+text_ir_digest=fnv1a128:11111111111111111111111111111111
+binary_ir_digest=fnv1a128:22222222222222222222222222222222
+expected_error=canonical_model_drift_accepted

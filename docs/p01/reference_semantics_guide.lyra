@@ -1,0 +1,9 @@
+LYRA-P01-REFERENCE-SEMANTICS-GUIDE v1
+phase=P01
+task=P01-005
+purpose=inspect executable literal composition and symbolic evaluation seed semantics
+command=lyra-p01-reference-semantics-check fixtures/p01/reference_semantics_inputs/valid_reference_semantics.lyra
+expected=accepted receipt-bound reference semantics suite
+golden=goldens/p01/valid_reference_semantics.receipt
+receipt=receipts/p01/pass_0034_reference_semantics.receipt
+next=P01-006 symbolic equality equivalence normalization and substitution law

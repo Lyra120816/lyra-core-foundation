@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-MANIFEST v1
+phase=P02
+task=P02-023
+contract=interfaces/p02/contracts/bootstrap_redteam.v1.lyra
+surface=fixtures/p02/bootstrap_redteam_inputs/valid_bootstrap_redteam.lyra
+validator=src/bin/lyra-p02-bootstrap-redteam-check.rs
+rollbacks=ops/p02/redteam/bootstrap_redteam_docket.v1.lyra
+public_interest_bridge=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

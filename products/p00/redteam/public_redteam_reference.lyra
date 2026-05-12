@@ -1,0 +1,10 @@
+LYRA-P00-PUBLIC-REDTEAM-REFERENCE v1
+phase=P00
+task=P00-023
+status=working_slice
+audience=public,operator,developer,steward
+right:challenge=any receipted challenge can force review before rollback authority is accepted
+right:visibility=red-team scenarios name their target, command, receipt, and rejection code
+right:rebuild=failed governance surfaces return to receipt-bound replay rather than private override
+command=lyra-p00-redteam-check
+receipt=receipts/p00/pass_0023_redteam.receipt

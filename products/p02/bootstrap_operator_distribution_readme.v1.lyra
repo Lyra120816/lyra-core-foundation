@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-OPERATOR-DISTRIBUTION-README v1
+phase=P02
+task=P02-019
+entrypoint=lyra-p02-bootstrap-packaging-check fixtures/p02/bootstrap_packaging_inputs/valid_bootstrap_packaging.lyra
+operator_flow=validate_manifest,verify_receipts,run_replay,hold_phase_open
+network=forbidden
+ambient_time=forbidden
+status=artifact_emitted

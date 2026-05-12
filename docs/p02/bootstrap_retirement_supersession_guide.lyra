@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-RETIREMENT-GUIDE v1
+phase=P02
+task=P02-X05
+purpose=explain how bootstrap and host-boundary transitional surfaces remain bounded, retained, or superseded before P03 opens
+operator_rule=review receipts/p02/pass_0087_bootstrap_retirement_supersession.receipt and ops/p02/control/truth_snapshot.v1.lyra together
+status=artifact_emitted

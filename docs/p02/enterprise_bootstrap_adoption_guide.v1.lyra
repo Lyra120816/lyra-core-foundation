@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-DOC v1
+id=enterprise_bootstrap_adoption_guide
+audience=enterprise
+covers=bootstrap_trust,host_extinction_framework
+examples=enterprise_deployment_to_ecosystem_handoff,phase_open_ecosystem_review
+receipts=receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted
+law=offline_symbolic_docs_with_executable_examples
+forbid=unreceipted_docs,remote_service_dependency,phase_closure_claim

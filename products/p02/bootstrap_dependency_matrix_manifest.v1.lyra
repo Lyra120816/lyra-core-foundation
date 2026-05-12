@@ -1,0 +1,14 @@
+
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-MANIFEST v1
+phase=P02
+task=P02-X01
+status=artifact_emitted
+nodes=29
+blockers=8
+parallel_lanes=6
+proofs=6
+contract=interfaces/p02/contracts/bootstrap_dependency_matrix.v1.lyra
+fixture=fixtures/p02/bootstrap_dependency_matrix_inputs/valid_bootstrap_dependency_matrix.lyra
+receipt=receipts/p02/pass_0083_bootstrap_dependency_matrix.receipt
+next_frontier=P02-X02
+global_closure=false

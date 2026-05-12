@@ -1,0 +1,5 @@
+LYRA-P02-FOREIGN-SURFACE-CHALLENGE-RECEIPT v1
+surface=foreign_rust_toolchain
+challenge_suite=suite_boundary_nonambient
+truth_effect=challenge_receipt_only_no_truth_promotion
+status=receipt_emitted

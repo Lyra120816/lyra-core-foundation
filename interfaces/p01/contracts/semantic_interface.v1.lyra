@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-INTERFACE-CONTRACT v1
+phase=P01
+task=P01-018
+surface=LYRA-P01-SEMANTIC-INTERFACE v1
+model=interfaces/p01/src/semantic_interface_model.rs
+validator=ops/p01/src/semantic_interface.rs
+operator=src/bin/lyra-p01-semantic-interface-check.rs
+fixture=fixtures/p01/semantic_interface_inputs/valid_semantic_interface.lyra
+golden=goldens/p01/valid_semantic_interface.receipt
+receipt=receipts/p01/pass_0047_semantic_interface.receipt
+owner_roots=k0,lyralang,interfaces,ops,src,fixtures,goldens,receipts,tests,docs,examples,products
+status=artifact_emitted

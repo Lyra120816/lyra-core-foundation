@@ -1,0 +1,5 @@
+
+reference=bootstrap_bounded_global_closure
+bounded_primary_closure=all admitted P02 primary tasks P02-001 through P02-024 are receipted and gate-checked
+global_closure=denied until P02-X01 through P02-X05 are artifact-emitted and receipted
+operator_rule=never convert a bounded primary gate into total phase completion

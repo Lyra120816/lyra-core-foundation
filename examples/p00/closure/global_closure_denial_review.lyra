@@ -1,0 +1,8 @@
+LYRA-P00-CLOSURE-EXAMPLE v1
+phase=P00
+task=P00-024
+case=global_closure_denial_review
+input=fixtures/p00/closure_inputs/invalid_global_closure_claim.lyra
+command=lyra-p00-closure-check
+expected=rejected_unsupported_global_closure
+receipt=receipts/p00/pass_0024_closure_gate.receipt

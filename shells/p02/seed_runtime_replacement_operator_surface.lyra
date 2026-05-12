@@ -1,0 +1,10 @@
+LYRA-P02-SEED-RUNTIME-REPLACEMENT-OPERATOR-SURFACE v1
+phase=P02
+task=P02-009
+status=artifact_emitted
+command=lyra-p02-seed-runtime-replacement-check ops/p02/seed_runtime/seed_runtime_replacement_milestones.v1.lyra
+input=ops/p02/seed_runtime/seed_runtime_replacement_milestones.v1.lyra
+expected_receipt=receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt
+operator_authority=non_authoritative_external_capture_only
+truth_promotion=blocked_until_local_replay
+closure_claim=phase_open

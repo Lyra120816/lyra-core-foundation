@@ -1,0 +1,11 @@
+LYRA-P01-CANONICAL-DATA-MODEL-LAW v1
+phase=P01
+task=P01-014
+surface=LYRA-P01-CANONICAL-DATA-MODEL v1
+law=canonical data and schema definitions for canonical symbols semantic atoms and core IR must be explicit ordered receipt-bound and single-carrier
+required_contract=interfaces/p01/contracts/canonical_data_model.v1.lyra
+required_fixture=fixtures/p01/canonical_data_model_inputs/valid_canonical_data_model.lyra
+required_golden=goldens/p01/valid_canonical_data_model.receipt
+required_receipt=receipts/p01/pass_0043_canonical_data_model.receipt
+forbidden=ambient_defaults,network_required,probabilistic_field,hidden_randomness,placeholder_model,phase_closed
+status=artifact_emitted

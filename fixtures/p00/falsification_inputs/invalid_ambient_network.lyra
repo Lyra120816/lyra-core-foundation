@@ -1,0 +1,7 @@
+LYRA-P00-NEGATIVE-FIXTURE v1
+case=ambient_network_case
+target_validator=constitution
+expected_code=ambient_network_allowed
+category=safety
+expected_verdict=rejected
+receipt_bound=receipts/p00/pass_0016_falsification_harness.receipt

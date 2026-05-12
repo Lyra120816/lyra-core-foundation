@@ -1,0 +1,9 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-GUIDE v1
+phase=P01
+task=P01-013
+purpose=define executable formal semantic law for canonical symbols semantic atoms core IR semantic objects symbolic equality and receipt truth
+operator=src/bin/lyra-p01-formal-semantic-constitution-check.rs
+valid_fixture=fixtures/p01/formal_semantic_constitution_inputs/valid_formal_semantic_constitution.lyra
+negative_fixture_family=fixtures/p01/formal_semantic_constitution_inputs
+receipt=receipts/p01/pass_0042_formal_semantic_constitution.receipt
+status=artifact_emitted

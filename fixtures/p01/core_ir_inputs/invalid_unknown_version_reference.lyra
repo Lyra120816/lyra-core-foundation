@@ -1,0 +1,27 @@
+LYRA-P01-CORE-IR v1
+phase=P01
+task=P01-002
+status=artifact_emitted
+rule:text_ir_header_byte_stable=text ir begins with exactly one canonical header
+rule:binary_ir_magic_byte_stable=binary ir begins with fixed LYRAIR01 magic bytes
+rule:binary_ir_length_prefix_big_endian=binary ir fields use two byte big endian lengths
+rule:text_binary_round_trip_identity=text to binary to text and binary to text to binary are identity preserving
+rule:canonical_surface_sorting_stable=surface canonicalization sorts non header rows deterministically
+rule:version_edges_explicit=every admitted version transition is an explicit upgrade edge
+rule:unknown_required_fields_rejected=unknown required fields are rejected until declared by law
+rule:forward_compatibility_profile_bound=forward compatibility profile is bounded by reserved field rejection
+rule:backward_compatibility_profile_bound=backward compatibility profile rejects unknown required fields
+rule:no_network_dependency=core ir validation runs offline
+rule:no_probabilistic_ir_truth=core ir truth is symbolic deterministic and byte stable
+rule:no_placeholder_ir=every core ir row is concrete and executable
+rule:no_global_closure_claim=P01 remains open after this bounded core ir slice
+form:text_ir=medium:text|owner:lyralang|version:ir_v1|header:LYRA_CORE_IR_TEXT_V1|extension:lyrair|encoding:utf8_canonical_lines|canonicalization:sorted_key_value_lines|status:admitted
+form:binary_ir=medium:binary|owner:k0|version:ir_v9|header:LYRAIR01|extension:lyrairb|encoding:length_prefixed_big_endian|canonicalization:canonical_binary_frame|status:admitted
+version:ir_v1=major:1|minor:0|stability:frozen|upgrade_policy:explicit_version_edge|status:admitted
+upgrade:v1_identity=from:ir_v1|to:ir_v1|law:identity_no_rewrite|compatibility:forward_backward_equal|status:artifact_emitted
+upgrade:v1_forward_reserved=from:ir_v1|to:ir_v1|law:reserved_fields_rejected_until_declared|compatibility:forward_reject_unknown_required|status:artifact_emitted
+upgrade:v1_backward_reject_unknown_required=from:ir_v1|to:ir_v1|law:unknown_required_field_rejected|compatibility:backward_reject_unknown_required|status:artifact_emitted
+parity:text_minimal_symbol=text:text_ir|binary:binary_ir|fixture:fixtures/p01/core_ir_inputs/text_minimal_symbol.lyrair|atom:symbol|round_trip:text_to_binary_to_text|status:artifact_emitted
+parity:binary_minimal_symbol=text:text_ir|binary:binary_ir|fixture:fixtures/p01/core_ir_inputs/binary_minimal_symbol.lyrairb.hex|atom:symbol|round_trip:binary_to_text_to_binary|status:artifact_emitted
+parity:roundtrip_symbol_value=text:text_ir|binary:binary_ir|fixture:fixtures/p01/core_ir_inputs/roundtrip_symbol_value.lyrair|atom:value|round_trip:byte_equal_after_roundtrip|status:artifact_emitted
+receipt:receipt_core_ir=path:receipts/p01/pass_0031_core_ir.receipt|target:core_ir_forms|status:artifact_emitted

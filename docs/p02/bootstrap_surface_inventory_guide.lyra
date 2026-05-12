@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-SURFACE-INVENTORY-GUIDE v1
+phase=P02
+task=P02-001
+status=artifact_emitted
+purpose=make every foreign bootstrap runtime tooling and observer surface visible before seed-runtime law is allowed to advance
+operator_rule=review interfaces/p02/contracts/bootstrap_surface_inventory.v1.lyra and fixtures/p02/bootstrap_inventory_inputs/valid_bootstrap_surface_inventory.lyra before accepting any P02 bootstrap claim
+acceptance_rule=all temporary observer bounded_permanent and forbidden classifications must be present and receipt-bound
+blocked_claim=P02_closed
+next_frontier=P02-002 deletion law retirement gates and extinction ledger format

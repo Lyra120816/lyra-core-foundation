@@ -1,0 +1,7 @@
+LYRA-P01-OPERATOR-REVIEW v1
+phase=P01
+task=P01-008
+surface=fixtures/p01/semantic_serialization_hashing_inputs/valid_semantic_serialization_hashing.lyra
+check=lyra-p01-semantic-serialization-hashing-check
+expected=ACCEPTED
+registry_hash=semantic_core_serialization_registry_hash

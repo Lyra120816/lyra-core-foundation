@@ -1,0 +1,12 @@
+LYRA-P00-REDTEAM-ROLLBACK-LAW v1
+phase=P00
+task=P00-023
+status=working_slice
+purpose=bind red-team review to deterministic receipts and rollback authority
+law:adversarial_review=every constitutional surface must admit deterministic attack scenarios
+law:rollback_receipts=every rollback path binds receipts, commands, authority, and challenge review
+law:local_truth=local canonical truth remains primary unless explicit import law proves a merge
+law:people_first=rollback may not erase challenge rights, labor participation, public benefit, or anti-capture duties
+law:rebuild_governance=rebuild state must replay from receipts before any frontier claim advances
+command=lyra-p00-redteam-check
+receipt=receipts/p00/pass_0023_redteam.receipt

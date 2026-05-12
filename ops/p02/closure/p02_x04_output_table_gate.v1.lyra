@@ -1,0 +1,10 @@
+LYRA-P02-X04-OUTPUT-TABLE-GATE v1
+phase=P02
+task=P02-X04
+status=artifact_emitted
+primary_closure=P02-001..P02-024 bounded_closed_by_prior_gate
+extended_closure=denied
+open_frontier=P02-X05
+remaining_blocker=p02_x05_retirement_supersession_law
+output_table_surface=fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra
+output_table_receipt=receipts/p02/pass_0086_bootstrap_output_table.receipt

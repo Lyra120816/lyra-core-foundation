@@ -1,0 +1,12 @@
+LYRA-P02-BOOTSTRAP-EMERGENCY-FALLBACK-OPERATOR-SURFACE v1
+phase=P02
+task=P02-008
+command=lyra-p02-emergency-fallback-check
+input=ops/p02/emergency_fallback/bootstrap_emergency_fallback_law.v1.lyra
+expected_receipt=receipts/p02/pass_0066_bootstrap_emergency_fallback.receipt
+operator_authority=non_authoritative_handoff
+truth_capture=forbidden
+network_required=false
+ambient_time=false
+randomness=false
+closure_claim=phase_open

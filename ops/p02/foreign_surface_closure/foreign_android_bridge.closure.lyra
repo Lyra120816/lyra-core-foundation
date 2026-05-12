@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_android_bridge
+surface_class=platform_bridge
+owner_root=products
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_closure_scope
+closure_law=law_android_bridge
+retirement_gate=gate_bound_platform_surface
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

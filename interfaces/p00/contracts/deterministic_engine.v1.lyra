@@ -1,0 +1,19 @@
+LYRA-P00-DETERMINISTIC-ENGINE-CONTRACT v1
+phase=P00
+task=P00-015
+status=working_slice
+field:phase=required|kind:scalar|order:001
+field:task=required|kind:scalar|order:002
+field:status=required|kind:scalar|order:003
+field:rule=required|kind:map|order:004
+field:engine=required|kind:object|order:005
+field:transition=required|kind:object|order:006
+field:proof=required|kind:object|order:007
+requires:engine_units=canonicalizer_core,hash_core,receipt_core,verdict_core,surface_parser_core,validator_core,control_surface_core,evidence_receipt_core
+requires:transitions=canonicalize_to_hash,hash_to_receipt,parse_to_validate,validate_to_verdict,verdict_to_receipt,control_to_receipt
+requires:proofs=engine_local_execution,deterministic_replay_witness,unsafe_dependency_block,p00_phase_open
+forbids:ambient_time=forbidden
+forbids:hidden_randomness=forbidden
+forbids:ambient_network=forbidden
+forbids:probabilistic_truth=forbidden
+closure=local_only

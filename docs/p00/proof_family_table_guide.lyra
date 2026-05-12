@@ -1,0 +1,11 @@
+LYRA-P00-PROOF-FAMILY-GUIDE v1
+phase=P00
+frontier=P00-X02
+purpose=bind happy negative adversarial and rollback proof families into one deterministic closure table
+operator_rule=do not claim P00 global closure from this table
+receipt_binding=receipts/p00/pass_0026_proof_family_table.receipt
+happy_path=accepted execution receipts across P00 primary tasks and P00-X01
+negative_path=rejection corpus and falsification receipts bound to acceptance and closure checks
+adversarial_path=challenge redteam and falsification receipts bound to hostile-case review
+rollback_path=challenge replay redteam closure-gate and dependency-matrix receipts bound to rollback review
+next_frontier=P00-X04

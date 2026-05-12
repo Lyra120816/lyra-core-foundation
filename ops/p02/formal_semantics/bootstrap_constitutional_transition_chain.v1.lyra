@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-CONSTITUTIONAL-TRANSITION-CHAIN v1
+phase=P02
+chain=foreign_inventory_visible->bootstrap_trust_floor->seed_runtime_replacement->host_extinction_candidate->external_proof_capture->foreign_surface_closure->p02_phase_open_next_frontier
+truth_law=receipt_bound_only
+closure=false
+status=artifact_emitted

@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_host_os
+surface_class=host_os
+owner_root=ops
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_visibility_totality
+closure_law=law_host_os
+retirement_gate=gate_keep_bounded_interface
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-SHELL v1
+task=P02-021
+command=lyra-p02-bootstrap-ecosystem-check fixtures/p02/bootstrap_ecosystem_inputs/valid_bootstrap_ecosystem.lyra
+rejects=fixtures/p02/bootstrap_ecosystem_inputs/invalid_network_required.lyra,fixtures/p02/bootstrap_ecosystem_inputs/invalid_ecosystem_drift.lyra,fixtures/p02/bootstrap_ecosystem_inputs/invalid_phase_closure_claim.lyra
+receipt=receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted

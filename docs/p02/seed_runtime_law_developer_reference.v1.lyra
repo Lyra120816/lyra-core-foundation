@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-DOC v1
+id=seed_runtime_law_developer_reference
+audience=developer
+covers=seed_runtime_law,bootstrap_trust
+examples=seed_runtime_replacement_flow,negative_bootstrap_doc_drift_rejection
+receipts=receipts/p02/pass_0061_seed_runtime_contracts.receipt,receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted
+law=offline_symbolic_docs_with_executable_examples
+forbid=unreceipted_docs,remote_service_dependency,phase_closure_claim

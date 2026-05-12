@@ -1,0 +1,10 @@
+LYRA-P00-PASS-TEMPLATE v1
+required:selected_frontier=selected frontier
+required:files_changed=files changed
+required:tests_fixtures_goldens=tests fixtures goldens added
+required:commands_run=commands run
+required:concrete_result=concrete result
+required:next_frontier=exact blocker or next immediate frontier
+forbidden:global_complete=forbid unsupported global closure
+forbidden:placeholder=forbid placeholder scaffolding
+forbidden:no_artifact=forbid artifact-free pass claims

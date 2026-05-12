@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-PROOF-RECEIPT v1
+id=economics_coverage_proof
+scope=economics
+frames=bootstrap_trust_public_value_frame,seed_runtime_sovereignty_value_frame,host_extinction_anti_capture_frame,offline_distribution_access_frame
+outputs=bootstrap_public_casebook,operator_cost_benefit_sheet,non_extractive_bootstrap_access_model
+commands=lyra-p02-bootstrap-economics-check
+forbids=missing_bootstrap_trust_value,missing_seed_runtime_value,capture,phase_closure
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

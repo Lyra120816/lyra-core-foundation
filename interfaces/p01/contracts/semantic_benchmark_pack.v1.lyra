@@ -1,0 +1,17 @@
+LYRA-P01-SEMANTIC-BENCHMARK-PACK-CONTRACT v1
+phase=P01
+task=P01-X03
+surface=LYRA-P01-SEMANTIC-BENCHMARK-PACK v1
+receipt=receipts/p01/pass_0056_semantic_benchmark_pack.receipt
+operator=src/bin/lyra-p01-semantic-benchmark-pack-check.rs
+model=interfaces/p01/src/semantic_benchmark_pack_model.rs
+validator=ops/p01/src/semantic_benchmark_pack.rs
+k0_report=k0/determinism/src/semantic_benchmark_pack.rs
+closure_surface=ops/p01/closure/semantic_benchmark_pack.lyra
+required_families=throughput,latency,correctness,stability
+target_family:throughput=throughput_semantic_surface_validation,throughput_semantic_receipt_generation
+target_family:latency=latency_semantic_canonicalization_budget,latency_semantic_validation_budget
+target_family:correctness=correctness_semantic_valid_surface_acceptance,correctness_semantic_negative_corpus_rejection
+target_family:stability=stability_semantic_replay_equivalence,stability_semantic_hash_ordering
+next_frontier=P01-X04
+phase_closure=false

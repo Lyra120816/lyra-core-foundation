@@ -1,0 +1,9 @@
+LYRA-P00-CLOSURE-GATE-INDEX v1
+phase=P00
+task=P00-024
+valid_surface=fixtures/p00/closure_inputs/valid_closure_gate.lyra
+negative_corpus=fixtures/p00/closure_inputs
+contract=interfaces/p00/contracts/closure_gate.v1.lyra
+command=lyra-p00-closure-check
+receipt=receipts/p00/pass_0024_closure_gate.receipt
+next_frontier=P00-X01

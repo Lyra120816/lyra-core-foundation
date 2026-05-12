@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-SCENARIO v1
+phase=P02
+task=P02-023
+id=closure_premature_claim_attack
+kind=closure_premature
+targets=phase_open,rollback,bootstrap_trust
+rollback_paths=phase_open_reassertion_rollback,seed_runtime_last_good_restore
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-redteam-check
+receipts=receipts/p02/pass_0080_bootstrap_economics.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+rejects=phase_closure,global_complete
+status=blocked

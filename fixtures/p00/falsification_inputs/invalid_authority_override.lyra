@@ -1,0 +1,7 @@
+LYRA-P00-NEGATIVE-FIXTURE v1
+case=authority_override_case
+target_validator=authority_order
+expected_code=operator_override_constitution
+category=authority
+expected_verdict=rejected
+receipt_bound=receipts/p00/pass_0016_falsification_harness.receipt

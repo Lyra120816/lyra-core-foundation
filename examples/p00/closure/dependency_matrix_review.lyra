@@ -1,0 +1,10 @@
+LYRA-P00-EXAMPLE v1
+id=dependency_matrix_review
+phase=P00
+frontier=P00-X01
+input=ops/p00/closure/dependency_matrix.lyra
+command=lyra-p00-dependency-matrix-check ops/p00/closure/dependency_matrix.lyra
+expected_verdict=ACCEPTED
+expected_receipt=receipts/p00/pass_0025_dependency_matrix.receipt
+review_focus=confirm P00-X02 P00-X03 P00-X04 P00-X05 and P00-GLOBAL remain blocked
+status=artifact_emitted

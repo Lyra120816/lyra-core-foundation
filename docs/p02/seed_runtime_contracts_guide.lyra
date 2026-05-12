@@ -1,0 +1,5 @@
+LYRA-P02-SEED-RUNTIME-CONTRACTS-GUIDE v1
+phase=P02
+task=P02-003
+summary=Seed-runtime contracts define native bring-up obligations for linux, windows, android, macos, wasm, and baremetal.
+status=artifact_emitted

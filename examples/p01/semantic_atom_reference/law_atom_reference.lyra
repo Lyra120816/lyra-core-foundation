@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-ATOM-REFERENCE-EXAMPLE v1
+phase=P01
+task=P01-011
+atom=law
+canonical=lyra.law
+identity=bound_to_lyralang_semantic_atoms
+inspection=read_only_reference_view
+status=artifact_emitted

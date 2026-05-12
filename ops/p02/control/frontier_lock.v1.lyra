@@ -1,0 +1,12 @@
+LYRA-P02-FRONTIER-LOCK v1
+phase=P02
+current_task=P02-X05
+current_work_package=P02-D
+previous_frontier=P02-X04
+selected_frontier=phase retirement supersession law for bootstrap trust seed runtime law host extinction framework
+allowed_claim=bootstrap_retirement_supersession_artifact_emitted
+rejected_claim=global_phase_complete_without_local_validation
+owner_roots=ops,shells,k0,lyralang,interfaces,fixtures,goldens,receipts,tests,src,docs,products,examples
+truth_bound=receipts/p02/pass_0087_bootstrap_retirement_supersession.receipt
+next_frontier=P03
+current_law=ops/p02/closure/p02_x05_retirement_supersession_gate.v1.lyra

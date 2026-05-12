@@ -1,0 +1,12 @@
+LYRA-P01-SEMANTIC-PACKAGING-CONTRACT v1
+phase=P01
+task=P01-019
+surface=LYRA-P01-SEMANTIC-PACKAGING v1
+model=interfaces/p01/src/semantic_packaging_model.rs
+validator=ops/p01/src/semantic_packaging.rs
+operator=src/bin/lyra-p01-semantic-packaging-check.rs
+fixture=fixtures/p01/semantic_packaging_inputs/valid_semantic_packaging.lyra
+golden=goldens/p01/valid_semantic_packaging.receipt
+receipt=receipts/p01/pass_0048_semantic_packaging.receipt
+law=ops/p01/control/semantic_packaging_law.v1.lyra
+status=artifact_emitted

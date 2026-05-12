@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-PROOF-RECEIPT v1
+phase=P02
+task=P02-023
+proof=rollback_receipt_binding_proof
+scope=rollback
+scenarios=seed_runtime_drift_attack,deployment_receipt_replay_attack,closure_premature_claim_attack
+rollbacks=host_dependency_quarantine_rollback,remote_import_rejection_rollback,seed_runtime_last_good_restore,extinction_ledger_reseal,deployment_packet_replay_rollback,economics_capture_reversal,phase_open_reassertion_rollback
+receipts=receipts/p02/pass_0075_bootstrap_replay.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-bootstrap-replay-check,lyra-p02-bootstrap-redteam-check
+forbids=unreceipted_rollback,phase_closure,global_complete
+status=artifact_emitted

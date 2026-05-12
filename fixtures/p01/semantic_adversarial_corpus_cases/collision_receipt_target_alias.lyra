@@ -1,0 +1,8 @@
+LYRA-P01-ADVERSARIAL-CASE v1
+phase=P01
+task=P01-009
+case_id=collision_receipt_target_alias
+target_family=error_challenge_evidence
+expected_verdict=REJECTED
+expected_error=canonical_model_unbound
+status=artifact_emitted

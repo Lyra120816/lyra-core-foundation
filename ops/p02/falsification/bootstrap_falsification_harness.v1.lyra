@@ -1,0 +1,17 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-HARNESS v1
+phase=P02
+task=P02-016
+owner_root=ops
+selected_frontier=negative corpus and falsification harness for bootstrap trust seed runtime law host extinction framework
+case_count=10
+harness_count=6
+assertion_count=10
+proof_count=5
+valid_fixture=fixtures/p02/bootstrap_falsification_inputs/valid_bootstrap_falsification.lyra
+golden_receipt=goldens/p02/valid_bootstrap_falsification.receipt
+execution_receipt=receipts/p02/pass_0074_bootstrap_falsification.receipt
+forbid_accept_negative=true
+forbid_network_required=true
+forbid_probabilistic_acceptance=true
+forbid_ambient_time_acceptance=true
+status=artifact_emitted

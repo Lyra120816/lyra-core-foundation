@@ -1,0 +1,8 @@
+LYRA-P00-CLOSURE-EXAMPLE v1
+phase=P00
+task=P00-024
+case=bounded_primary_closure_review
+input=fixtures/p00/closure_inputs/valid_closure_gate.lyra
+command=lyra-p00-closure-check
+expected=accepted_bounded_primary_tasks_global_blocked
+receipt=receipts/p00/pass_0024_closure_gate.receipt

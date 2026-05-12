@@ -1,0 +1,4 @@
+LYRA-P01-EVIDENCE-PAYLOAD v1
+id=evidence_type_trace
+payload=type_trace
+digest=fnv1a128:69ae7f8bc16cf05361c511a55d4d5656

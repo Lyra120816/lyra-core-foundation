@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-REDTEAM-PRODUCT v1
+phase=P01
+task=P01-023
+rollback=core_ir_upgrade_rollback
+authority=package_release_law
+receipt=receipts/p01/pass_0052_semantic_redteam.receipt
+status=artifact_emitted

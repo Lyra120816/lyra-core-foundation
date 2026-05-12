@@ -1,0 +1,12 @@
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-001
+frontier=canonical semantic atom bedrock
+status=artifact_emitted
+input=fixtures/p01/semantic_atom_inputs/valid_semantic_atoms.lyra
+golden=goldens/p01/valid_semantic_atoms.receipt
+contract=interfaces/p01/contracts/semantic_atoms.v1.lyra
+operator=src/bin/lyra-p01-atom-check.rs
+implementation=ops/p01/src/semantic_atoms.rs,k0/determinism/src/semantic_atom.rs,interfaces/p01/src/semantic_atom_model.rs,lyralang/core/src/semantic_atoms.rs
+receipt_hash=fnv1a128:dc5d0eb56933cd627c98451123ec462c
+next_frontier=P01-002

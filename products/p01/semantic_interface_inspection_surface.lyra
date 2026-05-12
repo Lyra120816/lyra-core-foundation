@@ -1,0 +1,14 @@
+
+LYRA-P01-SEMANTIC-INTERFACE-INSPECTION-SURFACE v1
+phase=P01
+task=P01-018
+status=artifact_emitted
+primary_operator=src/bin/lyra-p01-semantic-interface-check.rs
+primary_fixture=fixtures/p01/semantic_interface_inputs/valid_semantic_interface.lyra
+primary_golden=goldens/p01/valid_semantic_interface.receipt
+inspection:commands=18
+inspection:workflows=5
+inspection:examples=6
+inspection:proofs=5
+inspection:artifacts=8
+closure=false

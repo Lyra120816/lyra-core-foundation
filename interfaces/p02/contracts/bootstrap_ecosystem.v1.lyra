@@ -1,0 +1,12 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-CONTRACT v1
+task=P02-021
+surface=LYRA-P02-BOOTSTRAP-ECOSYSTEM-DOCS-EXAMPLES v1
+model=interfaces/p02/src/bootstrap_ecosystem_model.rs
+law=ops/p02/src/bootstrap_ecosystem.rs
+k0=k0/determinism/src/bootstrap_ecosystem.rs
+lyralang=lyralang/core/src/bootstrap_ecosystem.rs
+operator=src/bin/lyra-p02-bootstrap-ecosystem-check.rs
+fixture=fixtures/p02/bootstrap_ecosystem_inputs/valid_bootstrap_ecosystem.lyra
+golden=goldens/p02/valid_bootstrap_ecosystem.receipt
+receipt=receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted

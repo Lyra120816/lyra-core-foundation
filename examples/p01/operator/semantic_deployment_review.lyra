@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-DEPLOYMENT-OPERATOR-REVIEW v1
+phase=P01
+task=P01-020
+command=lyra-p01-semantic-deployment-check fixtures/p01/semantic_deployment_inputs/valid_semantic_deployment.lyra
+expect=LYRA-P01-RECEIPT v1
+inspect=products/p01/semantic_deployment_inspection_surface.lyra
+manifest=products/p01/semantic_deployment_manifest.lyra
+network=forbidden
+phase_closure=forbidden
+status=artifact_emitted

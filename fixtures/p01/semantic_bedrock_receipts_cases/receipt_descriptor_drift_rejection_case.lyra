@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-BEDROCK-CASE v1
+case=receipt_descriptor_drift_rejection_case
+input=fixtures/p01/semantic_bedrock_receipts_inputs/invalid_receipt_descriptor_drift.lyra
+expected=receipt_hash_mismatch
+status=artifact_emitted

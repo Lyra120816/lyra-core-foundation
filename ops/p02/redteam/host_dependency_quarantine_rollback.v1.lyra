@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-ROLLBACK-PATH v1
+phase=P02
+task=P02-023
+id=host_dependency_quarantine_rollback
+kind=quarantine
+triggers=ambient_host_dependency,hidden_host_helper
+restores=host_extinction_framework,bootstrap_trust
+receipts=receipts/p02/pass_0063_host_boundary_challenge_suites.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-host-boundary-check,lyra-p02-bootstrap-redteam-check
+challenge_rights=operator_challenge,deterministic_replay_challenge
+status=artifact_emitted

@@ -1,0 +1,12 @@
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-005
+frontier=executable reference semantics
+status=artifact_emitted
+input=fixtures/p01/reference_semantics_inputs/valid_reference_semantics.lyra
+golden=goldens/p01/valid_reference_semantics.receipt
+contract=interfaces/p01/contracts/reference_semantics.v1.lyra
+operator=src/bin/lyra-p01-reference-semantics-check.rs
+implementation=ops/p01/src/reference_semantics.rs,k0/determinism/src/reference_semantics.rs,interfaces/p01/src/reference_semantics_model.rs,lyralang/core/src/reference_semantics.rs
+receipt_hash=fnv1a128:9f63cf548b6e2a919c3349883d8c9977
+next_frontier=P01-006

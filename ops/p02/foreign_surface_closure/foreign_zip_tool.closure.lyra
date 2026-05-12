@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_zip_tool
+surface_class=archive_tool
+owner_root=ops
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_deletion_gate
+closure_law=law_zip_tool
+retirement_gate=gate_replace_with_lyra_archive_writer
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

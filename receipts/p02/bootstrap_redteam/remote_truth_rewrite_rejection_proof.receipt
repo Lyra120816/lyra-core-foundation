@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-PROOF-RECEIPT v1
+phase=P02
+task=P02-023
+proof=remote_truth_rewrite_rejection_proof
+scope=remote_truth
+scenarios=remote_truth_rewrite_attack,deployment_receipt_replay_attack
+rollbacks=remote_import_rejection_rollback,deployment_packet_replay_rollback
+receipts=receipts/p02/pass_0075_bootstrap_replay.receipt,receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-bootstrap-replay-check,lyra-p02-bootstrap-deployment-check,lyra-p02-bootstrap-redteam-check
+forbids=remote_truth_rewrite,remote_consensus_override,phase_closure
+status=artifact_emitted

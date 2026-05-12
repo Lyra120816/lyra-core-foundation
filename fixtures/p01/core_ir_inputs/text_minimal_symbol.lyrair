@@ -1,0 +1,5 @@
+LYRA-CORE-IR-TEXT v1
+atom=symbol
+kind=symbol
+payload=lyra.symbol
+version=1.0

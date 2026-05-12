@@ -1,0 +1,38 @@
+LYRA-P01-SYMBOLIC-EQUALITY v1
+phase=P01
+task=P01-006
+status=artifact_emitted
+rule:equivalence_classes_have_canonical_representative=required
+rule:normalization_is_recursive_and_byte_stable=required
+rule:substitution_is_capture_avoiding=required
+rule:alpha_equivalence_is_canonicalized=required
+rule:record_keys_sort_ascii=required
+rule:equality_witnesses_are_hash_bound=required
+rule:substitution_cases_are_normalized_after_rewrite=required
+rule:capture_risk_rejects_not_renames_silently=required
+rule:receipts_bind_symbolic_equality_suite=required
+rule:no_network_dependency=required
+rule:no_probabilistic_equality_truth=required
+rule:no_placeholder_equality=required
+rule:no_global_closure_claim=required
+equality_rule=id:reflexive|domain:term|relation:equal(term,term)|law:normal_form_identity|status:artifact_emitted
+equality_rule=id:symmetric|domain:term|relation:equal(a,b)->equal(b,a)|law:normal_form_equality_symmetric|status:artifact_emitted
+equality_rule=id:transitive|domain:term|relation:equal(a,b)&equal(b,c)->equal(a,c)|law:normal_form_equality_transitive|status:artifact_emitted
+equality_rule=id:alpha_equivalent|domain:binder|relation:bind_name_irrelevant|law:binder_scope_canonicalized|status:artifact_emitted
+equality_rule=id:structural|domain:composition|relation:equal_children_imply_equal_parent|law:canonical_child_order|status:artifact_emitted
+equivalence_class=id:unit_singleton|members:unit|canonical:unit|normalizer:literal_identity|status:artifact_emitted
+equivalence_class=id:bool_true_singleton|members:bool.true|canonical:bool.true|normalizer:literal_identity|status:artifact_emitted
+equivalence_class=id:record_order_class|members:record(b=integer.1,a=integer.0),record(a=integer.0,b=integer.1)|canonical:record(a=integer.0,b=integer.1)|normalizer:record_key_sort|status:artifact_emitted
+equivalence_class=id:list_child_normal_class|members:list(record(b=integer.1,a=integer.0)),list(record(a=integer.0,b=integer.1))|canonical:list(record(a=integer.0,b=integer.1))|normalizer:recursive_child_normalization|status:artifact_emitted
+equivalence_class=id:alpha_bind_class|members:bind(x=unit in symbol.x),bind(y=unit in symbol.y)|canonical:bind($0=unit in symbol.$0)|normalizer:alpha_binder_canonicalization|status:artifact_emitted
+normalization=id:literal_unit_normal|input:unit|output:unit|law:literal_identity|digest:fnv1a128:530084169c104955ecb0f890d1d61fcf|status:artifact_emitted
+normalization=id:record_key_sort_normal|input:record(b=integer.1,a=integer.0)|output:record(a=integer.0,b=integer.1)|law:record_key_sort|digest:fnv1a128:d0d037fff66a3108c7c0f06399a7337f|status:artifact_emitted
+normalization=id:nested_record_normal|input:list(record(b=integer.1,a=integer.0))|output:list(record(a=integer.0,b=integer.1))|law:recursive_child_normalization|digest:fnv1a128:b04a189a55788e4e6182d5b2c5bdb2eb|status:artifact_emitted
+normalization=id:apply_child_normal|input:apply(symbol.f,record(b=integer.1,a=integer.0))|output:apply(symbol.f,record(a=integer.0,b=integer.1))|law:normalize_before_symbolic_apply|digest:fnv1a128:2ae3fbf519690f44e40d4a6fc4fd0bef|status:artifact_emitted
+normalization=id:bind_alpha_normal|input:bind(x=unit in symbol.x)|output:bind($0=unit in symbol.$0)|law:alpha_binder_canonicalization|digest:fnv1a128:b7952f04fc4496e3a5105ea49fd31c35|status:artifact_emitted
+substitution=id:substitute_symbol|target:x|replacement:integer.1|scope:symbol.x|expected:integer.1|law:free_symbol_replacement|digest:fnv1a128:71ad816c4f18e579020438b31825ed32|status:artifact_emitted
+substitution=id:substitute_pair|target:x|replacement:unit|scope:pair(symbol.x,bool.true)|expected:pair(unit,bool.true)|law:structural_substitution|digest:fnv1a128:f1b6e67e34d37ae6f6c231d10703373b|status:artifact_emitted
+substitution=id:substitute_record|target:x|replacement:integer.0|scope:record(b=symbol.x,a=unit)|expected:record(a=unit,b=integer.0)|law:substitute_then_normalize|digest:fnv1a128:1821a77996a5a3c38ed644da9a7ef4b1|status:artifact_emitted
+substitution=id:binder_shadow_guard|target:x|replacement:integer.1|scope:bind(x=unit in symbol.x)|expected:bind($0=unit in symbol.$0)|law:binder_shadow_blocks_substitution|digest:fnv1a128:8443dd1878348545c870aef1aa28463b|status:artifact_emitted
+substitution=id:capture_rejection|target:x|replacement:symbol.y|scope:bind(y=unit in symbol.x)|expected:reject_capture_risk|law:capture_avoidance_required|digest:fnv1a128:9cdb7f8e767d6b4ec634f2a4c70ae8e6|status:artifact_emitted
+receipt=id:receipt_symbolic_equality|path:receipts/p01/pass_0035_symbolic_equality.receipt|target:P01-006|status:artifact_emitted

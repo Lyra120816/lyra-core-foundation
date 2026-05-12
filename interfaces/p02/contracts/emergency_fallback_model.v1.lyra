@@ -1,0 +1,2 @@
+LYRA-P02-MODEL emergency_fallback_model v1
+fields=fallback_freeze_gate,fallback_recovery_state

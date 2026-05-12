@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-CASE v1
+case=host_extinction_unledgered_surface_case
+target=host_extinction
+validator=host_boundary_challenge_validator
+mutation=foreign_surface_missing_extinction_entry
+expected_error=corpus_drift_accepted
+status=artifact_emitted
+acceptance=must_reject
+receipt_policy=rejected_receipt_required

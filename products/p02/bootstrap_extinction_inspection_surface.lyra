@@ -1,0 +1,10 @@
+LYRA-P02-BOOTSTRAP-EXTINCTION-INSPECTION-SURFACE v1
+phase=P02
+task=P02-002
+surface=foreign_surface_extinction_ledger
+entry_count=17
+gate_count=17
+receipt_count=4
+visible_to=operator,developer,enterprise_auditor,public_interest_auditor
+truth_claim=artifact_emitted_not_phase_closed
+status=artifact_emitted

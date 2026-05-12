@@ -1,0 +1,12 @@
+LYRA-P02-SEED-RUNTIME-REPLACEMENT-INSPECTION-SURFACE v1
+phase=P02
+task=P02-009
+status=artifact_emitted
+milestone_count=12
+handoff_count=12
+target_class_count=6
+required_receipt_count=4
+native_successor_rule=one_successor_per_declared_target
+fallback_binding_rule=one_fallback_ref_per_milestone
+truth_effect=none_without_local_replay
+closure_claim=phase_open

@@ -1,0 +1,16 @@
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-LAW v1
+phase=P02
+task=P02-X01
+status=artifact_emitted
+global_closure=false
+next_frontier=P02-X02
+rule:dependency_matrix_must_bind_all_primary_tasks=enforced
+rule:blocker_matrix_must_keep_x_outputs_ordered=enforced
+rule:parallel_lanes_must_preserve_receipt_dependencies=enforced
+rule:p02_x01_must_not_close_global_phase=enforced
+rule:matrix_entries_must_name_owner_roots=enforced
+rule:x_outputs_must_remain_serial_until_proven=enforced
+rule:no_network_required_for_matrix=enforced
+rule:no_unreceipted_parallelization=enforced
+rule:no_docs_only_matrix=enforced
+rule:next_frontier_must_be_p02_x02=enforced

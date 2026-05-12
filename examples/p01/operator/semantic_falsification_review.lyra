@@ -1,0 +1,7 @@
+LYRA-P01-OPERATOR-REVIEW v1
+phase=P01
+task=P01-016
+surface=fixtures/p01/semantic_falsification_inputs/valid_semantic_falsification.lyra
+command=lyra-p01-semantic-falsification-check fixtures/p01/semantic_falsification_inputs/valid_semantic_falsification.lyra
+expected_receipt=receipts/p01/pass_0045_semantic_falsification.receipt
+operator_check=confirm negative corpus cases remain rejected and descriptor-bound before advancing to P01-017

@@ -1,0 +1,10 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-SUITE-REPORT v1
+phase=P02
+task=P02-022
+frame_count=7
+output_count=7
+proof_count=6
+suite_hash=fnv1a128:f90ed79f69ad9d3a388773624289773a
+validator=src/bin/lyra-p02-bootstrap-economics-check.rs
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

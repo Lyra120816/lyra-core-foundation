@@ -1,0 +1,12 @@
+LYRA-P01-FRONTIER-LOCK v1
+phase=P01
+current_task=P01-X05
+current_work_package=P01-A
+previous_frontier=P01-X04
+selected_frontier=phase specific retirement and supersession law for bounded transitional surfaces touched by canonical symbols semantic atoms and core IR
+allowed_claim=semantic_retirement_supersession_artifact_emitted
+rejected_claim=phase_complete
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples,products
+truth_bound=receipts/p01/pass_0058_semantic_retirement_supersession.receipt
+next_frontier=P02
+current_law=ops/p01/control/semantic_retirement_supersession_law.v1.lyra

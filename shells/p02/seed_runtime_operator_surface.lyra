@@ -1,0 +1,5 @@
+LYRA-P02-SEED-RUNTIME-OPERATOR-SURFACE v1
+phase=P02
+task=P02-003
+command=lyra-p02-seed-runtime-check ops/p02/seed_runtime/seed_runtime_contracts.v1.lyra
+status=artifact_emitted

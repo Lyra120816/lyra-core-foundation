@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_terminal
+surface_class=operator_tool
+owner_root=shells
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_visibility_totality
+closure_law=law_terminal
+retirement_gate=gate_keep_operator_shell_boundary
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

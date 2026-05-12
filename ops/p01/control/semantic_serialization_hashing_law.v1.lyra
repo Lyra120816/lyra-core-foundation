@@ -1,0 +1,26 @@
+LYRA-P01-SEMANTIC-SERIALIZATION-HASHING-LAW v1
+phase=P01
+task=P01-008
+status=artifact_emitted
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples
+law:semantic_core_objects_have_single_canonical_text_form=required
+law:every_semantic_core_object_has_hash_domain=required
+law:object_refs_are_family_scoped=required
+law:payload_hashes_use_labeled_fnv1a128=required
+law:record_hashes_bind_payload_hash_and_comparison_key=required
+law:round_trip_identity_is_explicit=required
+law:record_order_is_ascii_sorted=required
+law:all_hash_inputs_are_local=required
+law:registry_hash_binds_all_object_rows=required
+law:receipts_bind_serialization_hashing_suite=required
+law:no_network_dependency=required
+law:no_probabilistic_hashing_truth=required
+law:no_hidden_randomness=required
+law:no_placeholder_serialization=required
+law:no_global_closure_claim=required
+contract=interfaces/p01/contracts/semantic_serialization_hashing.v1.lyra
+validator=lyra-p01-semantic-serialization-hashing-check
+fixture=fixtures/p01/semantic_serialization_hashing_inputs/valid_semantic_serialization_hashing.lyra
+golden=goldens/p01/valid_semantic_serialization_hashing.receipt
+receipt=receipts/p01/pass_0037_semantic_serialization_hashing.receipt
+next_frontier=P01-009

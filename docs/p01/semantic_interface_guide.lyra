@@ -1,0 +1,13 @@
+
+LYRA-P01-SEMANTIC-INTERFACE-GUIDE v1
+phase=P01
+task=P01-018
+status=artifact_emitted
+purpose=bind developer and operator commands for canonical symbols semantic atoms and core IR to deterministic receipts
+surface=LYRA-P01-SEMANTIC-INTERFACE v1
+operator=src/bin/lyra-p01-semantic-interface-check.rs
+valid_fixture=fixtures/p01/semantic_interface_inputs/valid_semantic_interface.lyra
+negative_fixtures=fixtures/p01/semantic_interface_inputs
+required_outputs=command_manifest,workflow_bindings,example_receipts,proof_bindings,artifact_bindings
+forbidden_outputs=manual_only_interface,network_required_interface,unreceipted_operator_action,phase_closure_claim
+receipt=receipts/p01/pass_0047_semantic_interface.receipt

@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-PROOF-RECEIPT v1
+id=anti_capture_receipt_proof
+scope=anti_capture
+frames=host_extinction_anti_capture_frame,enterprise_adoption_non_capture_frame
+outputs=enterprise_non_capture_review_flow,negative_capture_rejection
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-falsification-check,lyra-p02-foreign-surface-closure-check
+forbids=capture,extractive_default,global_complete
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

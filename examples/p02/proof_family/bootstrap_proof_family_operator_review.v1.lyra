@@ -1,0 +1,8 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-OPERATOR-REVIEW v1
+review=P02-X02 proof-family operator check
+step_001=run lyra-p02-bootstrap-proof-family-check against ops/p02/closure/p02_x02_proof_family_gate.v1.lyra
+step_002=confirm accepted receipt matches goldens/p02/valid_bootstrap_proof_family.receipt
+step_003=run invalid corpus and confirm every malformed surface rejects
+step_004=advance only to P02-X03 benchmark pack
+forbid=skip_to_output_table,global_closure,network_required

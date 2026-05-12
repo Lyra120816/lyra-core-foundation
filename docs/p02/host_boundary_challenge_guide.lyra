@@ -1,0 +1,12 @@
+LYRA-P02-HOST-BOUNDARY-CHALLENGE-GUIDE v1
+phase=P02
+task=P02-005
+summary=Host-boundary challenge suites prove that each foreign bootstrap surface is rejected when it attempts to become ambient architecture.
+operator_command=lyra-p02-host-boundary-check ops/p02/host_boundary/host_boundary_challenge_suites.v1.lyra
+positive_fixture=fixtures/p02/host_boundary_challenge_inputs/valid_host_boundary_challenge_suites.lyra
+negative_fixture_dir=fixtures/p02/host_boundary_challenge_inputs
+receipt=receipts/p02/pass_0063_host_boundary_challenge_suites.receipt
+rule=Every inventory surface needs an explicit probe.
+rule=Every probe names the injected claim, expected error, containment gate, evidence, and rejection status.
+rule=No operator, host, compiler, runtime, shell, transport, file, or packaging surface may silently become Lyra-owned truth.
+status=artifact_emitted

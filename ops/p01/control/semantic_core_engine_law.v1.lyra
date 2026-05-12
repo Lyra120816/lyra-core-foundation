@@ -1,0 +1,22 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-LAW v1
+phase=P01
+task=P01-015
+status=artifact_emitted
+surface=LYRA-P01-SEMANTIC-CORE-ENGINE v1
+engine_carrier=lyra_p01_semantic_core_engine
+law:canonical_symbol_engine_total=required
+law:semantic_atom_engine_closed=required
+law:core_ir_engine_single_carrier=required
+law:engine_units_ordered=required
+law:transitions_total_and_bound=required
+law:outputs_bind_canonical_models=required
+law:artifacts_bind_owner_roots=required
+law:proofs_bind_fixture_golden_receipt=required
+law:receipt_commit_is_deterministic=required
+law:replay_witness_is_receipt_bound=required
+ban:no_network_engine_source=forbidden
+ban:no_probabilistic_engine=forbidden
+ban:no_hidden_randomness=forbidden
+ban:no_phase_closure_claim=forbidden
+receipt=receipts/p01/pass_0044_semantic_core_engine.receipt
+operator=src/bin/lyra-p01-semantic-core-engine-check.rs

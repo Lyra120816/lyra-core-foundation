@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-CLOSURE-GUIDE v1
+phase=P01
+task=P01-024
+surface=fixtures/p01/semantic_closure_inputs/valid_semantic_closure.lyra
+operator=src/bin/lyra-p01-semantic-closure-check.rs
+receipt=receipts/p01/pass_0053_semantic_closure.receipt
+summary=Bounded P01 primary-task closure is admitted only for the canonical symbol, semantic atom, and core IR task chain; global closure remains blocked until P01-X01 through P01-X05 are emitted and receipted.

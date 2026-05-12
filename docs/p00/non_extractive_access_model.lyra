@@ -1,0 +1,9 @@
+LYRA-P00-NON-EXTRACTIVE-ACCESS-MODEL v1
+phase=P00
+task=P00-022
+status=working_slice
+access:offline_first=core use remains local, deterministic, and sovereign
+access:public_review=public-interest outputs are inspectable without hidden service dependence
+access:operator_exit=operators retain rebuild path, receipts, fixtures, and rollback trail
+bound_output=non_extractive_access_model
+receipt=receipts/p00/pass_0022_economics.receipt

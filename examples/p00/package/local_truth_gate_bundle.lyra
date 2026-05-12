@@ -1,0 +1,6 @@
+LYRA-P00-PACKAGE-EXAMPLE v1
+phase=P00
+source_task=P00-019
+command=lyra-p00-packaging-check fixtures/p00/packaging_inputs/valid_packaging_surface.lyra
+expected_receipt=receipts/p00/pass_0019_packaging.receipt
+local_only=true

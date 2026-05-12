@@ -1,0 +1,8 @@
+LYRA-P01-DOC v1
+id=offline_semantic_distribution_reference
+title=offline semantic distribution reference
+phase=P01
+task=P01-021
+text=Connects packaging and deployment receipts to airgapped semantic ecosystem review.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

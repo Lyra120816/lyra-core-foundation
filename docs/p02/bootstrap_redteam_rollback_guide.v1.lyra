@@ -1,0 +1,6 @@
+LYRA-P02-DOC v1
+phase=P02
+task=P02-023
+guide=redteam_scenarios_map_to_receipted_rollbacks
+operator_action=run_validator_before_claiming_p02_redteam_progress
+status=artifact_emitted

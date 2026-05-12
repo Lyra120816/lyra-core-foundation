@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-ECONOMICS-DOC v1
+phase=P01
+task=P01-022
+status=artifact_emitted
+subject=public_semantic_access
+anchors=canonical_symbols,semantic_atoms,non_extractive_access
+fixture=fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+validator=ops/p01/src/semantic_economics.rs
+receipt=receipts/p01/pass_0051_semantic_economics.receipt
+claim=Access defaults remain offline-first and non-extractive.
+proof=The access model is bound to interface and economics receipts.

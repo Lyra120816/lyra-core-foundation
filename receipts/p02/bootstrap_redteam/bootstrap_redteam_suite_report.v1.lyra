@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-SUITE-REPORT v1
+phase=P02
+task=P02-023
+scenario_count=7
+rollback_count=7
+proof_count=6
+suite_hash=fnv1a128:9f65e4c5197a777e1bc4affc7737685b
+status=artifact_emitted

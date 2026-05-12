@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-INSPECTION-SURFACE v1
+phase=P02
+task=P02-013
+shows=domains,laws,transitions,invariants,proofs,receipts
+claim=bootstrap_formal_semantics_artifact_emitted
+closure=false
+status=artifact_emitted

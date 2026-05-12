@@ -1,0 +1,12 @@
+LYRA-P00-REDTEAM-ROLLBACK-INDEX v1
+phase=P00
+task=P00-023
+status=working_slice
+contract=interfaces/p00/contracts/redteam_rollback.v1.lyra
+valid_fixture=fixtures/p00/redteam_inputs/valid_redteam_rollback.lyra
+golden=goldens/p00/valid_redteam_rollback.receipt
+receipt=receipts/p00/pass_0023_redteam.receipt
+binary=lyra-p00-redteam-check
+scenario_count=5
+rollback_count=5
+proof_count=5

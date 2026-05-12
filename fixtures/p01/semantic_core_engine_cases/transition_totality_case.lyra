@@ -1,0 +1,6 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-CASE v1
+case=transition_totality
+transition_count=8
+carry=single_carrier_state
+carrier=lyra_p01_semantic_core_engine
+receipt=receipts/p01/pass_0044_semantic_core_engine.receipt

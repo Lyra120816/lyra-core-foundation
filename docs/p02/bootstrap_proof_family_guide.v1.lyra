@@ -1,0 +1,9 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-GUIDE v1
+phase=P02
+task=P02-X02
+purpose=bind prior P02 bootstrap evidence into deterministic proof families before benchmark pack work
+families=happy_path,negative_path,adversarial_path,rollback_path,dependency_path
+operator_rule=do not claim P02 global closure from this table
+receipt_binding=receipts/p02/pass_0084_bootstrap_proof_family.receipt
+next_frontier=P02-X03

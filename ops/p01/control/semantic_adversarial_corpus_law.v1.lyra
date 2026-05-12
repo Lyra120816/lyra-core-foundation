@@ -1,0 +1,13 @@
+LYRA-P01-SEMANTIC-ADVERSARIAL-CORPUS-LAW v1
+phase=P01
+task=P01-009
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples
+law:collision_attempts_are_negative=required
+law:ambiguity_cases_resolve_or_reject_deterministically=required
+law:malformed_objects_are_rejected=required
+law:fixtures_bind_expected_error_codes=required
+law:harnesses_cover_all_case_families=required
+law:receipts_bind_adversarial_corpus_suite=required
+validator=lyra-p01-semantic-adversarial-corpus-check
+receipt=receipts/p01/pass_0038_semantic_adversarial_corpus.receipt
+status=artifact_emitted

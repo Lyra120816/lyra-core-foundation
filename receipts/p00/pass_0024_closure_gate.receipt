@@ -1,0 +1,7 @@
+LYRA-P00-RECEIPT v1
+input_hash=fnv1a128:084d061d9b772f5144e46cfe1eb69637
+canonical_hash=fnv1a128:08c67ac94eea55dcb5d451c689a17c9d
+verdict_hash=fnv1a128:1265c279d8398074e5410a181c9ec134
+verdict=ACCEPTED
+error_count=0
+receipt_hash=fnv1a128:1acaac42157ae75e2b499b3d82cbfabb

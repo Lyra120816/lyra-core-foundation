@@ -1,0 +1,14 @@
+LYRA-P01-SYMBOLIC-EQUALITY-LAW v1
+phase=P01
+task=P01-006
+status=artifact_emitted
+law:equality_basis=terms are equal only when canonical normal forms are byte-identical
+law:equivalence_class=every admitted class declares a canonical representative and normalizer
+law:normalization=normalization recursively canonicalizes child terms and record key order
+law:alpha_equivalence=binder names are canonicalized into binder indices before comparison
+law:substitution=substitution is structural capture-avoiding and normalized after rewrite
+law:capture_risk=capture risk rejects instead of silently renaming or accepting ambiguity
+law:receipt_binding=normalization and substitution cases carry deterministic fnv1a128 digests
+law:no_global_closure=P01 remains open after P01-006
+receipt=receipts/p01/pass_0035_symbolic_equality.receipt
+next_frontier=P01-007

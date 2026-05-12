@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-CANONICAL-MODEL-SUBRECEIPT v1
+phase=P02
+task=P02-014
+binds=host_extinction_model
+source=fixtures/p02/bootstrap_canonical_model_inputs/valid_bootstrap_canonical_model.lyra
+status=artifact_emitted

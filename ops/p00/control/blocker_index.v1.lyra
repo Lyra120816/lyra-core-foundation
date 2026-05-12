@@ -1,0 +1,6 @@
+LYRA-P00-BLOCKER-INDEX v1
+phase=P00
+current_frontier=P00-X05
+blocked_global_closure=true
+blocker:local_validation_evidence=local cargo validation receipt not present in chat environment
+next_immediate_frontier=P01

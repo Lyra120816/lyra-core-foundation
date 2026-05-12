@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-DOC v1
+id=bootstrap_trust_operator_guide
+audience=operator
+covers=bootstrap_trust,seed_runtime_law
+examples=bootstrap_trust_walkthrough,phase_open_ecosystem_review
+receipts=receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+status=artifact_emitted
+law=offline_symbolic_docs_with_executable_examples
+forbid=unreceipted_docs,remote_service_dependency,phase_closure_claim

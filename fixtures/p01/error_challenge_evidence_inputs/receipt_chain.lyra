@@ -1,0 +1,4 @@
+LYRA-P01-EVIDENCE-PAYLOAD v1
+id=evidence_receipt_chain
+payload=receipt_chain
+digest=fnv1a128:9691602f160155be8466b376a744bbea

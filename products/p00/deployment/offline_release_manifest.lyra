@@ -1,0 +1,9 @@
+LYRA-P00-OFFLINE-RELEASE-MANIFEST v1
+phase=P00
+task=P00-020
+status=artifact_emitted
+bundle=p00_local_truth_gate_bundle
+commands=lyra-p00-packaging-check,lyra-p00-deployment-check,lyra-p00-replay-check
+artifacts=fixtures/p00/deployment_inputs/valid_deployment_hooks.lyra,interfaces/p00/contracts/deployment_hooks.v1.lyra,goldens/p00/valid_deployment_hooks.receipt,receipts/p00/pass_0020_deployment.receipt
+forbids=network_required,remote_service,remote_fetch,global_complete
+truth_bound=ops/p00/control/truth_snapshot.v1.lyra

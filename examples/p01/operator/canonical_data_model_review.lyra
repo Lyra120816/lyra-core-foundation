@@ -1,0 +1,7 @@
+LYRA-P01-OPERATOR-CANONICAL-DATA-MODEL-REVIEW v1
+phase=P01
+task=P01-014
+run=lyra-p01-canonical-data-model-check fixtures/p01/canonical_data_model_inputs/valid_canonical_data_model.lyra
+expect=LYRA-P01-RECEIPT v1 accepted receipt bound to canonical data model surface
+reject_examples=invalid_missing_model,invalid_schema_descriptor_drift,invalid_forked_carrier_claim,invalid_probabilistic_field
+status=artifact_emitted

@@ -1,0 +1,6 @@
+LYRA-P01-CANONICAL-DATA-MODEL-CASE v1
+case=semantic_atom_model
+model=semantic_atom_model
+schema=semantic_atom_schema
+fields=atom_family,atom_name,atom_capability
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt

@@ -1,0 +1,8 @@
+LYRA-P01-ADVERSARIAL-CASE v1
+phase=P01
+task=P01-009
+case_id=ambiguity_text_ir_header_case_drift
+target_family=core_ir
+expected_verdict=REJECTED
+expected_error=invalid_header
+status=artifact_emitted

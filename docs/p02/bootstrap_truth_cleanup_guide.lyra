@@ -1,0 +1,8 @@
+
+LYRA-P02-BOOTSTRAP-TRUTH-CLEANUP-GUIDE v1
+phase=P02
+task=P02-007
+purpose=define deterministic cleanup and frontier-advance law after each bootstrap target is proven or retired
+operator_rule=run lyra-p02-truth-cleanup-check against the cleanup surface and compare emitted receipt to the golden receipt
+cleanup_limit=this pass declares cleanup rules; it does not claim any target has executed locally and it does not close P02
+next_frontier=P02-008 emergency fallback bounded failure and rollback law

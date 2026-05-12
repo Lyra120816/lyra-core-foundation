@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-REPLAY-DOMAIN-RECEIPT v1
+phase=P02
+task=P02-017
+scope=receipt_chain
+bindings=all_p02_001_to_p02_017_receipts
+suite_hash=fnv1a128:b1c924561aee36c3f7855d26f56581f6
+receipt_hash=fnv1a128:e0f3da3cf1c38425e3292b754d33f17d
+status=artifact_emitted

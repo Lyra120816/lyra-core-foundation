@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-INSPECTION-SURFACE v1
+audiences=developer,operator,product,enterprise,public_interest
+artifact_rows=18
+receipt_rows=13
+contract_rows=10
+gap_rows=1
+next_frontier=P02-X05
+global_closure=denied

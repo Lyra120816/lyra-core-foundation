@@ -1,0 +1,15 @@
+
+LYRA-P00-DOC v1
+id=benchmark_pack_guide
+phase=P00
+task=P00-X03
+status=artifact_emitted
+purpose=define deterministic throughput latency correctness and stability benchmark pack closure output
+rule=no_network_dependency
+rule=no_docs_only_benchmark_pack
+rule=no_unreceipted_benchmark_pack
+operator_path=run lyra-p00-benchmark-pack-check against ops/p00/closure/benchmark_pack.lyra
+fixture_path=fixtures/p00/benchmark_pack_inputs/valid_benchmark_pack.lyra
+golden_path=goldens/p00/valid_benchmark_pack.receipt
+receipt_path=receipts/p00/pass_0027_benchmark_pack.receipt
+next_frontier=P00-X04

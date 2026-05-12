@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-PACKAGING-RECEIPT v1
+path=receipts/p02/bootstrap_packaging/offline_distribution_gate.receipt
+phase=P02
+task=P02-019
+source=bootstrap_packaging
+status=artifact_emitted
+receipt_hash=fnv1a128:6a1fdfda636c5f0bfc3ee981994db1b2

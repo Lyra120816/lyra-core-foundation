@@ -1,0 +1,8 @@
+LYRA-P01-CANONICAL-DATA-MODEL-GUIDE v1
+phase=P01
+task=P01-014
+purpose=operator-readable guide for canonical data and schema definitions of canonical symbols semantic atoms and core IR
+models=canonical_symbol_model,semantic_atom_model,core_ir_term_model,core_ir_form_model,semantic_object_model,semantic_identity_model,symbolic_equality_model,semantic_receipt_model
+proof=receipts/p01/pass_0043_canonical_data_model.receipt
+operator=src/bin/lyra-p01-canonical-data-model-check.rs
+status=artifact_emitted

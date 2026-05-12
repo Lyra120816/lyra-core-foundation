@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-GUIDE v1
+phase=P01
+task=P01-016
+purpose=operator guide for the semantic negative corpus and falsification harness
+run=lyra-p01-semantic-falsification-check fixtures/p01/semantic_falsification_inputs/valid_semantic_falsification.lyra
+expected=accepted receipt for the corpus surface and rejected receipts for admitted negative case fixtures when routed through their target validators
+scope=canonical_symbols,semantic_atoms,core_ir

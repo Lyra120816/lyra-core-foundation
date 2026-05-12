@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-FRAME v1
+id=public_review_stewardship_frame
+kind=stewardship
+covers=stewardship,public_interest,bootstrap_trust
+outputs=public_interest_receipt_pack,phase_open_economics_review
+receipts=receipts/p02/pass_0074_bootstrap_falsification.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt,receipts/p02/pass_0080_bootstrap_economics.receipt
+rule=Claims must remain offline, non-extractive, anti-capture, and receipt-bound.
+status=artifact_emitted

@@ -1,0 +1,8 @@
+
+inspection=bootstrap_closure
+phase=P02
+operator_command=lyra-p02-bootstrap-closure-check fixtures/p02/bootstrap_closure_inputs/valid_bootstrap_closure.lyra
+accepted_receipt=goldens/p02/valid_bootstrap_closure.receipt
+negative_corpus=fixtures/p02/bootstrap_closure_inputs
+closed_scope=bounded_primary_tasks
+open_scope=P02-X01,P02-X02,P02-X03,P02-X04,P02-X05

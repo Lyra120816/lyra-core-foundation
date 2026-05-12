@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-GUIDE v1
+phase=P01
+task=P01-015
+status=artifact_emitted
+purpose=the semantic core engine fixes the deterministic execution order from canonical symbols through semantic atoms core IR semantic objects identity equality receipts and replay witness projection.
+operator=src/bin/lyra-p01-semantic-core-engine-check.rs
+fixture=fixtures/p01/semantic_core_engine_inputs/valid_semantic_core_engine.lyra
+golden=goldens/p01/valid_semantic_core_engine.receipt
+receipt=receipts/p01/pass_0044_semantic_core_engine.receipt
+rules=canonical_symbol_engine_total,semantic_atom_engine_closed,core_ir_engine_single_carrier,engine_units_ordered,transitions_total_and_bound,outputs_bind_canonical_models,receipt_commit_is_deterministic
+forbidden=network_required,probabilistic_engine,hidden_randomness,placeholder_engine,phase_closed

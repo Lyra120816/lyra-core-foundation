@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-PROOF-RECEIPT v1
+phase=P02
+task=P02-023
+proof=challenge_right_enforcement_proof
+scope=challenge
+scenarios=ambient_host_dependency_attack,extinction_ledger_bypass_attack,economics_capture_attack
+rollbacks=host_dependency_quarantine_rollback,extinction_ledger_reseal,economics_capture_reversal
+receipts=receipts/p02/pass_0063_host_boundary_challenge_suites.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-host-boundary-check,lyra-p02-bootstrap-redteam-check
+forbids=challenge_bypass,retaliation,phase_closure
+status=artifact_emitted

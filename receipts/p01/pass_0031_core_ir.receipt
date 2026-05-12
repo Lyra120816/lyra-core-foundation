@@ -1,0 +1,12 @@
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-002
+frontier=canonical textual and binary ir forms
+status=artifact_emitted
+input=fixtures/p01/core_ir_inputs/valid_core_ir_forms.lyra
+golden=goldens/p01/valid_core_ir_forms.receipt
+contract=interfaces/p01/contracts/core_ir.v1.lyra
+operator=src/bin/lyra-p01-ir-check.rs
+implementation=ops/p01/src/core_ir.rs,k0/determinism/src/core_ir.rs,interfaces/p01/src/core_ir_model.rs,lyralang/core/src/core_ir.rs
+receipt_hash=fnv1a128:a2b1b1be80ec5e4d3318ad8ef0dd1d99
+next_frontier=P01-003

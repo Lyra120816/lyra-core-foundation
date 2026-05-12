@@ -1,0 +1,8 @@
+LYRA-P01-SYMBOLIC-EQUALITY-OPERATOR-REVIEW v1
+phase=P01
+task=P01-006
+surface=fixtures/p01/symbolic_equality_inputs/valid_symbolic_equality.lyra
+command=lyra-p01-symbolic-equality-check fixtures/p01/symbolic_equality_inputs/valid_symbolic_equality.lyra
+expected=accepted receipt-bound symbolic equality suite
+inspect=goldens/p01/valid_symbolic_equality.receipt
+operator_note=use this before approving any later rewrite evaluator type or proof surface that depends on symbolic equality

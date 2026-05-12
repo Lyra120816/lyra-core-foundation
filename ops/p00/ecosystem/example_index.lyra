@@ -1,0 +1,16 @@
+LYRA-P00-ECOSYSTEM-INDEX v1
+phase=P00
+task=P00-021
+surface=fixtures/p00/ecosystem_inputs/valid_ecosystem_docs_examples.lyra
+doc=docs/p00/determinism_constitution_guide.lyra
+doc=docs/p00/people_first_operator_guide.lyra
+doc=docs/p00/rebuild_governance_guide.lyra
+doc=docs/p00/contributor_onboarding.lyra
+doc=products/p00/ecosystem/public_review_reference.lyra
+example=examples/p00/ecosystem/constitution_surface_walkthrough.lyra
+example=examples/p00/ecosystem/people_first_challenge_flow.lyra
+example=examples/p00/ecosystem/rebuild_from_receipts_flow.lyra
+example=examples/p00/ecosystem/offline_operator_review.lyra
+negative_example=fixtures/p00/ecosystem_inputs/invalid_ecosystem_drift.lyra
+receipt=receipts/p00/pass_0021_ecosystem.receipt
+status=working_slice

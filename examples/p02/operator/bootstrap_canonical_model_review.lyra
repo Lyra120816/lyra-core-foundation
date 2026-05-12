@@ -1,0 +1,4 @@
+LYRA-P02-EXAMPLE bootstrap_canonical_model_review v1
+input=fixtures/p02/bootstrap_canonical_model_inputs/valid_bootstrap_canonical_model.lyra
+expected=accepted
+status=artifact_emitted

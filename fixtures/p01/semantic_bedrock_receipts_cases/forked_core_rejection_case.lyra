@@ -1,0 +1,5 @@
+LYRA-P01-SEMANTIC-BEDROCK-CASE v1
+case=forked_core_rejection_case
+input=fixtures/p01/semantic_bedrock_receipts_inputs/invalid_forked_core_claim.lyra
+expected=semantic_drift_accepted
+status=artifact_emitted

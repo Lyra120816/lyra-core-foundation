@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-LAW v1
+phase=P02
+task=P02-013
+law=bootstrap_trust_seed_runtime_host_extinction_semantics
+previous_receipt=receipts/p02/pass_0070_foreign_surface_closure.receipt
+current_receipt=receipts/p02/pass_0071_bootstrap_formal_semantics.receipt
+closure=false
+next_frontier=P02-014
+status=artifact_emitted

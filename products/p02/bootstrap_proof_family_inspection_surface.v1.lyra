@@ -1,0 +1,11 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-INSPECTION v1
+phase=P02
+task=P02-X02
+inspect_surface=ops/p02/closure/p02_x02_proof_family_gate.v1.lyra
+inspect_contract=interfaces/p02/contracts/bootstrap_proof_family.v1.lyra
+inspect_validator=src/bin/lyra-p02-bootstrap-proof-family-check.rs
+inspect_fixture_dir=fixtures/p02/bootstrap_proof_family_inputs
+inspect_golden=goldens/p02/valid_bootstrap_proof_family.receipt
+inspect_suite_report=goldens/p02/bootstrap_proof_family_suite_report.v1.lyra
+acceptance=valid fixture accepted and invalid corpus rejected

@@ -1,0 +1,8 @@
+
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-SHELL v1
+task=P02-020
+command=lyra-p02-bootstrap-deployment-check
+input=fixtures/p02/bootstrap_deployment_inputs/valid_bootstrap_deployment.lyra
+negative_corpus=fixtures/p02/bootstrap_deployment_inputs/invalid_missing_rule.lyra,fixtures/p02/bootstrap_deployment_inputs/invalid_network_required.lyra,fixtures/p02/bootstrap_deployment_inputs/invalid_phase_closure_claim.lyra
+receipt=receipts/p02/pass_0078_bootstrap_deployment.receipt
+status=artifact_emitted

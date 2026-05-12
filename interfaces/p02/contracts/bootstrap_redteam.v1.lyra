@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-CONTRACT v1
+phase=P02
+task=P02-023
+surface=LYRA-P02-BOOTSTRAP-REDTEAM-ROLLBACK-LAW v1
+fixture=fixtures/p02/bootstrap_redteam_inputs/valid_bootstrap_redteam.lyra
+receipt=receipts/p02/pass_0081_bootstrap_redteam.receipt
+operator=src/bin/lyra-p02-bootstrap-redteam-check.rs
+status=artifact_emitted

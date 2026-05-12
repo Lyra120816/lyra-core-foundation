@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-CORE-ENGINE-GUIDE v1
+phase=P02
+task=P02-015
+operator_rule=validate fixtures/p02/bootstrap_core_engine_inputs/valid_bootstrap_core_engine.lyra with lyra-p02-bootstrap-core-engine-check
+evidence=goldens/p02/valid_bootstrap_core_engine.receipt
+closure=false

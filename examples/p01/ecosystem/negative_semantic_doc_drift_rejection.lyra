@@ -1,0 +1,8 @@
+LYRA-P01-ECOSYSTEM-EXAMPLE v1
+phase=P01
+task=P01-021
+id=negative_semantic_doc_drift_rejection
+command=lyra-p01-semantic-ecosystem-check
+text=Documents rejection of semantic ecosystem drift claims by fixture and falsification receipt.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

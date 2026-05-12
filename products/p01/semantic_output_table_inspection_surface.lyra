@@ -1,0 +1,15 @@
+LYRA-P01-SEMANTIC-OUTPUT-TABLE-INSPECTION-SURFACE v1
+phase=P01
+frontier=P01-X04
+surface=ops/p01/closure/semantic_output_table.lyra
+validator=src/bin/lyra-p01-semantic-output-table-check.rs
+contract=interfaces/p01/contracts/semantic_output_table.v1.lyra
+receipt=receipts/p01/pass_0057_semantic_output_table.receipt
+golden=goldens/p01/valid_semantic_output_table.receipt
+developer_output=semantic_contract_index,semantic_cli_surface,semantic_fixture_corpus,semantic_golden_index
+operator_output=semantic_control_plane,semantic_receipt_index,semantic_blocker_index,semantic_closure_gate
+product_output=semantic_reference_slice,semantic_examples,semantic_packaging_surface
+enterprise_output=semantic_offline_deployment,semantic_release_bundle,semantic_compliance_hooks
+public_interest_output=semantic_access_model,semantic_stewardship_frame,semantic_people_first_review
+status=artifact_emitted
+next_frontier=P01-X05

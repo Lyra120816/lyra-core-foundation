@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_baremetal_loader
+closure_law=law_baremetal_loader
+deletion_gate=gate_replace_with_native_loader
+scope=per_surface_only
+status=receipt_emitted

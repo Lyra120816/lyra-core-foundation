@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_wasm_toolchain
+surface_class=target_toolchain
+owner_root=interfaces
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_boundary_nonambient
+closure_law=law_wasm_toolchain
+retirement_gate=gate_replace_with_native_wasm_emitter
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

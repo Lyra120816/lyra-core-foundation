@@ -1,0 +1,12 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-MANIFEST v1
+phase=P02
+task=P02-X02
+families=happy_path,negative_path,adversarial_path,rollback_path,dependency_path
+receipt_rows=48
+path_rows=5
+coverage_targets=25
+coverage_scope=P02-001_through_P02-X01
+primary_use=gate benchmark pack frontier with proof-family evidence
+closure_status=artifact_emitted_not_phase_closed
+next_frontier=P02-X03

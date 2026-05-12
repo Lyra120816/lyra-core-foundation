@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-REPLAY-OPERATOR-REVIEW v1
+phase=P01
+task=P01-017
+review_surface=fixtures/p01/semantic_replay_inputs/valid_semantic_replay.lyra
+operator=src/bin/lyra-p01-semantic-replay-check.rs
+expected_receipt=receipts/p01/pass_0046_semantic_replay.receipt
+expected_golden=goldens/p01/valid_semantic_replay.receipt
+check:receipt_chain=semantic_atoms_receipt through semantic_replay_receipt
+check:witness_order=001 through 007
+check:proofs=canonical_symbols_replay_proof,semantic_atoms_replay_proof,core_ir_replay_proof,p01_semantic_receipt_chain_integrity,semantic_witness_hash_stability
+status=artifact_emitted

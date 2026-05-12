@@ -1,0 +1,11 @@
+LYRA-P02-DOC bootstrap_benchmark_pack_guide.v1
+phase=P02
+task=P02-X03
+purpose=Provide a deterministic benchmark pack for bootstrap trust, seed runtime law, host-extinction, closure, dependency, and proof-family evidence.
+family=throughput validates surface and receipt generation counts.
+family=latency validates static canonicalization and validation budgets.
+family=correctness validates valid acceptance and negative-corpus rejection.
+family=stability validates replay and hash ordering.
+family=adversarial validates hostile and capture rejection paths.
+family=rollback validates seed and host-extinction reversible receipt paths.
+status=artifact_emitted

@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-SCENARIO v1
+phase=P02
+task=P02-023
+id=ambient_host_dependency_attack
+kind=host_dependency
+targets=bootstrap_trust,host_extinction_framework,challenge_right
+rollback_paths=host_dependency_quarantine_rollback,extinction_ledger_reseal
+commands=lyra-p02-host-boundary-check,lyra-p02-bootstrap-extinction-check,lyra-p02-bootstrap-redteam-check
+receipts=receipts/p02/pass_0059_bootstrap_surface_inventory.receipt,receipts/p02/pass_0063_host_boundary_challenge_suites.receipt,receipts/p02/pass_0070_foreign_surface_closure.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+rejects=ambient_host_dependency,unledgered_foreign_surface
+status=artifact_emitted

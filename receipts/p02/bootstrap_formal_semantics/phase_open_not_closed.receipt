@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-SUBRECEIPT v1
+phase=P02
+task=P02-013
+name=phase_open_not_closed
+parent=receipts/p02/pass_0071_bootstrap_formal_semantics.receipt
+status=artifact_emitted
+receipt_hash=fnv1a128:6c9ea95c614a818a321a464e8b886576

@@ -1,0 +1,10 @@
+LYRA-P00-PROOF-FAMILY-REVIEW v1
+phase=P00
+frontier=P00-X02
+input=ops/p00/closure/proof_family_table.lyra
+command=lyra-p00-proof-family-check ops/p00/closure/proof_family_table.lyra
+expected_verdict=ACCEPTED
+expected_receipt=receipts/p00/pass_0026_proof_family_table.receipt
+review_scope=happy_path,negative_path,adversarial_path,rollback_path
+closure_scope=bounded_output_only
+next_frontier=P00-X04

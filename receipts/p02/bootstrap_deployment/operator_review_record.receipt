@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-EVIDENCE-RECEIPT v1
+task=P02-020
+id=operator_review_record
+surface=ops/p02/deployment/bootstrap_deployment.v1.lyra
+receipt=receipts/p02/pass_0078_bootstrap_deployment.receipt
+status=artifact_emitted

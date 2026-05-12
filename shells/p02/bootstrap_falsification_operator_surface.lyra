@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-OPERATOR-SURFACE v1
+phase=P02
+task=P02-016
+command=lyra-p02-bootstrap-falsification-check fixtures/p02/bootstrap_falsification_inputs/valid_bootstrap_falsification.lyra
+valid_fixture=fixtures/p02/bootstrap_falsification_inputs/valid_bootstrap_falsification.lyra
+invalid_fixture_dir=fixtures/p02/bootstrap_falsification_inputs
+case_fixture_dir=fixtures/p02/bootstrap_falsification_cases
+golden=goldens/p02/valid_bootstrap_falsification.receipt
+status=artifact_emitted

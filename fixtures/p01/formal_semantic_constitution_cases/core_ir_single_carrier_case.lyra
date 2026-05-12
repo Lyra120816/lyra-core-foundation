@@ -1,0 +1,5 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-CASE v1
+case=core_ir_single_carrier
+binds=core_ir_single_carrier_law
+expected=all_cross_phase_surfaces_reuse_core_ir
+status=artifact_emitted

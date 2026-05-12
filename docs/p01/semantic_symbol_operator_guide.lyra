@@ -1,0 +1,8 @@
+LYRA-P01-DOC v1
+id=semantic_symbol_operator_guide
+title=semantic symbol operator guide
+phase=P01
+task=P01-021
+text=Binds canonical symbol review to deterministic ordering, receipt review, and rejection of unstable identity claims.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

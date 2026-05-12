@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-REPLAY-REVIEW v1
+phase=P02
+task=P02-017
+input=fixtures/p02/bootstrap_replay_inputs/valid_bootstrap_replay.lyra
+operator=src/bin/lyra-p02-bootstrap-replay-check.rs
+expected=ACCEPTED
+receipt=receipts/p02/pass_0075_bootstrap_replay.receipt

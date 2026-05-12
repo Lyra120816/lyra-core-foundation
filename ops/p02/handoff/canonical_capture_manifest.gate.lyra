@@ -1,0 +1,7 @@
+LYRA-P02-OPERATOR-HANDOFF-GATE v1
+gate=gate_canonical_capture_manifest
+gate_class=pre_import
+required_before=workflow_preflight_capture_manifest
+rejects=uncanonical_manifest
+truth_effect=none_without_local_replay
+status=gate_requirement_emitted

@@ -1,0 +1,10 @@
+LYRA-P02-HOST-BOUNDARY-CHALLENGE-OPERATOR-SURFACE v1
+phase=P02
+task=P02-005
+command=lyra-p02-host-boundary-check ops/p02/host_boundary/host_boundary_challenge_suites.v1.lyra
+valid_fixture=fixtures/p02/host_boundary_challenge_inputs/valid_host_boundary_challenge_suites.lyra
+negative_fixture_dir=fixtures/p02/host_boundary_challenge_inputs
+receipt=receipts/p02/pass_0063_host_boundary_challenge_suites.receipt
+operator_rule=no_foreign_surface_may_be_promoted_without_probe_rejection
+operator_rule=no_operator_shell_surface_may_own_truth
+status=artifact_emitted

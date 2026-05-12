@@ -1,0 +1,4 @@
+LYRA-P01-EVIDENCE-PAYLOAD v1
+id=evidence_parser_replay
+payload=parser_trace
+digest=fnv1a128:c231564589ea67eb86d866dda06ec3a9

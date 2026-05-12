@@ -1,0 +1,21 @@
+LYRA-P01-SEMANTIC-DEPLOYMENT-LAW v1
+phase=P01
+task=P01-020
+surface=LYRA-P01-SEMANTIC-DEPLOYMENT-HOOKS v1
+rule:semantic_deployment_manifest_required=required
+rule:offline_deployment_required=required
+rule:enterprise_hook_required=required
+rule:compliance_hook_required=required
+rule:release_evidence_required=required
+rule:rollback_readiness_required=required
+rule:receipt_bound_deployment_required=required
+rule:semantic_packaging_bridge_required=required
+rule:no_remote_service_dependency=forbidden
+rule:no_unreceipted_deployment=forbidden
+rule:no_deployment_drift_acceptance=forbidden
+rule:phase_open_until_deployment_proven=blocked_until_proven
+validator=ops/p01/src/semantic_deployment.rs
+fixture=fixtures/p01/semantic_deployment_inputs/valid_semantic_deployment.lyra
+golden=goldens/p01/valid_semantic_deployment.receipt
+receipt=receipts/p01/pass_0049_semantic_deployment.receipt
+status=artifact_emitted

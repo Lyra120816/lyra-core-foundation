@@ -1,0 +1,2 @@
+LYRA-P02-MODEL operator_handoff_model v1
+fields=handoff_capture_channel,handoff_truth_gate

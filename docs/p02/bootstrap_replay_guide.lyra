@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-REPLAY-GUIDE v1
+phase=P02
+task=P02-017
+scope=proof receipts and replay witnesses for bootstrap trust seed runtime law and host extinction framework
+meaning=the surface admits P02 receipts only when every receipt is bound to ordered replay witnesses chain links commands and proof gates
+receipt=receipts/p02/pass_0075_bootstrap_replay.receipt
+status=artifact_emitted

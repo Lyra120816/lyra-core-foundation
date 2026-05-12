@@ -1,0 +1,7 @@
+LYRA-P00-OPERATOR-REVIEW-BUNDLE v1
+phase=P00
+source_task=P00-019
+packages=p00_operator_examples,p00_control_surfaces,p00_receipt_chain
+entry_command=lyra-p00-interface-check
+receipt=receipts/p00/pass_0019_packaging.receipt
+status=artifact_emitted

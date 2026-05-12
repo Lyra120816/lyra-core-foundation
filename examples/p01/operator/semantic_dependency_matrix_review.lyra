@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-DEPENDENCY-MATRIX-OPERATOR-REVIEW v1
+phase=P01
+task=P01-X01
+command=lyra-p01-semantic-dependency-matrix-check fixtures/p01/semantic_dependency_matrix_inputs/valid_semantic_dependency_matrix.lyra
+expected_verdict=ACCEPTED
+negative_command=lyra-p01-semantic-dependency-matrix-check fixtures/p01/semantic_dependency_matrix_inputs/invalid_cycle.lyra
+expected_negative_verdict=REJECTED
+receipt=receipts/p01/pass_0054_semantic_dependency_matrix.receipt

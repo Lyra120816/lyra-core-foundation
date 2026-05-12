@@ -1,0 +1,8 @@
+LYRA-P01-OPERATOR-EXAMPLE v1
+phase=P01
+task=P01-009
+command=lyra-p01-semantic-adversarial-corpus-check fixtures/p01/semantic_adversarial_corpus_inputs/valid_semantic_adversarial_corpus.lyra
+expected_receipt=receipts/p01/pass_0038_semantic_adversarial_corpus.receipt
+negative_probe=fixtures/p01/semantic_adversarial_corpus_inputs/invalid_collision_descriptor_drift.lyra
+operator_expectation=valid corpus accepts and adversarial drift fixtures reject with deterministic error codes
+status=artifact_emitted

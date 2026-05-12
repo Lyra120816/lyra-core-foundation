@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_mobile_packager
+surface_class=packager
+owner_root=products
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_closure_scope
+closure_law=law_mobile_packager
+retirement_gate=gate_replace_with_native_packager
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

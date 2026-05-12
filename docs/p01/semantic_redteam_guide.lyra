@@ -1,0 +1,13 @@
+LYRA-P01-SEMANTIC-REDTEAM-GUIDE v1
+phase=P01
+task=P01-023
+surface=LYRA-P01-SEMANTIC-REDTEAM-ROLLBACK v1
+purpose=bind canonical symbols semantic atoms and core IR to adversarial scenarios rollback paths and proof receipts
+scenario_count=6
+rollback_count=6
+proof_count=6
+operator=lyra-p01-semantic-redteam-check
+fixture=fixtures/p01/semantic_redteam_inputs/valid_semantic_redteam.lyra
+negative_corpus=fixtures/p01/semantic_redteam_inputs
+receipt=receipts/p01/pass_0052_semantic_redteam.receipt
+status=artifact_emitted

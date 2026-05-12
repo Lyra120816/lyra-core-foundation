@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=semantic_atom_descriptor_drift_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=semantic_atoms
+mutation=descriptor_registry_drift
+registry_change=symbol_identity_law_changed_without_receipt
+expected_error=semantic_drift_accepted

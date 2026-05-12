@@ -1,0 +1,7 @@
+LYRA-P01-ERROR-CHALLENGE-EVIDENCE-REVIEW v1
+phase=P01
+task=P01-007
+status=artifact_emitted
+command=lyra-p01-error-challenge-evidence-check fixtures/p01/error_challenge_evidence_inputs/valid_error_challenge_evidence.lyra
+expected_verdict=ACCEPTED
+expected_receipt=goldens/p01/valid_error_challenge_evidence.receipt

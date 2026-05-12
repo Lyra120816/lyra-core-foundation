@@ -1,0 +1,5 @@
+
+example=bootstrap_closure_operator_review
+input=fixtures/p02/bootstrap_closure_inputs/valid_bootstrap_closure.lyra
+command=lyra-p02-bootstrap-closure-check fixtures/p02/bootstrap_closure_inputs/valid_bootstrap_closure.lyra
+expected=accepted receipt with bounded primary closure true and global closure false

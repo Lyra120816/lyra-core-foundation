@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-PROOF-RECEIPT v1
+id=p02_phase_open
+scope=phase
+frames=public_review_stewardship_frame,enterprise_adoption_non_capture_frame
+outputs=phase_open_economics_review
+commands=lyra-p02-bootstrap-economics-check
+forbids=phase_closure,global_complete,capture
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=blocked

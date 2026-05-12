@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_sha256sum
+closure_law=law_sha256sum
+deletion_gate=gate_replace_with_lyra_digest_emitter
+scope=per_surface_only
+status=receipt_emitted

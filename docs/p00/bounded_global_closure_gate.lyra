@@ -1,0 +1,7 @@
+LYRA-P00-CLOSURE-GATE-DOC v1
+phase=P00
+task=P00-024
+bounded_closure=primary_tasks_receipted
+global_closure=blocked_until_P00_X01_to_P00_X05
+next_frontier=P00-X01
+receipt=receipts/p00/pass_0024_closure_gate.receipt

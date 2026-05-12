@@ -1,0 +1,10 @@
+LYRA-P00-ECONOMICS-INDEX v1
+phase=P00
+task=P00-022
+status=working_slice
+validator=lyra-p00-economics-check
+valid_surface=fixtures/p00/economics_inputs/valid_economics_public_interest.lyra
+contract=interfaces/p00/contracts/economics_public_interest.v1.lyra
+proof_receipt=receipts/p00/pass_0022_economics.receipt
+negative_fixture_count=12
+next_frontier=P00-023

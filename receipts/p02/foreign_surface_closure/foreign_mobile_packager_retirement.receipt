@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_mobile_packager
+closure_law=law_mobile_packager
+deletion_gate=gate_replace_with_native_packager
+scope=per_surface_only
+status=receipt_emitted

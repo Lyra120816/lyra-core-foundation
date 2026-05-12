@@ -1,0 +1,9 @@
+LYRA-P02-OPERATOR-HANDOFF-REVIEW-EXAMPLE v1
+phase=P02
+task=P02-011
+status=artifact_emitted
+review_input=fixtures/p02/operator_handoff_automation_inputs/valid_operator_handoff_automation.lyra
+expected_verdict=ACCEPTED
+expected_receipt=receipts/p02/pass_0069_operator_handoff_automation.receipt
+negative_corpus=fixtures/p02/operator_handoff_automation_inputs
+operator_result=artifact_emitted_not_phase_closed

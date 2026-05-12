@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-BEDROCK-RECEIPTS-GUIDE v1
+phase=P01
+task=P01-012
+purpose=bind every admitted P01 semantic-core receipt to one canonical semantic bedrock and parity fixture set
+operator=src/bin/lyra-p01-semantic-bedrock-receipts-check.rs
+valid_fixture=fixtures/p01/semantic_bedrock_receipts_inputs/valid_semantic_bedrock_receipts.lyra
+golden=goldens/p01/valid_semantic_bedrock_receipts.receipt
+status=artifact_emitted

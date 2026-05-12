@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-INVENTORY-INSPECTION-SURFACE v1
+phase=P02
+task=P02-001
+status=artifact_emitted
+surface=bootstrap_foreign_surface_inventory
+user_value=operators can see every non-Lyra bootstrap surface before trusting a seed runtime handoff
+classes=temporary,observer,bounded_permanent,forbidden
+primary_contract=interfaces/p02/contracts/bootstrap_surface_inventory.v1.lyra
+primary_fixture=fixtures/p02/bootstrap_inventory_inputs/valid_bootstrap_surface_inventory.lyra
+primary_receipt=receipts/p02/pass_0059_bootstrap_surface_inventory.receipt
+closure=false

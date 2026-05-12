@@ -1,0 +1,23 @@
+LYRA-P01-CORE-IR-REUSE-CONTRACT v1
+phase=P01
+task=P01-010
+surface=LYRA-P01-CORE-IR-REUSE v1
+model=interfaces/p01/src/core_ir_reuse_model.rs
+implementation=lyralang/core/src/core_ir_reuse.rs
+determinism=k0/determinism/src/core_ir_reuse.rs
+validator=ops/p01/src/core_ir_reuse.rs
+operator=src/bin/lyra-p01-core-ir-reuse-check.rs
+fixture=fixtures/p01/core_ir_reuse_inputs/valid_core_ir_reuse.lyra
+golden=goldens/p01/valid_core_ir_reuse.receipt
+receipt=receipts/p01/pass_0039_core_ir_reuse.receipt
+product=products/p01/core_ir_reuse_inspection_surface.lyra
+law=ops/p01/control/core_ir_reuse_law.v1.lyra
+proof=tests/p01_core_ir_reuse_tests.rs
+proof=tests/p01_core_ir_reuse_contract_tests.rs
+rule=core_ir_is_single_cross_phase_contract
+rule=parser_checker_evaluator_vm_proof_product_consume_same_ir
+rule=no_private_ir_forks
+rule=reuse_edges_preserve_identity_digest
+rule=fixtures_cover_each_consumer
+rule=drift_is_rejected
+rule=receipts_bind_cross_phase_reuse

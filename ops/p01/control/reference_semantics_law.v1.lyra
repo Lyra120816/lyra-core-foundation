@@ -1,0 +1,12 @@
+LYRA-P01-REFERENCE-SEMANTICS-LAW v1
+phase=P01
+task=P01-005
+status=artifact_emitted
+law:literal_self=literal forms evaluate to canonical normal forms without lookup
+law:structural_composition=composition forms evaluate in declared deterministic order
+law:record_sort=record keys sort ascii before normal form emission
+law:symbolic_application=application emits symbolic application seed until later evaluator binding phases
+law:trace_binding=every eval seed is trace hash bound
+law:no_global_closure=P01 remains open after P01-005
+receipt=receipts/p01/pass_0034_reference_semantics.receipt
+next_frontier=P01-006

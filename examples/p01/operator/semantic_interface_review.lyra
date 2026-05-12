@@ -1,0 +1,10 @@
+
+LYRA-P01-SEMANTIC-INTERFACE-REVIEW v1
+phase=P01
+task=P01-018
+status=artifact_emitted
+command=src/bin/lyra-p01-semantic-interface-check.rs
+input=fixtures/p01/semantic_interface_inputs/valid_semantic_interface.lyra
+expected_receipt=receipts/p01/pass_0047_semantic_interface.receipt
+operator_flow=run_command,compare_golden,inspect_negative_fixture_rejections,verify_control_surface
+review_scope=canonical_symbols,semantic_atoms,core_ir

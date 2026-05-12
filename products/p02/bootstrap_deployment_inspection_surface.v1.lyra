@@ -1,0 +1,8 @@
+
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-INSPECTION v1
+task=P02-020
+artifact_roots=src,ops,interfaces,goldens,receipts,products,examples,docs,fixtures,tests,shells
+receipt_roots=receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt,receipts/p02/pass_0070_foreign_surface_closure.receipt,receipts/p02/pass_0075_bootstrap_replay.receipt,receipts/p02/pass_0076_bootstrap_operator_interface.receipt,receipts/p02/pass_0077_bootstrap_packaging.receipt,receipts/p02/pass_0078_bootstrap_deployment.receipt
+operator_commands=lyra-p02-bootstrap-deployment-check,lyra-p02-bootstrap-packaging-check,lyra-p02-bootstrap-interface-check,lyra-p02-bootstrap-replay-check,lyra-p02-foreign-surface-closure-check,lyra-p02-seed-runtime-replacement-check
+truth_state=phase_open_deployment_slice_artifact_emitted
+status=artifact_emitted

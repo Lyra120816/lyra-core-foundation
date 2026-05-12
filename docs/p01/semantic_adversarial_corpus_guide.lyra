@@ -1,0 +1,11 @@
+LYRA-P01-DOC v1
+name=semantic_adversarial_corpus_guide
+phase=P01
+task=P01-009
+purpose=bind adversarial collision ambiguity and malformed-object corpora to executable semantic-core validators
+operator_rule=every adversarial case has a deterministic expected rejection code and checked-in fixture path
+coverage=collision probes guard digest aliases object-hash swaps and receipt-target aliases
+coverage=ambiguity probes guard header drift record-order shadows and binder-capture shadows
+coverage=malformed-object probes guard missing relations binary header drift unknown object refs object cycles and ambient dependency claims
+receipt=receipts/p01/pass_0038_semantic_adversarial_corpus.receipt
+status=artifact_emitted

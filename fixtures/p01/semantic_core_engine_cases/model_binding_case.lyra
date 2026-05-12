@@ -1,0 +1,6 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-CASE v1
+case=model_binding
+input_first=operator_surface_bytes
+output_last=p01_replay_witness
+canonical_models=canonical_symbol_model,semantic_atom_model,core_ir_term_model,core_ir_form_model,semantic_object_model,semantic_identity_model,symbolic_equality_model,semantic_receipt_model
+receipt=receipts/p01/pass_0044_semantic_core_engine.receipt

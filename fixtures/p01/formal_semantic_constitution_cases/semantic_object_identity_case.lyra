@@ -1,0 +1,5 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-CASE v1
+case=semantic_object_identity
+binds=semantic_object_identity_law
+expected=object_identity_bound_to_core_ir_and_receipt
+status=artifact_emitted

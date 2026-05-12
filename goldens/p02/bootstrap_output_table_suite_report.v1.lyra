@@ -1,0 +1,13 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-SUITE-REPORT v1
+phase=P02
+task=P02-X04
+valid_fixtures=1
+invalid_fixtures=28
+audiences=5
+artifacts=18
+receipts=13
+contracts=10
+gaps=1
+receipt_hash=fnv1a128:919daf0679e7f7af09a8870ce90fd545
+next_frontier=P02-X05
+global_closure=denied

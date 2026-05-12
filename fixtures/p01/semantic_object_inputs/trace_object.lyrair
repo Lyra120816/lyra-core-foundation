@@ -1,0 +1,5 @@
+LYRA-CORE-IR-TEXT v1
+atom=symbol
+kind=trace
+payload=lyra.object.trace
+version=1.0

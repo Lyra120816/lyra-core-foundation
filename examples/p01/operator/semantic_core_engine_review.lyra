@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-OPERATOR-REVIEW v1
+phase=P01
+task=P01-015
+status=artifact_emitted
+step:1=run lyra-p01-semantic-core-engine-check fixtures/p01/semantic_core_engine_inputs/valid_semantic_core_engine.lyra
+step:2=compare emitted receipt to goldens/p01/valid_semantic_core_engine.receipt
+step:3=inspect receipts/p01/pass_0044_semantic_core_engine.receipt
+step:4=reject any forked carrier probabilistic engine hidden randomness or closure claim

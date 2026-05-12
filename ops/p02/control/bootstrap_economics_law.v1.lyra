@@ -1,0 +1,11 @@
+
+LYRA-P02-BOOTSTRAP-ECONOMICS-LAW v1
+phase=P02
+task=P02-022
+rule:offline_public_value=required
+rule:non_extractive_access=required
+rule:anti_capture_economics=required
+rule:receipt_bound_claims=required
+validator=src/bin/lyra-p02-bootstrap-economics-check.rs
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

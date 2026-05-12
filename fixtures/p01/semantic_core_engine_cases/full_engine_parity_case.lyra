@@ -1,0 +1,9 @@
+LYRA-P01-SEMANTIC-CORE-ENGINE-CASE v1
+case=full_engine_parity
+units=9
+transitions=8
+artifacts=8
+proofs=6
+contract=interfaces/p01/contracts/semantic_core_engine.v1.lyra
+law=ops/p01/control/semantic_core_engine_law.v1.lyra
+receipt=receipts/p01/pass_0044_semantic_core_engine.receipt

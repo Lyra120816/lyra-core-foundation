@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-PROOF-RECEIPT v1
+id=public_benefit_binding_proof
+scope=public_interest
+frames=bootstrap_trust_public_value_frame,operator_cost_rebuild_frame,public_review_stewardship_frame
+outputs=bootstrap_public_casebook,operator_cost_benefit_sheet,public_interest_receipt_pack
+commands=lyra-p02-bootstrap-economics-check,lyra-p02-bootstrap-ecosystem-check
+forbids=public_interest_drift,extractive_default,phase_closure
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-ATOM-OPERATOR-REVIEW v1
+phase=P01
+task=P01-001
+input=fixtures/p01/semantic_atom_inputs/valid_semantic_atoms.lyra
+command=lyra-p01-atom-check fixtures/p01/semantic_atom_inputs/valid_semantic_atoms.lyra
+expected=accepted receipt-bound semantic atom bedrock
+status=artifact_emitted

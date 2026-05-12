@@ -1,0 +1,6 @@
+LYRA-P01-SEMANTIC-RETIREMENT-CONTROL-LAW v1
+phase=P01
+task=P01-X05
+law=all P01 transitional surfaces must bind owner root, successor, retirement gate, supersession, archive lane, and receipt before any phase closure claim
+forbids=global_closure_claim,unreceipted_retirement,network_required_retirement,ambient_time_gate,docs_only_retirement,drift_accepted
+receipt=receipts/p01/pass_0058_semantic_retirement_supersession.receipt

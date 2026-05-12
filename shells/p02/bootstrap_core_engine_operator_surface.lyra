@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-CORE-ENGINE-OPERATOR-SURFACE v1
+command=lyra-p02-bootstrap-core-engine-check fixtures/p02/bootstrap_core_engine_inputs/valid_bootstrap_core_engine.lyra
+input=fixtures/p02/bootstrap_core_engine_inputs/valid_bootstrap_core_engine.lyra
+receipt=receipts/p02/pass_0073_bootstrap_core_engine.receipt
+network=false
+randomness=false
+ambient_time=false

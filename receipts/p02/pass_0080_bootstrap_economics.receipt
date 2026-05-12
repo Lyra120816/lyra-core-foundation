@@ -1,0 +1,9 @@
+LYRA-P02-PASS-0080-BOOTSTRAP-ECONOMICS-RECEIPT v1
+phase=P02
+task=P02-022
+frontier=bootstrap economics public-interest framing
+surface=fixtures/p02/bootstrap_economics_inputs/valid_bootstrap_economics.lyra
+golden=goldens/p02/valid_bootstrap_economics.receipt
+validator=src/bin/lyra-p02-bootstrap-economics-check.rs
+result=artifact_emitted
+status=working_slice

@@ -1,0 +1,15 @@
+LYRA-P01-TRUTH-SNAPSHOT v1
+phase=P01
+current_frontier=P01-X05
+status=semantic_retirement_supersession_artifact_emitted
+closed=false
+bounded_closure=false
+global_closure=false
+latest_finished_frontier=P01-X05
+not_closed=local_validation_evidence_missing
+phase_closure=false
+latest_receipt=receipts/p01/pass_0058_semantic_retirement_supersession.receipt
+truth_bound=receipts/p01/pass_0058_semantic_retirement_supersession.receipt
+admitted_tasks=P01-001,P01-002,P01-003,P01-004,P01-005,P01-006,P01-007,P01-008,P01-009,P01-010,P01-011,P01-012,P01-013,P01-014,P01-015,P01-016,P01-017,P01-018,P01-019,P01-020,P01-021,P01-022,P01-023,P01-024,P01-X01,P01-X02,P01-X03,P01-X04,P01-X05
+remaining_primary_tasks=none
+remaining_closure_outputs=none

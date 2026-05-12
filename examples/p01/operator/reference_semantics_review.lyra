@@ -1,0 +1,8 @@
+LYRA-P01-REFERENCE-SEMANTICS-OPERATOR-REVIEW v1
+phase=P01
+task=P01-005
+operator_step:read_contract=interfaces/p01/contracts/reference_semantics.v1.lyra
+operator_step:run_validator=lyra-p01-reference-semantics-check fixtures/p01/reference_semantics_inputs/valid_reference_semantics.lyra
+operator_step:compare_golden=goldens/p01/valid_reference_semantics.receipt
+expected=accepted receipt-bound reference semantics suite
+bounded_claim=P01-005 artifact_emitted not phase_complete

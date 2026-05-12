@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-ROLLBACK-PATH v1
+phase=P02
+task=P02-023
+id=extinction_ledger_reseal
+kind=ledger_reseal
+triggers=extinction_ledger_bypass,unledgered_foreign_surface
+restores=host_extinction_framework,challenge_right
+receipts=receipts/p02/pass_0060_bootstrap_extinction_ledger.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-bootstrap-extinction-check,lyra-p02-foreign-surface-closure-check,lyra-p02-bootstrap-redteam-check
+challenge_rights=operator_challenge,foreign_surface_challenge
+status=artifact_emitted

@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=canonical_symbol_control_byte_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=canonical_symbols
+mutation=control_byte_in_symbol_stream
+byte_policy=no_ascii_control_bytes
+expected_error=canonical_control_byte

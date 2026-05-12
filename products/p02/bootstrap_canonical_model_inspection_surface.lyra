@@ -1,0 +1,6 @@
+LYRA-P02-PRODUCT bootstrap_canonical_model_inspection_surface v1
+models=6
+schemas=6
+fields=12
+relations=6
+status=artifact_emitted

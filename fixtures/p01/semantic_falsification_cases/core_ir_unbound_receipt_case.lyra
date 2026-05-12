@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-FALSIFICATION-CASE v1
+phase=P01
+task=P01-016
+case=core_ir_unbound_receipt_case
+expected_rejection=true
+negative_input_bound=true
+receipt_required=true
+target_domain=core_ir
+mutation=unbound_ir_receipt_reference
+receipt_ref=receipts/p01/nonexistent_ir_reuse.receipt
+expected_error=replay_proof_unbound

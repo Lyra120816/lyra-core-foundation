@@ -1,0 +1,12 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-LAW v1
+phase=P02
+task=P02-X04
+law=bootstrap-output-table-is-inventory-gate-not-closure-claim
+must_cover=developer,operator,product,enterprise,public_interest
+must_bind=artifacts,receipts,contracts,gaps
+must_keep_open=P02-X05
+must_deny_global_closure=true
+must_reject=network_dependency,docs_only_table,unreceipted_table,output_drift,placeholder_rows,premature_closure
+command=lyra-p02-bootstrap-output-table-check fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra
+valid_fixture=fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra
+receipt=receipts/p02/pass_0086_bootstrap_output_table.receipt

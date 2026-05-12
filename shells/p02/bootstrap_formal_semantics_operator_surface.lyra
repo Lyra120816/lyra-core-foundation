@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-OPERATOR-SURFACE v1
+phase=P02
+task=P02-013
+command=lyra-p02-bootstrap-formal-semantics-check fixtures/p02/bootstrap_formal_semantics_inputs/valid_bootstrap_formal_semantics.lyra
+expected=receipt_bound_verdict_accept
+status=artifact_emitted

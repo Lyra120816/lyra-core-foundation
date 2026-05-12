@@ -1,0 +1,11 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-LAW v1
+phase=P02
+task=P02-X02
+law=proof family table must bind happy negative adversarial rollback and dependency evidence before benchmark pack work
+entry_surface=ops/p02/closure/p02_x02_proof_family_gate.v1.lyra
+validator=src/bin/lyra-p02-bootstrap-proof-family-check.rs
+contract=interfaces/p02/contracts/bootstrap_proof_family.v1.lyra
+receipt=receipts/p02/pass_0084_bootstrap_proof_family.receipt
+forbid=global_closure,phase_closure,network_required,docs_only,unreceipted
+permit=next_frontier_P02-X03_after_artifact_emission

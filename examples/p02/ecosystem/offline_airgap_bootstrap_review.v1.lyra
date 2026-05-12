@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-EXAMPLE v1
+id=offline_airgap_bootstrap_review
+kind=corpus_flow
+commands=lyra-p02-bootstrap-ecosystem-check,lyra-p02-bootstrap-packaging-check,lyra-p02-bootstrap-replay-check
+proofs=offline_distribution_proof,receipt_binding_proof
+receipts=receipts/p02/pass_0075_bootstrap_replay.receipt,receipts/p02/pass_0077_bootstrap_packaging.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+rejects=network_required,remote_fetch
+status=artifact_emitted
+execution=checked_by_bootstrap_ecosystem_validator

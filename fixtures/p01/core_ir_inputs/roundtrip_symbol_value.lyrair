@@ -1,0 +1,5 @@
+LYRA-CORE-IR-TEXT v1
+atom=value
+kind=value
+payload=literal.u64.42
+version=1.0

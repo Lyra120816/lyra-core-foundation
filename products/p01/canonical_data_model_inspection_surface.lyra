@@ -1,0 +1,11 @@
+LYRA-P01-CANONICAL-DATA-MODEL-INSPECTION-SURFACE v1
+phase=P01
+task=P01-014
+surface=canonical-data-model-inspection
+models=8
+schemas=8
+fields=18
+bridges=6
+proofs=6
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt
+status=artifact_emitted

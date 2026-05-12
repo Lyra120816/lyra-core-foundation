@@ -1,0 +1,7 @@
+LYRA-P02-CONTROL bootstrap_benchmark_pack_law.v1
+phase=P02
+task=P02-X03
+law=benchmark rows must bind command, fixture, golden, receipt, expected verdict, and deterministic threshold
+law=benchmark evidence must bind target ids, local artifacts, and proof receipts
+law=global closure remains denied after P02-X03
+status=artifact_emitted

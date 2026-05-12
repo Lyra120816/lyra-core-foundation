@@ -1,0 +1,2 @@
+LYRA-P02-MODEL foreign_surface_boundary_model v1
+fields=foreign_surface_id,foreign_challenge_suite

@@ -1,0 +1,5 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-CASE v1
+case=canonical_symbol_identity
+binds=canonical_symbol_identity_law
+expected=byte_stable_symbol_identity
+status=artifact_emitted

@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-OPERATOR-EXAMPLE v1
+phase=P02
+task=P02-018
+command=host_extinction_audit
+input=ops/p02/extinction/bootstrap_extinction_ledger.v1.lyra
+expected_receipt=receipts/p02/bootstrap_interface/host_extinction_audit.receipt
+status=artifact_emitted

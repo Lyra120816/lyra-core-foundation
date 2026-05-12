@@ -1,0 +1,11 @@
+LYRA-P01-CORE-IR-GUIDE v1
+phase=P01
+task=P01-002
+status=artifact_emitted
+command=lyra-p01-ir-check fixtures/p01/core_ir_inputs/valid_core_ir_forms.lyra
+expected=accepted receipt-bound canonical text and binary ir bedrock
+text_form=LYRA-CORE-IR-TEXT v1 with sorted atom kind payload version rows
+binary_form=LYRAIR01 magic plus major minor and big endian length-prefixed fields
+round_trip=text_to_binary_to_text and binary_to_text_to_binary must preserve byte identity
+upgrade_law=ir_v1 only changes through explicit version edges
+receipt=receipts/p01/pass_0031_core_ir.receipt

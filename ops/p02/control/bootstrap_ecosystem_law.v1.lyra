@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-LAW v1
+task=P02-021
+surface=LYRA-P02-BOOTSTRAP-ECOSYSTEM-DOCS-EXAMPLES v1
+requires=bootstrap_docs_receipted,examples_executable,offline_distribution,deployment_bridge,phase_open
+forbids=remote_service_dependency,documentation_only_claim,ecosystem_drift_acceptance,phase_closure_claim
+validator=src/bin/lyra-p02-bootstrap-ecosystem-check.rs
+status=artifact_emitted

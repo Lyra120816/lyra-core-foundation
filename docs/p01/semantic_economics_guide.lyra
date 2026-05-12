@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-ECONOMICS-DOC v1
+phase=P01
+task=P01-022
+status=artifact_emitted
+subject=semantic_economics_operator_guide
+anchors=canonical_symbols,semantic_atoms,core_ir,public_interest
+fixture=fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+validator=ops/p01/src/semantic_economics.rs
+receipt=receipts/p01/pass_0051_semantic_economics.receipt
+claim=P01 semantic economics frames are checkable surfaces, not marketing prose.
+proof=Every frame binds outputs, commands, receipts, and rejection assertions.

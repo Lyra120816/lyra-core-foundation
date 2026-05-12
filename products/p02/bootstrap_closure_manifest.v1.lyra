@@ -1,0 +1,13 @@
+
+product=bootstrap_closure_manifest
+phase=P02
+task=P02-024
+surface=fixtures/p02/bootstrap_closure_inputs/valid_bootstrap_closure.lyra
+checker=lyra-p02-bootstrap-closure-check
+receipt=receipts/p02/pass_0082_bootstrap_closure.receipt
+bounded_primary_closure=true
+global_closure=false
+next_frontier=P02-X01
+primary_task_count=24
+output_gate_count=5
+proof_count=6

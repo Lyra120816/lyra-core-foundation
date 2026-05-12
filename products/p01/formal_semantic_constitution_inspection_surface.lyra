@@ -1,0 +1,8 @@
+LYRA-P01-FORMAL-SEMANTIC-CONSTITUTION-INSPECTION-SURFACE v1
+phase=P01
+task=P01-013
+inspect=domains,laws,invariants,proofs,registry_hash
+source=lyralang/core/src/formal_semantic_constitution.rs
+contract=interfaces/p01/contracts/formal_semantic_constitution.v1.lyra
+receipt=receipts/p01/pass_0042_formal_semantic_constitution.receipt
+status=artifact_emitted

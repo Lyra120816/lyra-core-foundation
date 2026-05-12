@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-RETIREMENT-CONTROL-LAW v1
+phase=P02
+task=P02-X05
+law=all P02 transitional bootstrap surfaces must bind owner root, successor, retirement gate, supersession, archive lane, and receipt before P03 may open
+forbids=global_closure_claim,unreceipted_retirement,network_required_retirement,ambient_time_gate,docs_only_retirement,drift_accepted
+receipt=receipts/p02/pass_0087_bootstrap_retirement_supersession.receipt

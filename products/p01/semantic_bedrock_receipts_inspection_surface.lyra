@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-BEDROCK-RECEIPTS-PRODUCT-SURFACE v1
+phase=P01
+task=P01-012
+surface=semantic_bedrock_receipts_inspection
+input=LYRA-P01-SEMANTIC-BEDROCK-RECEIPTS v1
+output=operator_view_of_p01_receipt_chain_one_core_anchors_and_parity_fixtures
+contract=read_only_receipt_bedrock
+status=artifact_emitted

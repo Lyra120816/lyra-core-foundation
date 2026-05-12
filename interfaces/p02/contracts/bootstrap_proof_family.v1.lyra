@@ -1,0 +1,12 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-CONTRACT v1
+phase=P02
+task=P02-X02
+surface_header=LYRA-P02-BOOTSTRAP-PROOF-FAMILY-TABLE v1
+required_families=happy_path,negative_path,adversarial_path,rollback_path,dependency_path
+required_paths=bootstrap_happy_primary_chain,bootstrap_negative_rejection_chain,bootstrap_adversarial_host_chain,bootstrap_rollback_replay_chain,bootstrap_dependency_matrix_chain
+required_receipt_count=48
+coverage_scope=P02-001_through_P02-X01
+closure_scope=extended_open
+global_closure=denied
+next_frontier=P02-X03

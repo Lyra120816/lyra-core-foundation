@@ -1,0 +1,9 @@
+LYRA-P02-PRODUCT-PACK bootstrap_operator_interface.v1
+phase=P02
+task=P02-018
+surface=developer_operator_interface
+entry=src/bin/lyra-p02-bootstrap-interface-check.rs
+fixture=fixtures/p02/bootstrap_operator_interface_inputs/valid_bootstrap_operator_interface.lyra
+receipt=receipts/p02/pass_0076_bootstrap_operator_interface.receipt
+phase_closure=false
+status=artifact_emitted

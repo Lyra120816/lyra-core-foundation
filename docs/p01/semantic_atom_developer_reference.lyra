@@ -1,0 +1,8 @@
+LYRA-P01-DOC v1
+id=semantic_atom_developer_reference
+title=semantic atom developer reference
+phase=P01
+task=P01-021
+text=Defines extension review for semantic atom families with descriptor identity, stable digest checks, and bounded contribution paths.
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

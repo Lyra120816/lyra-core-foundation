@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-RETIREMENT-RECEIPT v1
+surface=foreign_wasm_toolchain
+closure_law=law_wasm_toolchain
+deletion_gate=gate_replace_with_native_wasm_emitter
+scope=per_surface_only
+status=receipt_emitted

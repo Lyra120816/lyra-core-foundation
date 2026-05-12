@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-REPLAY-DOMAIN-RECEIPT v1
+phase=P02
+task=P02-017
+scope=host_extinction
+bindings=bootstrap_extinction_ledger_receipt,host_boundary_challenge_receipt,foreign_surface_closure_receipt,bootstrap_falsification_receipt
+suite_hash=fnv1a128:b1c924561aee36c3f7855d26f56581f6
+receipt_hash=fnv1a128:7fe257e498c3f298dbe50d1cdadbef1b
+status=artifact_emitted

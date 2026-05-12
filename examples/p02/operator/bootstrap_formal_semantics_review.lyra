@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-REVIEW v1
+phase=P02
+task=P02-013
+review_input=fixtures/p02/bootstrap_formal_semantics_inputs/valid_bootstrap_formal_semantics.lyra
+review_output=goldens/p02/valid_bootstrap_formal_semantics.receipt
+status=artifact_emitted

@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-RECEIPT v1
+phase=P02
+task=P02-023
+id=challenge_right_enforcement
+validator=src/bin/lyra-p02-bootstrap-redteam-check.rs
+golden=goldens/p02/valid_bootstrap_redteam.receipt
+status=artifact_emitted

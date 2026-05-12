@@ -1,0 +1,7 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-INSPECTION-SURFACE v1
+phase=P02
+task=P02-012
+inspection=foreign_surface_totality_boundary_challenge_closure_pairing
+artifact=ops/p02/foreign_surface_closure/foreign_surface_closure_law.v1.lyra
+truth_effect=inspection_only_no_phase_closure
+status=inspection_surface_emitted

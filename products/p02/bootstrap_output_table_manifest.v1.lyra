@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-MANIFEST v1
+phase=P02
+task=P02-X04
+purpose=operator/product/enterprise/public-interest output inventory
+valid_surface=fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra
+contract=interfaces/p02/contracts/bootstrap_output_table.v1.lyra
+command=lyra-p02-bootstrap-output-table-check
+closure_statement=extended-open; P02-X05 remains required

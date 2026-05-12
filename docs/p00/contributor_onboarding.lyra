@@ -1,0 +1,11 @@
+LYRA-P00-ECOSYSTEM-DOC v1
+id=contributor_onboarding
+phase=P00
+task=P00-021
+audience=contributor
+coverage=determinism,people_first,owner_root_law
+example=examples/p00/ecosystem/constitution_surface_walkthrough.lyra
+example=examples/p00/ecosystem/offline_operator_review.lyra
+receipt=receipts/p00/pass_0021_ecosystem.receipt
+claim=contributors receive executable local checks before any claim can enter the truth plane
+status=artifact_emitted

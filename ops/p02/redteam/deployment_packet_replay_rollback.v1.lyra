@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-ROLLBACK-PATH v1
+phase=P02
+task=P02-023
+id=deployment_packet_replay_rollback
+kind=packet_replay
+triggers=stale_receipt_replay,deployment_digest_drift
+restores=receipt_replay,bootstrap_trust
+receipts=receipts/p02/pass_0078_bootstrap_deployment.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-bootstrap-deployment-check,lyra-p02-bootstrap-replay-check,lyra-p02-bootstrap-redteam-check
+challenge_rights=operator_challenge,deployment_digest_challenge
+status=artifact_emitted

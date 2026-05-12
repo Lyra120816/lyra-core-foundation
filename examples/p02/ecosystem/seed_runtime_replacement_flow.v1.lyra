@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-EXAMPLE v1
+id=seed_runtime_replacement_flow
+kind=extension_flow
+commands=lyra-p02-bootstrap-ecosystem-check,lyra-p02-seed-runtime-replacement-check,lyra-p02-bootstrap-formal-semantics-check
+proofs=bootstrap_docs_coverage_proof,executable_examples_proof
+receipts=receipts/p02/pass_0061_seed_runtime_contracts.receipt,receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt,receipts/p02/pass_0079_bootstrap_ecosystem.receipt
+rejects=seed_runtime_drift,host_owned_semantics
+status=artifact_emitted
+execution=checked_by_bootstrap_ecosystem_validator

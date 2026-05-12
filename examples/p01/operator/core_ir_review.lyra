@@ -1,0 +1,9 @@
+LYRA-P01-CORE-IR-OPERATOR-REVIEW v1
+phase=P01
+task=P01-002
+status=artifact_emitted
+review:input=fixtures/p01/core_ir_inputs/valid_core_ir_forms.lyra
+review:command=lyra-p01-ir-check fixtures/p01/core_ir_inputs/valid_core_ir_forms.lyra
+review:expected=accepted receipt-bound canonical text and binary ir bedrock
+review:receipt=receipts/p01/pass_0031_core_ir.receipt
+review:next_frontier=P01-003

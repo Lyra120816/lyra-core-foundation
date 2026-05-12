@@ -1,0 +1,10 @@
+
+LYRA-P02-BOOTSTRAP-PROOF-FAMILY-COVERAGE-REFERENCE v1
+phase=P02
+task=P02-X02
+coverage_targets=P02-001,P02-002,P02-003,P02-004,P02-005,P02-006,P02-007,P02-008,P02-009,P02-010,P02-011,P02-012,P02-013,P02-014,P02-015,P02-016,P02-017,P02-018,P02-019,P02-020,P02-021,P02-022,P02-023,P02-024,P02-X01
+happy_path=accepted receipts across P02 primary bounded closure plus P02-X01 dependency matrix
+negative_path=rejection corpus falsification redteam and dependency matrix rejection evidence
+adversarial_path=host boundary emergency fallback foreign-surface economics capture and redteam challenge evidence
+rollback_path=host extinction seed runtime replacement replay redteam closure and dependency rollback evidence
+dependency_path=P02-X01 graph and next-frontier proof evidence

@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-SCENARIO v1
+phase=P02
+task=P02-023
+id=extinction_ledger_bypass_attack
+kind=extinction_bypass
+targets=host_extinction_framework,rollback,challenge_right
+rollback_paths=extinction_ledger_reseal,host_dependency_quarantine_rollback
+commands=lyra-p02-bootstrap-extinction-check,lyra-p02-foreign-surface-closure-check,lyra-p02-bootstrap-redteam-check
+receipts=receipts/p02/pass_0060_bootstrap_extinction_ledger.receipt,receipts/p02/pass_0070_foreign_surface_closure.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+rejects=extinction_ledger_bypass,hidden_host_helper
+status=artifact_emitted

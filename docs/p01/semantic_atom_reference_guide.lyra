@@ -1,0 +1,9 @@
+LYRA-P01-SEMANTIC-ATOM-REFERENCE-GUIDE v1
+phase=P01
+task=P01-011
+purpose=expose core semantic atoms through deterministic reference libraries examples and inspection tooling
+reference_library=lyralang/core/reference/semantic_atoms.v1.lyra
+operator_fixture=fixtures/p01/semantic_atom_reference_inputs/valid_semantic_atom_reference.lyra
+checker=src/bin/lyra-p01-semantic-atom-reference-check.rs
+receipt=receipts/p01/pass_0040_semantic_atom_reference.receipt
+status=artifact_emitted

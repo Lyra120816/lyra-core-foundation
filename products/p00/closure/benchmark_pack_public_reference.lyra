@@ -1,0 +1,12 @@
+
+LYRA-P00-PUBLIC-REFERENCE v1
+id=benchmark_pack_public_reference
+phase=P00
+task=P00-X03
+status=artifact_emitted
+public_claim=P00 publishes deterministic benchmark families for throughput latency correctness and stability without claiming global phase closure.
+operator_surface=ops/p00/closure/benchmark_pack.lyra
+proof_surface=receipts/p00/pass_0027_benchmark_pack.receipt
+bounded_claim=benchmark_pack_artifact_emitted
+global_closure=false
+next_frontier=P00-X04

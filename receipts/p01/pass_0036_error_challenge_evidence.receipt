@@ -1,0 +1,12 @@
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-007
+frontier=error challenge evidence first class symbolic structures
+status=artifact_emitted
+input=fixtures/p01/error_challenge_evidence_inputs/valid_error_challenge_evidence.lyra
+golden=goldens/p01/valid_error_challenge_evidence.receipt
+contract=interfaces/p01/contracts/error_challenge_evidence.v1.lyra
+operator=src/bin/lyra-p01-error-challenge-evidence-check.rs
+implementation=ops/p01/src/error_challenge_evidence.rs,k0/determinism/src/error_challenge_evidence.rs,interfaces/p01/src/error_challenge_evidence_model.rs,lyralang/core/src/error_challenge_evidence.rs
+receipt_hash=fnv1a128:39de8b19c449c667b55126dcd6cac7bb
+next_frontier=P01-008

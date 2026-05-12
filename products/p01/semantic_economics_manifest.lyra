@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-ECONOMICS-PRODUCT v1
+phase=P01
+task=P01-022
+status=artifact_emitted
+product=semantic_economics_manifest
+validator=ops/p01/src/semantic_economics.rs
+operator=src/bin/lyra-p01-semantic-economics-check.rs
+fixture=fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+receipt=receipts/p01/pass_0051_semantic_economics.receipt
+public_interest_binding=canonical_symbols,semantic_atoms,core_ir,non_extractive_access,stewardship

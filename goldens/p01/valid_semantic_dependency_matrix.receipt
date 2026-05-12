@@ -1,0 +1,7 @@
+LYRA-P01-RECEIPT v1
+input_hash=fnv1a128:p01x01semanticdependencyinput
+canonical_hash=fnv1a128:p01x01semanticdependencycanonical
+verdict_hash=fnv1a128:p01x01semanticdependencyverdict
+verdict=ACCEPTED
+error_count=0
+receipt_hash=fnv1a128:p01x01semanticdependencyreceipt

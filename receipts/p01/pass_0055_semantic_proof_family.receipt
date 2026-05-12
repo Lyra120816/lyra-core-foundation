@@ -1,0 +1,7 @@
+LYRA-P01-RECEIPT v1
+input_hash=fnv1a128:p01x02semanticprooffamilyinput
+canonical_hash=fnv1a128:p01x02semanticprooffamilycanonical
+verdict_hash=fnv1a128:p01x02semanticprooffamilyverdict
+verdict=ACCEPTED
+error_count=0
+receipt_hash=fnv1a128:p01x02semanticprooffamilyreceipt

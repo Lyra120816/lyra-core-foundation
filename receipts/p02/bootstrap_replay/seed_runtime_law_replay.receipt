@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-REPLAY-DOMAIN-RECEIPT v1
+phase=P02
+task=P02-017
+scope=seed_runtime_law
+bindings=seed_runtime_contracts_receipt,seed_runtime_replacement_milestones_receipt,bootstrap_formal_semantics_receipt,bootstrap_core_engine_receipt
+suite_hash=fnv1a128:b1c924561aee36c3f7855d26f56581f6
+receipt_hash=fnv1a128:cdafdd4a3021c291cb86c1afa7885e8c
+status=artifact_emitted

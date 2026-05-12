@@ -1,0 +1,6 @@
+LYRA-P01-OPERATOR-SEMANTIC-ATOM-REFERENCE-REVIEW v1
+phase=P01
+task=P01-011
+command=lyra-p01-semantic-atom-reference-check fixtures/p01/semantic_atom_reference_inputs/valid_semantic_atom_reference.lyra
+expected=LYRA-P01-RECEIPT v1
+status=artifact_emitted

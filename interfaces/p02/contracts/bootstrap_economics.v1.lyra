@@ -1,0 +1,12 @@
+LYRA-P02-BOOTSTRAP-ECONOMICS-CONTRACT v1
+phase=P02
+task=P02-022
+surface=LYRA-P02-BOOTSTRAP-ECONOMICS-PUBLIC-INTEREST v1
+fixture=fixtures/p02/bootstrap_economics_inputs/valid_bootstrap_economics.lyra
+golden=goldens/p02/valid_bootstrap_economics.receipt
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+operator=src/bin/lyra-p02-bootstrap-economics-check.rs
+model=interfaces/p02/src/bootstrap_economics_model.rs
+law=ops/p02/src/bootstrap_economics.rs
+carrier=lyralang/core/src/bootstrap_economics.rs
+status=artifact_emitted

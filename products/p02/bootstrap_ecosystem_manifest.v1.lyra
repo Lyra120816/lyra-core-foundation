@@ -1,0 +1,10 @@
+LYRA-P02-BOOTSTRAP-ECOSYSTEM-MANIFEST v1
+task=P02-021
+contract=interfaces/p02/contracts/bootstrap_ecosystem.v1.lyra
+surface=fixtures/p02/bootstrap_ecosystem_inputs/valid_bootstrap_ecosystem.lyra
+operator=src/bin/lyra-p02-bootstrap-ecosystem-check.rs
+docs=7
+examples=7
+proofs=6
+negative_fixtures=15
+status=artifact_emitted

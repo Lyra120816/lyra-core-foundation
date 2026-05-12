@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-CASE v1
+case=seed_runtime_network_dependency_case
+target=seed_runtime_law
+validator=seed_runtime_contract_validator
+mutation=network_dependent_seed_runtime
+expected_error=ambient_network_allowed
+status=artifact_emitted
+acceptance=must_reject
+receipt_policy=rejected_receipt_required

@@ -1,0 +1,17 @@
+LYRA-P01-SEMANTIC-REDTEAM-LAW v1
+phase=P01
+task=P01-023
+surface=LYRA-P01-SEMANTIC-REDTEAM-ROLLBACK v1
+rule:semantic_redteam_must_be_receipted=required
+rule:semantic_rollback_must_be_receipt_bound=required
+rule:adversarial_semantic_paths_must_be_executable=required
+rule:canonical_symbol_challenge_rights_must_survive_rollback=required
+rule:semantic_atoms_core_ir_rebuild_coverage=required
+rule:no_network_dependency=forbidden
+rule:no_unreceipted_rollback=forbidden
+rule:phase_open_until_semantic_redteam_proven=blocked_until_proven
+validator=ops/p01/src/semantic_redteam.rs
+fixture=fixtures/p01/semantic_redteam_inputs/valid_semantic_redteam.lyra
+golden=goldens/p01/valid_semantic_redteam.receipt
+receipt=receipts/p01/pass_0052_semantic_redteam.receipt
+status=artifact_emitted

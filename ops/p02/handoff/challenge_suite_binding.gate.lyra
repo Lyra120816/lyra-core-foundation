@@ -1,0 +1,7 @@
+LYRA-P02-OPERATOR-HANDOFF-GATE v1
+gate=gate_challenge_suite_binding
+gate_class=import
+required_before=workflow_challenge_binding
+rejects=unbound_challenge_suite
+truth_effect=none_without_local_replay
+status=gate_requirement_emitted

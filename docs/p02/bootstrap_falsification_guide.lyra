@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-GUIDE v1
+phase=P02
+task=P02-016
+operator_rule=validate fixtures/p02/bootstrap_falsification_inputs/valid_bootstrap_falsification.lyra with lyra-p02-bootstrap-falsification-check
+negative_corpus=fixtures/p02/bootstrap_falsification_cases
+harness=ops/p02/falsification/bootstrap_falsification_harness.v1.lyra
+evidence=goldens/p02/valid_bootstrap_falsification.receipt
+closure=false

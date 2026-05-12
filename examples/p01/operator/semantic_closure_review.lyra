@@ -1,0 +1,6 @@
+LYRA-P01-SEMANTIC-CLOSURE-OPERATOR-REVIEW v1
+phase=P01
+task=P01-024
+command=lyra-p01-semantic-closure-check fixtures/p01/semantic_closure_inputs/valid_semantic_closure.lyra
+expect=accepted_receipt_with_bounded_closure_true_and_global_closure_false
+next_frontier=P01-X01

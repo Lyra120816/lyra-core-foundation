@@ -1,0 +1,7 @@
+LYRA-P01-SEMANTIC-BEDROCK-RECEIPTS-LAW v1
+phase=P01
+task=P01-012
+law=all admitted P01 semantic core receipts must bind to one canonical semantic bedrock through contract law parity fixtures and read only inspection
+requires=all_admitted_p01_receipts_are_bound,all_semantic_surfaces_anchor_to_one_core,receipt_contract_law_parity_is_enforced,positive_and_negative_fixtures_bind_each_frontier
+receipt=receipts/p01/pass_0041_semantic_bedrock_receipts.receipt
+status=artifact_emitted

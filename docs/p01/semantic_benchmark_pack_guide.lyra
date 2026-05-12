@@ -1,0 +1,8 @@
+LYRA-P01-SEMANTIC-BENCHMARK-PACK-GUIDE v1
+phase=P01
+task=P01-X03
+purpose=Bind canonical symbols semantic atoms and core IR closure output evidence to deterministic throughput latency correctness and stability benchmark targets.
+operator_rule=Run lyra-p01-semantic-benchmark-pack-check against ops/p01/closure/semantic_benchmark_pack.lyra before accepting output table or retirement supersession evidence.
+closure_status=artifact_emitted_not_phase_closed
+families=throughput,latency,correctness,stability
+receipt=receipts/p01/pass_0056_semantic_benchmark_pack.receipt

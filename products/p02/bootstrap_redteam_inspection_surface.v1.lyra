@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-REDTEAM-INSPECTION v1
+phase=P02
+task=P02-023
+inspect=scenarios
+inspect=rollback_paths
+inspect=challenge_rights
+inspect=remote_truth_rewrite_rejection
+inspect=phase_open_reassertion
+status=artifact_emitted

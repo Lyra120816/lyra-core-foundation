@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-ROLLBACK-PATH v1
+phase=P02
+task=P02-023
+id=seed_runtime_last_good_restore
+kind=last_good_restore
+triggers=seed_runtime_drift,unreceipted_runtime_promotion
+restores=seed_runtime_law,bootstrap_trust
+receipts=receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-seed-runtime-replacement-check,lyra-p02-bootstrap-redteam-check
+challenge_rights=operator_challenge,runtime_promotion_challenge
+status=artifact_emitted

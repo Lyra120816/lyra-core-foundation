@@ -1,0 +1,10 @@
+LYRA-P00-STEWARDSHIP-REVIEW-FLOW-EXAMPLE v1
+phase=P00
+task=P00-022
+surface=stewardship_review_flow
+constituencies=steward,labor,community
+review_step:1=inspect public-interest frame
+review_step:2=run economics validator
+review_step:3=challenge unsupported value claim
+command=lyra-p00-economics-check fixtures/p00/economics_inputs/valid_economics_public_interest.lyra
+receipt=receipts/p00/pass_0022_economics.receipt

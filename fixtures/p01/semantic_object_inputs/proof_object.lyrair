@@ -1,0 +1,5 @@
+LYRA-CORE-IR-TEXT v1
+atom=symbol
+kind=proof
+payload=lyra.object.proof
+version=1.0

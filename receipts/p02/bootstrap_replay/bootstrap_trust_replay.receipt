@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-REPLAY-DOMAIN-RECEIPT v1
+phase=P02
+task=P02-017
+scope=bootstrap_trust
+bindings=bootstrap_surface_inventory_receipt,bootstrap_target_matrix_receipt,bootstrap_truth_cleanup_receipt,bootstrap_formal_semantics_receipt,bootstrap_canonical_model_receipt
+suite_hash=fnv1a128:b1c924561aee36c3f7855d26f56581f6
+receipt_hash=fnv1a128:d4db3b1ee4fe199c7ebe9f9ff915fcf0
+status=artifact_emitted

@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-DEPENDENCY-MATRIX-GUIDE v1
+phase=P01
+task=P01-X01
+surface=LYRA-P01-SEMANTIC-DEPENDENCY-MATRIX v1
+operator=src/bin/lyra-p01-semantic-dependency-matrix-check.rs
+contract=interfaces/p01/contracts/semantic_dependency_matrix.v1.lyra
+fixture=fixtures/p01/semantic_dependency_matrix_inputs/valid_semantic_dependency_matrix.lyra
+receipt=receipts/p01/pass_0054_semantic_dependency_matrix.receipt
+rule=dependency blocker and parallelization maps must be executable validator inputs, not prose-only phase notes
+rule=no dependency entry may require network access remote service ownership unreceipted evidence or global closure

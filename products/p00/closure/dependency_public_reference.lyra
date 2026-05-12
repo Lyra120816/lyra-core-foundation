@@ -1,0 +1,11 @@
+LYRA-P00-PUBLIC-REFERENCE v1
+id=dependency_public_reference
+phase=P00
+frontier=P00-X01
+audience=operator,developer,public_reviewer
+artifact=ops/p00/closure/dependency_matrix.lyra
+why_it_matters=shows which constitutional governance work can run in parallel and which closure outputs still block global closure
+public_safety=prevents false launch claims by keeping blockers explicit and receipted
+verification=lyra-p00-dependency-matrix-check ops/p00/closure/dependency_matrix.lyra
+receipt=receipts/p00/pass_0025_dependency_matrix.receipt
+status=artifact_emitted

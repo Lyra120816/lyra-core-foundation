@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-RETIREMENT-SHELL-SURFACE v1
+phase=P02
+task=P02-X05
+command=lyra-p02-bootstrap-retirement-check
+input=fixtures/p02/bootstrap_retirement_inputs/valid_bootstrap_retirement_supersession.lyra
+output=receipts/p02/pass_0087_bootstrap_retirement_supersession.receipt
+status=artifact_emitted

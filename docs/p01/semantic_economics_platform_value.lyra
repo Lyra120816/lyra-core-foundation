@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-ECONOMICS-DOC v1
+phase=P01
+task=P01-022
+status=artifact_emitted
+subject=platform_value_frame
+anchors=canonical_symbols,semantic_atoms,core_ir
+fixture=fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+validator=ops/p01/src/semantic_economics.rs
+receipt=receipts/p01/pass_0051_semantic_economics.receipt
+claim=Canonical symbols, semantic atoms, and core IR have platform value only when reproducible and receipted.
+proof=Value claims bind to public_semantic_casebook and science_and_civic_reuse_pack.

@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-OPERATOR-EXAMPLE v1
+phase=P02
+task=P02-018
+command=bootstrap_operator_acceptance,bootstrap_interface_report
+input=fixtures/p02/bootstrap_operator_interface_inputs/valid_bootstrap_operator_interface.lyra
+expected_receipt=receipts/p02/bootstrap_interface/bootstrap_operator_acceptance.receipt
+status=artifact_emitted

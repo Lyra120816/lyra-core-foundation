@@ -1,0 +1,7 @@
+LYRA-P00-NEGATIVE-FIXTURE v1
+case=placeholder_case
+target_validator=enforcement
+expected_code=placeholder_allowed
+category=delivery
+expected_verdict=rejected
+receipt_bound=receipts/p00/pass_0016_falsification_harness.receipt

@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-CHALLENGE-RECEIPT v1
+phase=P02
+task=P02-010
+challenge_receipt=challenge_receipt_no_ambient_network_import
+suite_id=suite_no_ambient_network_import
+surface_ref=surface:git_repository_transport
+source_receipt=receipts/p02/pass_0063_host_boundary_challenge_suites.receipt
+truth_effect=none_without_local_replay
+status=challenge_receipt_emitted

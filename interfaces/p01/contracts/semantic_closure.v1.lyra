@@ -1,0 +1,14 @@
+LYRA-P01-SEMANTIC-CLOSURE-CONTRACT v1
+phase=P01
+task=P01-024
+surface=LYRA-P01-SEMANTIC-CLOSURE-GATE v1
+receipt=receipts/p01/pass_0053_semantic_closure.receipt
+operator=src/bin/lyra-p01-semantic-closure-check.rs
+model=interfaces/p01/src/semantic_closure_model.rs
+law=ops/p01/src/semantic_closure.rs
+control=ops/p01/control/semantic_closure_law.v1.lyra
+fixture=fixtures/p01/semantic_closure_inputs/valid_semantic_closure.lyra
+golden=goldens/p01/valid_semantic_closure.receipt
+bounded_closure=true
+global_closure=false
+next_frontier=P01-X01

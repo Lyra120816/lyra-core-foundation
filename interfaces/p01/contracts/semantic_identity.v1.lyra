@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-IDENTITY-CONTRACT v1
+phase=P01
+task=P01-004
+owner_roots=lyralang,interfaces,k0,ops,fixtures,goldens,receipts,tests,src,docs,examples
+surface=LYRA-P01-SEMANTIC-IDENTITY v1
+required_domains=symbol,declaration,rewrite,witness_row,artifact
+required_digest=fnv1a128_labeled
+required_collision_law=reject_equal_digest_unequal_preimage
+command=lyra-p01-identity-check fixtures/p01/semantic_identity_inputs/valid_semantic_identity.lyra
+receipt=receipts/p01/pass_0033_semantic_identity.receipt
+next_frontier=P01-005

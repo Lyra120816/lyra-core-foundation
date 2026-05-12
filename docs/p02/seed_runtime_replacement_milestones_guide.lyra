@@ -1,0 +1,8 @@
+LYRA-P02-SEED-RUNTIME-REPLACEMENT-MILESTONES-GUIDE v1
+phase=P02
+task=P02-009
+status=artifact_emitted
+purpose=specify replacement milestones required before full Lyra-native bootstrap extinction
+operator_rule=run lyra-p02-seed-runtime-replacement-check against ops/p02/seed_runtime/seed_runtime_replacement_milestones.v1.lyra
+truth_rule=milestones declare native successors only; they do not close P02 and do not promote externally captured proof without local replay
+receipt=receipts/p02/pass_0067_seed_runtime_replacement_milestones.receipt

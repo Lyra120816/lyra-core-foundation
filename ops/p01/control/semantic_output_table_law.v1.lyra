@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-OUTPUT-TABLE-LAW v1
+phase=P01
+task=P01-X04
+surface=LYRA-P01-SEMANTIC-OUTPUT-TABLE v1
+law=phase-specific semantic output table must bind developer operator product enterprise and public-interest surfaces before retirement and supersession law may close the phase output family
+required_audiences=developer,operator,product,enterprise,public_interest
+required_artifact_families=contracts,commands,fixtures,goldens,controls,receipts,closure,reference_slice,examples,packaging,deployment,release,compliance,access,stewardship,people_review
+forbidden=network_required,docs_only,unreceipted,global_closure,phase_closure,output_drift,placeholder
+receipt=receipts/p01/pass_0057_semantic_output_table.receipt
+next_frontier=P01-X05

@@ -1,0 +1,11 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-ROW v1
+surface=foreign_filesystem
+surface_class=host_io
+owner_root=k0
+visibility_status=visible_in_inventory
+boundary_status=bounded_explicit
+challenge_suite=suite_boundary_nonambient
+closure_law=law_filesystem
+retirement_gate=gate_keep_canonical_io_interface
+truth_effect=no_truth_without_local_challenge
+status=foreign_surface_closure_bound

@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-SUBRECEIPT v1
+phase=P02
+task=P02-013
+name=operator_handoff_semantics
+parent=receipts/p02/pass_0071_bootstrap_formal_semantics.receipt
+status=artifact_emitted
+receipt_hash=fnv1a128:c17df0ff284e5ac1a62891eca6e1281a

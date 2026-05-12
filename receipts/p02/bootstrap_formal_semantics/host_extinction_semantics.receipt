@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-FORMAL-SEMANTICS-SUBRECEIPT v1
+phase=P02
+task=P02-013
+name=host_extinction_semantics
+parent=receipts/p02/pass_0071_bootstrap_formal_semantics.receipt
+status=artifact_emitted
+receipt_hash=fnv1a128:e0c7ad9934e350f6a0795a84e44f5a67

@@ -1,0 +1,9 @@
+
+LYRA-P02-BOOTSTRAP-ECONOMICS-SHELL v1
+phase=P02
+task=P02-022
+command=lyra-p02-bootstrap-economics-check fixtures/p02/bootstrap_economics_inputs/valid_bootstrap_economics.lyra
+accepts=goldens/p02/valid_bootstrap_economics.receipt
+rejects=fixtures/p02/bootstrap_economics_inputs/invalid_capture_allowed.lyra,fixtures/p02/bootstrap_economics_inputs/invalid_extractive_default.lyra,fixtures/p02/bootstrap_economics_inputs/invalid_network_required.lyra
+receipt=receipts/p02/pass_0080_bootstrap_economics.receipt
+status=artifact_emitted

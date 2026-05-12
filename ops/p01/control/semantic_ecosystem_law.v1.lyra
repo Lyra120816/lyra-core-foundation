@@ -1,0 +1,18 @@
+LYRA-P01-SEMANTIC-ECOSYSTEM-LAW v1
+phase=P01
+task=P01-021
+surface=LYRA-P01-SEMANTIC-ECOSYSTEM-DOCS-EXAMPLES v1
+rule:semantic_ecosystem_docs_must_be_receipted=required
+rule:semantic_examples_must_be_executable=required
+rule:canonical_symbols_atoms_ir_coverage_required=required
+rule:offline_first_distribution=required
+rule:docs_examples_bound_to_proofs=required
+rule:semantic_deployment_bridge_required=required
+rule:no_remote_service_dependency=forbidden
+rule:no_documentation_only_claim=forbidden
+rule:phase_open_until_ecosystem_proven=blocked_until_proven
+validator=ops/p01/src/semantic_ecosystem.rs
+fixture=fixtures/p01/semantic_ecosystem_inputs/valid_semantic_ecosystem.lyra
+golden=goldens/p01/valid_semantic_ecosystem.receipt
+receipt=receipts/p01/pass_0050_semantic_ecosystem.receipt
+status=artifact_emitted

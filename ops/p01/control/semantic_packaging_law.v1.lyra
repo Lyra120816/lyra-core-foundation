@@ -1,0 +1,20 @@
+LYRA-P01-SEMANTIC-PACKAGING-LAW v1
+phase=P01
+task=P01-019
+surface=LYRA-P01-SEMANTIC-PACKAGING v1
+rule:semantic_package_manifest_required=required
+rule:semantic_release_bundle_required=required
+rule:offline_distribution_required=required
+rule:product_surface_required=required
+rule:command_grouping_required=required
+rule:artifact_bound_packaging_required=required
+rule:receipt_bound_packaging_required=required
+rule:replay_witness_packaging_required=required
+rule:no_network_required_packaging=forbidden
+rule:no_unreceipted_package=forbidden
+rule:no_package_drift_acceptance=forbidden
+validator=ops/p01/src/semantic_packaging.rs
+fixture=fixtures/p01/semantic_packaging_inputs/valid_semantic_packaging.lyra
+golden=goldens/p01/valid_semantic_packaging.receipt
+receipt=receipts/p01/pass_0048_semantic_packaging.receipt
+status=artifact_emitted

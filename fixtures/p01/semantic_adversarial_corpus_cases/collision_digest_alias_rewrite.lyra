@@ -1,0 +1,8 @@
+LYRA-P01-ADVERSARIAL-CASE v1
+phase=P01
+task=P01-009
+case_id=collision_digest_alias_rewrite
+target_family=semantic_identity
+expected_verdict=REJECTED
+expected_error=receipt_hash_mismatch
+status=artifact_emitted

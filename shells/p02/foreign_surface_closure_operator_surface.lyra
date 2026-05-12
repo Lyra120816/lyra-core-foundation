@@ -1,0 +1,6 @@
+LYRA-P02-FOREIGN-SURFACE-CLOSURE-OPERATOR-SURFACE v1
+phase=P02
+task=P02-012
+command=lyra-p02-foreign-surface-closure-check fixtures/p02/foreign_surface_closure_inputs/valid_foreign_surface_closure.lyra
+rejects=network_required,hidden_randomness,ambient_time,probabilistic_truth,global_closure
+status=operator_surface_emitted

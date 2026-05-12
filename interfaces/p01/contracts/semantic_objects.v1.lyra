@@ -1,0 +1,21 @@
+LYRA-P01-SEMANTIC-OBJECTS-CONTRACT v1
+phase=P01
+task=P01-003
+surface=universal_semantic_object_model
+contract=P01_SEMANTIC_OBJECTS_CONTRACT
+required_objects=module,package,program,world,plan,trace,proof
+required_relations=module_belongs_package,package_belongs_program,program_runs_in_world,plan_targets_world,trace_witnesses_plan,proof_binds_trace
+required_invariants=no_orphan_objects,acyclic_parentage,receipt_bound_conformance,core_ir_serialization,deterministic_comparison
+required_conformance=module_ir_conformance,package_ir_conformance,program_ir_conformance,world_ir_conformance,plan_ir_conformance,trace_ir_conformance,proof_ir_conformance
+canonical_registry=lyralang/core/src/semantic_objects.rs
+interface_model=interfaces/p01/src/semantic_object_model.rs
+validator=ops/p01/src/semantic_objects.rs
+operator=src/bin/lyra-p01-object-check.rs
+valid_fixture=fixtures/p01/semantic_object_inputs/valid_semantic_objects.lyra
+golden=goldens/p01/valid_semantic_objects.receipt
+receipt=receipts/p01/pass_0032_semantic_objects.receipt
+negative_corpus=fixtures/p01/semantic_object_inputs/invalid_*.lyra
+compatibility:core_ir=text_ir
+serialization=semantic_object_text_ir
+comparison=canonical_object_identity
+closure=false

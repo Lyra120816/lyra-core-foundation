@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-SUITE-REPORT v1
+phase=P02
+task=P02-016
+case_count=10
+harness_count=6
+assertion_count=10
+artifact_count=8
+proof_count=5
+status=artifact_emitted

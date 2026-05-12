@@ -1,0 +1,5 @@
+LYRA-P02-BOOTSTRAP-OUTPUT-TABLE-OPERATOR-REVIEW v1
+step:1=run lyra-p02-bootstrap-output-table-check fixtures/p02/bootstrap_output_table_inputs/valid_bootstrap_output_table.lyra
+step:2=compare emitted receipt with goldens/p02/valid_bootstrap_output_table.receipt
+step:3=confirm gap row keeps P02-X05 open
+step:4=reject any global closure claim before retirement/supersession law exists

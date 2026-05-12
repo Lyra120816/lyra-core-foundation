@@ -1,0 +1,3 @@
+LYRA-P02-SHELL bootstrap_canonical_model_operator_surface v1
+command=lyra-p02-bootstrap-canonical-model-check fixtures/p02/bootstrap_canonical_model_inputs/valid_bootstrap_canonical_model.lyra
+status=artifact_emitted

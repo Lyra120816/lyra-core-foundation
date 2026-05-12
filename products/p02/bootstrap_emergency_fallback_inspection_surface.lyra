@@ -1,0 +1,12 @@
+LYRA-P02-BOOTSTRAP-EMERGENCY-FALLBACK-INSPECTION-SURFACE v1
+phase=P02
+task=P02-008
+fallback_count=12
+rollback_count=12
+target_class_count=6
+phase_open_count=12
+quarantine_count=12
+replay_gate_count=12
+primary_value=operators can bound incomplete target lanes without promoting foreign host truth or losing rollback receipts
+public_interest=offline builders can see exactly why a target lane is held instead of accepting hidden host dependence
+receipt=receipts/p02/pass_0066_bootstrap_emergency_fallback.receipt

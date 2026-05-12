@@ -1,0 +1,11 @@
+LYRA-P01-SEMANTIC-ECONOMICS-DOC v1
+phase=P01
+task=P01-022
+status=artifact_emitted
+subject=commons_science_governance
+anchors=semantic_atoms,core_ir,public_interest
+fixture=fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+validator=ops/p01/src/semantic_economics.rs
+receipt=receipts/p01/pass_0051_semantic_economics.receipt
+claim=Science and civic reuse paths are first-party economic outputs.
+proof=Reuse claims bind atoms, IR, ecosystem, and economics receipts.

@@ -1,0 +1,2 @@
+LYRA-P02-MODEL bootstrap_trust_model v1
+fields=trust_receipt_hash,trust_authority_floor

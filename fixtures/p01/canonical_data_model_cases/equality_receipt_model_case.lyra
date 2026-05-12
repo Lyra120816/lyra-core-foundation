@@ -1,0 +1,5 @@
+LYRA-P01-CANONICAL-DATA-MODEL-CASE v1
+case=equality_receipt_model
+models=symbolic_equality_model,semantic_receipt_model
+bridge=equality_to_receipts
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt

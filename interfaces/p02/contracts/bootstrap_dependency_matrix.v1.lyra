@@ -1,0 +1,15 @@
+
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-CONTRACT v1
+contract=LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX v1
+phase=P02
+task=P02-X01
+surface=fixtures/p02/bootstrap_dependency_matrix_inputs/valid_bootstrap_dependency_matrix.lyra
+receipt=receipts/p02/pass_0083_bootstrap_dependency_matrix.receipt
+golden=goldens/p02/valid_bootstrap_dependency_matrix.receipt
+checker=lyra-p02-bootstrap-dependency-matrix-check
+next_frontier=P02-X02
+nodes=29
+blockers=8
+parallel_lanes=6
+proofs=6
+global_closure=false

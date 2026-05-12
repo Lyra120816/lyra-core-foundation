@@ -1,0 +1,8 @@
+LYRA-P02-CONTRACT bootstrap_operator_interface.v1
+phase=P02
+task=P02-018
+surface=LYRA-P02-BOOTSTRAP-OPERATOR-INTERFACE v1
+owner_root=interfaces
+requires=commands,workflows,examples,gates,proofs,artifacts,receipts
+forbids=manual_only_interface,network_interface,probabilistic_interface,ambient_time_interface,phase_closure_claim
+status=artifact_emitted

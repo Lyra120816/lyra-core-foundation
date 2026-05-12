@@ -1,0 +1,9 @@
+LYRA-P00-SOVEREIGN-SITE-MANIFEST v1
+phase=P00
+task=P00-020
+status=working_slice
+target=sovereign_site
+required_hooks=artifact_inventory_check,license_publish_guard,receipt_chain_check,negative_corpus_gate,rollback_readiness_gate
+required_evidence=offline_install_receipt,artifact_hash_manifest,command_matrix_receipt,operator_review_record,rollback_rehearsal_receipt
+truth_bound=receipts/p00/pass_0020_deployment.receipt
+forbids=network_required,remote_service,remote_fetch,global_complete

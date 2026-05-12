@@ -1,0 +1,8 @@
+LYRA-P02-BOOTSTRAP-REPLAY-DOMAIN-RECEIPT v1
+phase=P02
+task=P02-017
+scope=witness_hash
+bindings=bootstrap_core_engine_receipt,bootstrap_falsification_receipt,bootstrap_replay_receipt
+suite_hash=fnv1a128:b1c924561aee36c3f7855d26f56581f6
+receipt_hash=fnv1a128:f604766f7a2563f2a641de4648b50d5c
+status=artifact_emitted

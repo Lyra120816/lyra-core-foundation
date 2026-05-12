@@ -1,0 +1,10 @@
+LYRA-P01-SEMANTIC-OBJECTS-GUIDE v1
+phase=P01
+task=P01-003
+operator_command=lyra-p01-object-check fixtures/p01/semantic_object_inputs/valid_semantic_objects.lyra
+valid_fixture=fixtures/p01/semantic_object_inputs/valid_semantic_objects.lyra
+receipt=receipts/p01/pass_0032_semantic_objects.receipt
+purpose=prove module package program world plan trace and proof are one deterministic semantic object graph
+first_party_surface=core object inspector and semantic graph gate
+third_party_surface=package and proof tooling consume stable object descriptors
+closure=false

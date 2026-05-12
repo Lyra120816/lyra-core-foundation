@@ -1,0 +1,7 @@
+LYRA-P00-DEPLOYMENT-COMMAND-MATRIX v1
+phase=P00
+task=P00-020
+status=working_slice
+command:lyra-p00-deployment-check=surface:fixtures/p00/deployment_inputs/valid_deployment_hooks.lyra|expected:accepted|receipt:receipts/p00/pass_0020_deployment.receipt
+command:lyra-p00-packaging-check=surface:fixtures/p00/packaging_inputs/valid_packaging_surface.lyra|expected:accepted|receipt:receipts/p00/pass_0019_packaging.receipt
+command:lyra-p00-replay-check=surface:fixtures/p00/replay_witness_inputs/valid_replay_witness.lyra|expected:accepted|receipt:receipts/p00/pass_0017_replay_witness.receipt

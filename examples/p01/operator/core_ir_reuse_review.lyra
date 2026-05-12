@@ -1,0 +1,7 @@
+LYRA-P01-CORE-IR-REUSE-OPERATOR-REVIEW v1
+phase=P01
+task=P01-010
+command=lyra-p01-core-ir-reuse-check fixtures/p01/core_ir_reuse_inputs/valid_core_ir_reuse.lyra
+expected=accepted_receipt_matches_goldens/p01/valid_core_ir_reuse.receipt
+negative_family=fixtures/p01/core_ir_reuse_inputs/invalid_*.lyra
+operator_check=confirm_parser_checker_evaluator_vm_proof_product_are_bound_to_p01_core_ir_without_private_fork

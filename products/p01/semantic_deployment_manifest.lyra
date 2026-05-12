@@ -1,0 +1,17 @@
+LYRA-P01-SEMANTIC-DEPLOYMENT-MANIFEST v1
+phase=P01
+task=P01-020
+target=semantic_local_workstation_deployment
+target=semantic_airgap_archive_deployment
+target=semantic_sovereign_site_review
+target=semantic_enterprise_operator_review
+hook=semantic_artifact_inventory_check
+hook=semantic_receipt_chain_gate
+hook=semantic_negative_corpus_gate
+hook=semantic_offline_install_gate
+hook=semantic_rollout_replay_gate
+hook=semantic_phase_open_gate
+fixture=fixtures/p01/semantic_deployment_inputs/valid_semantic_deployment.lyra
+receipt=receipts/p01/pass_0049_semantic_deployment.receipt
+network=forbidden
+status=artifact_emitted

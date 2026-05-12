@@ -1,0 +1,7 @@
+LYRA-P02-OPERATOR-HANDOFF-GATE v1
+gate=gate_operator_acknowledgement
+gate_class=pre_import
+required_before=workflow_operator_ack_seal
+rejects=missing_operator_ack
+truth_effect=none_without_local_replay
+status=gate_requirement_emitted

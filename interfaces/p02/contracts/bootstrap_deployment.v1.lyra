@@ -1,0 +1,12 @@
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-CONTRACT v1
+task=P02-020
+surface=LYRA-P02-BOOTSTRAP-DEPLOYMENT-HOOKS v1
+model=interfaces/p02/src/bootstrap_deployment_model.rs
+law=ops/p02/src/bootstrap_deployment.rs
+k0=k0/determinism/src/bootstrap_deployment.rs
+lyralang=lyralang/core/src/bootstrap_deployment.rs
+operator=src/bin/lyra-p02-bootstrap-deployment-check.rs
+fixture=fixtures/p02/bootstrap_deployment_inputs/valid_bootstrap_deployment.lyra
+golden=goldens/p02/valid_bootstrap_deployment.receipt
+receipt=receipts/p02/pass_0078_bootstrap_deployment.receipt
+status=artifact_emitted

@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-ROLLBACK-PATH v1
+phase=P02
+task=P02-023
+id=remote_import_rejection_rollback
+kind=import_rejection
+triggers=remote_truth_rewrite,unreceipted_import
+restores=bootstrap_trust,remote_truth_rewrite
+receipts=receipts/p02/pass_0075_bootstrap_replay.receipt,receipts/p02/pass_0081_bootstrap_redteam.receipt
+commands=lyra-p02-bootstrap-replay-check,lyra-p02-bootstrap-redteam-check
+challenge_rights=operator_challenge,receipt_chain_challenge
+status=artifact_emitted

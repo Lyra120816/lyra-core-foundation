@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-FALSIFICATION-CASE v1
+case=foreign_boundary_hidden_surface_case
+target=foreign_boundary
+validator=foreign_surface_closure_validator
+mutation=hidden_unclassified_foreign_surface
+expected_error=unknown_evidence_path
+status=artifact_emitted
+acceptance=must_reject
+receipt_policy=rejected_receipt_required

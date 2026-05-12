@@ -1,0 +1,12 @@
+LYRA-P01-PASS-RECEIPT v1
+phase=P01
+task=P01-006
+frontier=symbolic equality normalization substitution law
+status=artifact_emitted
+input=fixtures/p01/symbolic_equality_inputs/valid_symbolic_equality.lyra
+golden=goldens/p01/valid_symbolic_equality.receipt
+contract=interfaces/p01/contracts/symbolic_equality.v1.lyra
+operator=src/bin/lyra-p01-symbolic-equality-check.rs
+implementation=ops/p01/src/symbolic_equality.rs,k0/determinism/src/symbolic_equality.rs,interfaces/p01/src/symbolic_equality_model.rs,lyralang/core/src/symbolic_equality.rs
+receipt_hash=fnv1a128:203a8c996b4c4924269eadba24f31ebd
+next_frontier=P01-007

@@ -1,0 +1,5 @@
+LYRA-P02-BOOTSTRAP-CANONICAL-MODEL-MANIFEST v1
+phase=P02
+task=P02-014
+models=bootstrap_trust_model,seed_runtime_law_model,host_extinction_model,foreign_surface_boundary_model,operator_handoff_model,emergency_fallback_model
+status=artifact_emitted

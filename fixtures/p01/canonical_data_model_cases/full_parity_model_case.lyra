@@ -1,0 +1,8 @@
+LYRA-P01-CANONICAL-DATA-MODEL-CASE v1
+case=full_parity
+models=8
+schemas=8
+fields=18
+bridges=6
+proofs=6
+receipt=receipts/p01/pass_0043_canonical_data_model.receipt

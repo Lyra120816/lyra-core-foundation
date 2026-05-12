@@ -1,0 +1,9 @@
+LYRA-P02-BOOTSTRAP-CORE-ENGINE-MANIFEST v1
+phase=P02
+task=P02-015
+status=bootstrap_core_engine_artifact_emitted
+engine_law=single_carrier_bootstrap_state_transition
+input_floor=operator_surface_bytes
+output_ceiling=bootstrap_engine_receipt_model
+receipt=receipts/p02/pass_0073_bootstrap_core_engine.receipt
+closure=false

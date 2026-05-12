@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-DEPENDENCY-MATRIX-REGISTRY-HASH v1
+carrier=lyra.p02.bootstrap_dependency_matrix.v1
+node_count=29
+blocker_count=8
+lane_count=6
+proof_count=6

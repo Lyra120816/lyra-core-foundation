@@ -1,0 +1,7 @@
+LYRA-P01-OPERATOR-EXAMPLE v1
+phase=P01
+task=P01-012
+review=semantic_bedrock_receipts
+command=lyra-p01-semantic-bedrock-receipts-check fixtures/p01/semantic_bedrock_receipts_inputs/valid_semantic_bedrock_receipts.lyra
+expected=LYRA-P01-RECEIPT v1 accepted
+status=artifact_emitted

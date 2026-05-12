@@ -1,0 +1,26 @@
+LYRA-P01-SEMANTIC-ATOMS v1
+phase=P01
+task=P01-001
+status=artifact_emitted
+rule:all_core_atoms_declared=each required semantic atom is explicitly declared
+rule:atom_identity_must_be_canonical=identity law is bound per atom row
+rule:atom_equality_must_be_deterministic=equality law uses canonical bytes only
+rule:atom_normalization_must_be_explicit=normalization law is named per atom row
+rule:atom_serialization_must_be_byte_stable=text and binary ir parity is required
+rule:atom_owner_root_must_be_lyralang_interfaces_k0=core ownership spans lyralang interfaces and k0
+rule:atom_registry_must_match_lyralang_core=fixture rows must match the LyraLang core registry
+rule:no_probabilistic_atom_truth=atom truth is symbolic deterministic and offline
+rule:no_network_dependency=atom validation runs offline
+rule:no_placeholder_atoms=every atom row is concrete and executable
+rule:no_global_closure_claim=P01 remains open after this bounded slice
+atom:symbol=kind:symbol|owner:lyralang|canonical:lyra.symbol|identity:kind_id_version|equality:canonical_byte_identity|normalization:symbol_path_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:value=kind:value|owner:lyralang|canonical:lyra.value|identity:literal_kind_payload|equality:literal_payload_identity|normalization:literal_form_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:type=kind:type|owner:lyralang|canonical:lyra.type|identity:type_constructor_signature|equality:normalized_type_identity|normalization:type_constructor_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:effect=kind:effect|owner:lyralang|canonical:lyra.effect|identity:effect_scope_signature|equality:effect_scope_identity|normalization:effect_order_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:capability=kind:capability|owner:interfaces|canonical:lyra.capability|identity:capability_scope_signature|equality:capability_scope_identity|normalization:capability_scope_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:proof=kind:proof|owner:interfaces|canonical:lyra.proof|identity:proof_term_signature|equality:proof_term_identity|normalization:proof_term_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:receipt=kind:receipt|owner:k0|canonical:lyra.receipt|identity:receipt_chain_signature|equality:receipt_chain_identity|normalization:receipt_chain_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:resource=kind:resource|owner:k0|canonical:lyra.resource|identity:resource_scope_signature|equality:resource_scope_identity|normalization:resource_scope_canonicalization|serialization:text_binary_ir_parity|status:admitted
+atom:law=kind:law|owner:k0|canonical:lyra.law|identity:law_scope_signature|equality:law_scope_identity|normalization:law_scope_canonicalization|serialization:text_binary_ir_parity|status:admitted
+family:core_atoms=members:symbol,value,type,effect,capability,proof,receipt,resource,ghost|phase:P01|work_package:P01-A|receipt:receipt_semantic_atoms|status:artifact_emitted
+receipt:receipt_semantic_atoms=path:receipts/p01/pass_0030_semantic_atoms.receipt|target:core_atoms|status:artifact_emitted

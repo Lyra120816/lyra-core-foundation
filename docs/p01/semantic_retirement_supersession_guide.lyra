@@ -1,0 +1,6 @@
+LYRA-P01-SEMANTIC-RETIREMENT-GUIDE v1
+frontier=P01-X05
+surface=ops/p01/closure/semantic_retirement_supersession_law.lyra
+operator_command=lyra-p01-semantic-retirement-check fixtures/p01/semantic_retirement_inputs/valid_semantic_retirement_supersession.lyra
+coverage=rust bootstrap, cli, contracts, control plane, fixtures, goldens, receipts, hash law, core ir carrier, object model, proof family, benchmark pack, output table, operator surfaces
+closure_state=artifact_emitted; phase remains blocked on local validation evidence

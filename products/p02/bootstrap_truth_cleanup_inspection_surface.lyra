@@ -1,0 +1,11 @@
+
+LYRA-P02-BOOTSTRAP-TRUTH-CLEANUP-INSPECTION-SURFACE v1
+phase=P02
+task=P02-007
+status=artifact_emitted
+cleanup_count=12
+frontier_count=12
+target_classes=linux,windows,mobile,wasm,baremetal,other
+phase_closure=false
+next_frontier=P02-008
+receipt=receipts/p02/pass_0065_bootstrap_truth_cleanup.receipt

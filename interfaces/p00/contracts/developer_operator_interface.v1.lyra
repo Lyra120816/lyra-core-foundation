@@ -1,0 +1,8 @@
+LYRA-P00-DEVELOPER-OPERATOR-INTERFACE v1
+contract_id=p00_developer_operator_interface_v1
+phase=P00
+task=P00-018
+owner_roots=interfaces,ops,k0,fixtures,goldens,receipts,tests,src
+requires=rules,commands,workflows,examples,proofs,receipts,commands_are_artifact_bound
+rejects=manual_only_interface,network_required_interface,interface_drift,unbound_proof,phase_closure
+status=working_slice

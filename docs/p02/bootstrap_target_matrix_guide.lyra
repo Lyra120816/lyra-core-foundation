@@ -1,0 +1,7 @@
+
+LYRA-P02-BOOTSTRAP-TARGET-MATRIX-GUIDE v1
+phase=P02
+task=P02-006
+purpose=define deterministic bootstrap/native target law across linux windows mobile wasm baremetal and bounded observer lanes
+operator_rule=run lyra-p02-target-matrix-check against the matrix surface and compare emitted receipt to the golden receipt
+closure_limit=P02 remains open until local target execution evidence and later cleanup fallback replacement and handoff laws exist

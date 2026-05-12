@@ -1,0 +1,9 @@
+LYRA-P02-INSPECTION bootstrap_benchmark_pack_inspection_surface.v1
+phase=P02
+task=P02-X03
+inspect=family_count:6
+inspect=target_count:12
+inspect=evidence_count:6
+inspect=invalid_fixture_count:26
+inspect=closure_scope:extended_open
+status=artifact_emitted

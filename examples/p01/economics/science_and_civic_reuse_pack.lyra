@@ -1,0 +1,9 @@
+LYRA-P01-SEMANTIC-ECONOMICS-EXAMPLE v1
+phase=P01
+task=P01-022
+status=artifact_emitted
+example=science_and_civic_reuse_pack
+command=lyra-p01-semantic-economics-check fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+fixture=fixtures/p01/semantic_economics_inputs/valid_semantic_economics.lyra
+receipt=receipts/p01/pass_0051_semantic_economics.receipt
+rejection_fixture=fixtures/p01/semantic_economics_inputs/invalid_capture_allowed.lyra

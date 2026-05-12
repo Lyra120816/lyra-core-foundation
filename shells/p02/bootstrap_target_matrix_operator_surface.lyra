@@ -1,0 +1,11 @@
+
+LYRA-P02-BOOTSTRAP-TARGET-MATRIX-OPERATOR-SURFACE v1
+phase=P02
+task=P02-006
+command=lyra-p02-target-matrix-check fixtures/p02/bootstrap_target_matrix_inputs/valid_bootstrap_target_matrix.lyra
+input_contract=interfaces/p02/contracts/bootstrap_target_matrix.v1.lyra
+artifact=ops/p02/target_matrix/bootstrap_target_matrix.v1.lyra
+receipt=receipts/p02/pass_0064_bootstrap_target_matrix.receipt
+operator_truth_limit=reports target-matrix acceptance only; does not prove local target execution
+offline_required=true
+network_required=false

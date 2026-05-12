@@ -1,0 +1,10 @@
+
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-LAW v1
+task=P02-020
+owner_root=ops/p02/deployment
+truth_gate=bootstrap_deployment_surface_accepts_only_offline_receipted_enterprise_hooks
+requires=bootstrap_packaging_bridge_required,host_extinction_gate_required,seed_runtime_gate_required,rollback_readiness_required
+forbids=network_required,remote_service,cloud_dependency,unreceipted_deployment_action,deployment_drift_accepted,phase_closed,global_complete
+operator=src/bin/lyra-p02-bootstrap-deployment-check.rs
+receipt=receipts/p02/pass_0078_bootstrap_deployment.receipt
+status=artifact_emitted

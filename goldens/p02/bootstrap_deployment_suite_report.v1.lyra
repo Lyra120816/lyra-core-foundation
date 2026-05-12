@@ -1,0 +1,7 @@
+LYRA-P02-BOOTSTRAP-DEPLOYMENT-SUITE-REPORT v1
+target_count=5
+hook_count=7
+evidence_count=8
+proof_count=6
+suite_hash=fnv1a128:6c5ed9787ec76bceeccb7f49cb6c84c0
+status=artifact_emitted

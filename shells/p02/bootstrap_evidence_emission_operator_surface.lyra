@@ -1,0 +1,11 @@
+LYRA-P02-BOOTSTRAP-EVIDENCE-EMISSION-OPERATOR-SURFACE v1
+phase=P02
+task=P02-010
+status=artifact_emitted
+operator_command=lyra-p02-bootstrap-evidence-emission-check
+accepted_input=fixtures/p02/bootstrap_evidence_emission_inputs/valid_bootstrap_evidence_emission.lyra
+surface_under_review=ops/p02/evidence/bootstrap_evidence_emission.v1.lyra
+negative_corpus=fixtures/p02/bootstrap_evidence_emission_inputs
+operator_truth_effect=none_without_local_replay
+handoff=external proof capture is advisory until local replay validates receipt chain
+closure_claim=phase_open

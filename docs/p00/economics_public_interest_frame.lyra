@@ -1,0 +1,10 @@
+LYRA-P00-ECONOMICS-PUBLIC-INTEREST-FRAME v1
+phase=P00
+task=P00-022
+status=working_slice
+principle:sovereign_value=platform value is measured by reproducible local utility, not remote lock-in
+principle:receipt_bound_claims=all value claims bind to evidence, fixtures, and replayable receipts
+principle:operator_cost_visibility=operator cost is explicit before adoption, rebuild, or distribution
+coverage=determinism,people_first,rebuild_governance,economics,public_interest
+command=lyra-p00-economics-check fixtures/p00/economics_inputs/valid_economics_public_interest.lyra
+receipt=receipts/p00/pass_0022_economics.receipt

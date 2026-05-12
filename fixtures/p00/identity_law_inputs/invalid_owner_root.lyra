@@ -1,0 +1,21 @@
+LYRA-P00-IDENTITY-LAW v1
+phase=P00
+task=P00-003
+status=working_slice
+phase:P00=determinism_constitution_people_first_law_rebuild_governance|owner_roots=ops,interfaces,k0|status=working_slice|supersedes=nothing|requires=single_file_master,roadmap_phase_task
+task:P00-001=establish_people_first_constitutional_principles|kind=primary|phase=P00|owner_roots=ops,interfaces,k0|status=working_slice|supersedes=nothing|requires=P00
+task:P00-002=define_authority_order|kind=primary|phase=P00|owner_roots=ops,interfaces,k0|status=working_slice|supersedes=nothing|requires=P00-001
+task:P00-003=create_phase_task_identity_law|kind=primary|phase=P00|owner_roots=randomroot|status=working_slice|supersedes=nothing|requires=P00-002
+task:P00-A=constitution_and_public_benefit_law|kind=deep_work_package|phase=P00|owner_roots=ops,interfaces,k0|status=working_slice|supersedes=nothing|requires=P00-001
+task:P00-B=roadmap_and_identity_law|kind=deep_work_package|phase=P00|owner_roots=ops,interfaces,k0|status=working_slice|supersedes=nothing|requires=P00-002
+task:P00-X01=phase_dependency_matrix|kind=closure_output|phase=P00|owner_roots=ops,interfaces|status=planned|supersedes=nothing|requires=P00-024
+rule:phase_id_format=required
+rule:task_id_format=required
+rule:work_package_id_format=required
+rule:closure_output_id_format=required
+rule:identity_uniqueness=required
+rule:phase_task_prefix_match=required
+rule:supersession_target_must_exist_or_archive=required
+rule:supersession_is_explicit=required
+rule:owner_root_required=required
+rule:no_placeholder_identity=required

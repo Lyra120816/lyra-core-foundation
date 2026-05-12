@@ -1,0 +1,6 @@
+LYRA-P02-BOOTSTRAP-REPLAY-OPERATOR-SURFACE v1
+phase=P02
+task=P02-017
+command=lyra-p02-bootstrap-replay-check fixtures/p02/bootstrap_replay_inputs/valid_bootstrap_replay.lyra
+output=receipts/p02/pass_0075_bootstrap_replay.receipt
+status=artifact_emitted
