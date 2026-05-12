@@ -1833,11 +1833,11 @@ pub mod p02 {
         parse_bootstrap_extinction_ledger_surface, validate_bootstrap_extinction_ledger_model,
         validate_bootstrap_extinction_ledger_surface, P02_BOOTSTRAP_EXTINCTION_LEDGER_CONTRACT,
         REQUIRED_BOOTSTRAP_EXTINCTION_ENTRIES, REQUIRED_BOOTSTRAP_EXTINCTION_RECEIPTS,
-        REQUIRED_BOOTSTRAP_EXTINCTION_RULES, REQUIRED_BOOTSTRAP_RETIREMENT_GATES,
+        REQUIRED_BOOTSTRAP_EXTINCTION_RULES, REQUIRED_BOOTSTRAP_EXTINCTION_LEDGER_GATES,
     };
     pub use crate::p02_bootstrap_extinction_model::{
         BootstrapExtinctionEntryBinding, BootstrapExtinctionLedgerSurface,
-        BootstrapExtinctionReceiptBinding, BootstrapRetirementGateBinding,
+        BootstrapExtinctionReceiptBinding, BootstrapExtinctionLedgerGateBinding,
     };
     pub use crate::p02_bootstrap_inventory_law::{
         parse_bootstrap_inventory_surface, validate_bootstrap_inventory_model,

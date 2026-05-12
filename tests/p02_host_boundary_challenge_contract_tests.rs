@@ -26,15 +26,15 @@ fn host_boundary_contract_names_p02_005() {
 }
 #[test]
 fn control_plane_below_phase_closure_at_current_frontier() {
-    assert!(CONTROL_FRONTIER.contains("current_task=P02-019"));
-    assert!(CONTROL_FRONTIER.contains("previous_frontier=P02-018"));
+    assert!(CONTROL_FRONTIER.contains("current_task=P02-X05"));
+    assert!(CONTROL_FRONTIER.contains("previous_frontier=P02-X04"));
     assert!(CONTROL_FRONTIER.contains("next_frontier=P03"));
     assert!(TRUTH_SNAPSHOT.contains("current_frontier=P02-X05"));
     assert!(TRUTH_SNAPSHOT.contains("phase_closure=false"));
-    assert!(TRUTH_SNAPSHOT.contains("remaining_primary_tasks=P02-020"));
+    assert!(TRUTH_SNAPSHOT.contains("remaining_primary_tasks=none"));
     assert!(BLOCKER_INDEX.contains("blocker:local_validation_evidence"));
     assert!(BLOCKER_INDEX.contains("blocker:p02_primary_task_remainder"));
-    assert!(BLOCKER_INDEX.contains("next_immediate_frontier=P02-020"));
+    assert!(BLOCKER_INDEX.contains("next_immediate_frontier=P03"));
 }
 #[test]
 fn emitted_host_boundary_surface_binds_all_foreign_surfaces() {

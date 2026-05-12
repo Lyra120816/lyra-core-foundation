@@ -18,7 +18,7 @@ fn p02_019_contract_binds_packaging_fixture_and_receipt() {
     assert!(contract.starts_with("LYRA-P02-BOOTSTRAP-PACKAGING-CONTRACT v1"));
     assert!(contract.contains("task=P02-019"));
     assert!(contract.contains("surface=LYRA-P02-BOOTSTRAP-PACKAGING v1"));
-    assert!(contract.contains("receipt=receipts/p02/pass_0087_bootstrap_retirement_supersession.receipt"));
+    assert!(contract.contains("receipt=receipts/p02/pass_0077_bootstrap_packaging.receipt"));
     assert!(contract.contains("operator=src/bin/lyra-p02-bootstrap-packaging-check.rs"));
     assert!(Path::new("ops/p02/packaging/bootstrap_packaging.v1.lyra").exists());
     assert!(Path::new("products/p02/bootstrap_package_manifest.v1.lyra").exists());

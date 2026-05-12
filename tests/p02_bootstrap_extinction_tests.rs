@@ -1,7 +1,7 @@
 use lyra_phase0::p02::{
     parse_bootstrap_extinction_ledger_surface, validate_bootstrap_extinction_ledger_surface,
     ErrorCode, REQUIRED_BOOTSTRAP_EXTINCTION_ENTRIES, REQUIRED_BOOTSTRAP_EXTINCTION_RECEIPTS,
-    REQUIRED_BOOTSTRAP_EXTINCTION_RULES, REQUIRED_BOOTSTRAP_RETIREMENT_GATES,
+    REQUIRED_BOOTSTRAP_EXTINCTION_RULES, REQUIRED_BOOTSTRAP_EXTINCTION_LEDGER_GATES,
 };
 
 fn fixture(name: &str) -> String {
@@ -30,7 +30,7 @@ fn accepts_valid_bootstrap_extinction_ledger() {
     );
     assert_eq!(
         parsed.gates.len(),
-        REQUIRED_BOOTSTRAP_RETIREMENT_GATES.len()
+        REQUIRED_BOOTSTRAP_EXTINCTION_LEDGER_GATES.len()
     );
     assert_eq!(
         parsed.receipts.len(),

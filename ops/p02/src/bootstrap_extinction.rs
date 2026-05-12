@@ -5,8 +5,8 @@ use crate::k0_canonical::{canonical_lines, canonical_surface_text};
 use crate::k0_receipt::{build_phase_receipt, Receipt};
 use crate::k0_verdict::{ErrorCode, ValidationError, Verdict};
 use crate::p02_bootstrap_extinction_model::{
-    BootstrapExtinctionEntryBinding, BootstrapExtinctionLedgerSurface,
-    BootstrapExtinctionReceiptBinding, BootstrapRetirementGateBinding,
+    BootstrapExtinctionEntryBinding, BootstrapExtinctionLedgerGateBinding,
+    BootstrapExtinctionLedgerSurface, BootstrapExtinctionReceiptBinding,
 };
 
 pub const P02_BOOTSTRAP_EXTINCTION_LEDGER_CONTRACT: &str =
@@ -51,7 +51,7 @@ pub const REQUIRED_BOOTSTRAP_EXTINCTION_ENTRIES: &[&str] = &[
     "unbounded_network_bootstrap_fetch",
 ];
 
-pub const REQUIRED_BOOTSTRAP_RETIREMENT_GATES: &[&str] = &[
+pub const REQUIRED_BOOTSTRAP_EXTINCTION_LEDGER_GATES: &[&str] = &[
     "gate_artifact_generation_python_helper",
     "gate_cargo_build_driver",
     "gate_cursor_codex_assisted_editor",
@@ -539,7 +539,7 @@ fn parse_gate(
     line_number: usize,
     id: &str,
     value: &str,
-) -> Result<BootstrapRetirementGateBinding, ValidationError> {
+) -> Result<BootstrapExtinctionLedgerGateBinding, ValidationError> {
     let fields = parse_field_map(value).ok_or_else(|| {
         ValidationError::reject(
             ErrorCode::InvalidClosureOutputGate,
@@ -547,7 +547,7 @@ fn parse_gate(
             "retirement gate fields must be key:value segments",
         )
     })?;
-    Ok(BootstrapRetirementGateBinding {
+    Ok(BootstrapExtinctionLedgerGateBinding {
         line_number,
         id: id.to_string(),
         surface: required_field(
@@ -657,7 +657,7 @@ fn require_entries(surface: &BootstrapExtinctionLedgerSurface, errors: &mut Vec<
 }
 
 fn require_gates(surface: &BootstrapExtinctionLedgerSurface, errors: &mut Vec<ValidationError>) {
-    for id in REQUIRED_BOOTSTRAP_RETIREMENT_GATES {
+    for id in REQUIRED_BOOTSTRAP_EXTINCTION_LEDGER_GATES {
         if surface.gate_by_id(id).is_none() {
             errors.push(ValidationError::reject(
                 ErrorCode::MissingClosureOutputGate,
@@ -904,7 +904,7 @@ fn validate_gates(surface: &BootstrapExtinctionLedgerSurface, errors: &mut Vec<V
 
 fn validate_gate_class_law(
     entry: &BootstrapExtinctionEntryBinding,
-    gate: &BootstrapRetirementGateBinding,
+    gate: &BootstrapExtinctionLedgerGateBinding,
     errors: &mut Vec<ValidationError>,
 ) {
     if entry.is_temporary()
@@ -1029,7 +1029,7 @@ fn validate_report(surface: &BootstrapExtinctionLedgerSurface, errors: &mut Vec<
             "report must cover every P02-001 inventory surface",
         ));
     }
-    if report.gate_count != REQUIRED_BOOTSTRAP_RETIREMENT_GATES.len() {
+    if report.gate_count != REQUIRED_BOOTSTRAP_EXTINCTION_LEDGER_GATES.len() {
         errors.push(ValidationError::reject(
             ErrorCode::InvalidClosureOutputGate,
             "report.gate_count",

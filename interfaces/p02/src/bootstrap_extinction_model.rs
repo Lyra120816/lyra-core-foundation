@@ -36,7 +36,7 @@ impl BootstrapExtinctionEntryBinding {
 }
 
 #[derive(Debug, Clone, PartialEq, Eq)]
-pub struct BootstrapRetirementGateBinding {
+pub struct BootstrapExtinctionLedgerGateBinding {
     pub line_number: usize,
     pub id: String,
     pub surface: String,
@@ -48,7 +48,7 @@ pub struct BootstrapRetirementGateBinding {
     pub status: String,
 }
 
-impl BootstrapRetirementGateBinding {
+impl BootstrapExtinctionLedgerGateBinding {
     pub fn canonical_identity(&self) -> String {
         format!("gate:{}", self.id)
     }
@@ -78,7 +78,7 @@ pub struct BootstrapExtinctionLedgerSurface {
     pub inventory_receipt: String,
     pub rules: BTreeMap<String, String>,
     pub entries: Vec<BootstrapExtinctionEntryBinding>,
-    pub gates: Vec<BootstrapRetirementGateBinding>,
+    pub gates: Vec<BootstrapExtinctionLedgerGateBinding>,
     pub receipts: Vec<BootstrapExtinctionReceiptBinding>,
 }
 
@@ -89,7 +89,7 @@ impl BootstrapExtinctionLedgerSurface {
     pub fn entry_by_id(&self, id: &str) -> Option<&BootstrapExtinctionEntryBinding> {
         self.entries.iter().find(|item| item.id == id)
     }
-    pub fn gate_by_id(&self, id: &str) -> Option<&BootstrapRetirementGateBinding> {
+    pub fn gate_by_id(&self, id: &str) -> Option<&BootstrapExtinctionLedgerGateBinding> {
         self.gates.iter().find(|item| item.id == id)
     }
     pub fn receipt_by_id(&self, id: &str) -> Option<&BootstrapExtinctionReceiptBinding> {

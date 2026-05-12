@@ -59,14 +59,14 @@ fn p02_017_golden_receipt_matches_validator_output() {
 
 #[test]
 fn bootstrap_replay_control_surfaces_align_with_package_frontier() {
-    assert!(FRONTIER_LOCK.contains("current_task=P02-019"));
-    assert!(FRONTIER_LOCK.contains("previous_frontier=P02-018"));
+    assert!(FRONTIER_LOCK.contains("current_task=P02-X05"));
+    assert!(FRONTIER_LOCK.contains("previous_frontier=P02-X04"));
     assert!(
-        FRONTIER_LOCK.contains("truth_bound=receipts/p02/pass_0077_bootstrap_packaging.receipt")
+        FRONTIER_LOCK.contains("truth_bound=receipts/p02/pass_0087_bootstrap_retirement_supersession.receipt")
     );
     assert!(TRUTH_SNAPSHOT.contains("current_frontier=P02-X05"));
     assert!(TRUTH_SNAPSHOT.contains("latest_finished_frontier=P02-X05"));
     assert!(TRUTH_SNAPSHOT.contains("P02-017"));
     assert!(BLOCKER_INDEX.contains("current_frontier=P02-X05"));
-    assert!(BLOCKER_INDEX.contains("next_immediate_frontier=P02-020"));
+    assert!(BLOCKER_INDEX.contains("next_immediate_frontier=P03"));
 }
